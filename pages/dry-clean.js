@@ -1,0 +1,2105 @@
+import React from 'react'
+import Link from 'next/link'
+import Head from 'next/head'
+
+import Script from 'dangerous-html/react'
+
+import Navbar from '../components/navbar'
+import Card4 from '../components/card4'
+import Mark from '../components/mark'
+import FAQ3 from '../components/faq3'
+
+const DryClean = (props) => {
+  return (
+    <>
+      <div className="dry-clean-container1">
+        <Head>
+          <title>DryClean - Rinsee</title>
+          <meta property="og:title" content="DryClean - Rinsee" />
+        </Head>
+        <Navbar
+          imageAlt="/external/logo-200w.png"
+          imageSrc="/external/logo-200w.png"
+          brandingLogo="/external/logo-200w.png"
+          rootClassName="navbarroot-class-name7"
+        ></Navbar>
+        <section className="dry-clean-section10">
+          <div className="dry-clean-hero">
+            <div className="dry-clean-content1">
+              <main className="dry-clean-main1">
+                <header className="dry-clean-header1">
+                  <h1 className="dry-clean-heading1">Dry Clean with RINSEE</h1>
+                </header>
+                <div className="dry-clean-buttons">
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="dry-clean-link1"
+                  >
+                    <div className="dry-clean-get-started1 button">
+                      <span className="dry-clean-text1">Download App now</span>
+                    </div>
+                  </a>
+                </div>
+              </main>
+            </div>
+            <div className="dry-clean-image1">
+              <img
+                alt="pastedImage"
+                src="/external/washandfold-1200w.png"
+                className="dry-clean-pasted-image"
+              />
+            </div>
+          </div>
+        </section>
+        <section className="dry-clean-section11">
+          <header className="dry-clean-header2">
+            <header className="dry-clean-left">
+              <h2 className="section-heading dry-clean-heading2">
+                Dry Cleaning with RINSEE
+              </h2>
+            </header>
+            <div className="dry-clean-right">
+              <p className="dry-clean-paragraph section-description">
+                A delicate lace gown. A luxurious velvet sherwani. An
+                intricately handwoven pashmina shawl. A timeless brocade
+                lehenga. Precious family heirlooms. These aren’t just clothes;
+                they’re memories woven into fabric. We understand the
+                value—they’re not just garments you’re handing over, but your
+                trust, too.
+              </p>
+            </div>
+          </header>
+        </section>
+        <section className="dry-clean-section12">
+          <section className="dry-clean-note1">
+            <div className="dry-clean-image2">
+              <Card4
+                header="Step 1"
+                imageSrc="/external/pickup-300w.png"
+                description="Pickup"
+                rootClassName="card4root-class-name32"
+              ></Card4>
+              <Card4
+                header="Step 2"
+                imageSrc="/external/wash-300w.png"
+                description="Wash &amp; dry"
+                rootClassName="card4root-class-name33"
+              ></Card4>
+              <Card4
+                header="Step 3"
+                imageSrc="/external/fold-300w.png"
+                description="Fold"
+                rootClassName="card4root-class-name34"
+              ></Card4>
+              <Card4
+                header="Step 4"
+                imageSrc="/external/delivery-300w.png"
+                description="Delivery"
+                rootClassName="card4root-class-name35"
+              ></Card4>
+            </div>
+            <div className="dry-clean-content2">
+              <main className="dry-clean-main2">
+                <header className="dry-clean-caption1">
+                  <span className="dry-clean-section13 section-head">
+                    OUR PROCESS
+                  </span>
+                </header>
+                <main className="dry-clean-heading3">
+                  <header className="dry-clean-header3">
+                    <h2 className="section-heading dry-clean-heading4">
+                      Great care, wherever you are
+                    </h2>
+                  </header>
+                  <div className="dry-clean-checkmarks">
+                    <Mark label="How it works ?"></Mark>
+                  </div>
+                </main>
+              </main>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="dry-clean-link2"
+              >
+                <div className="dry-clean-get-started2 button">
+                  <span className="dry-clean-text2">Get started</span>
+                </div>
+              </a>
+            </div>
+          </section>
+        </section>
+        <section className="dry-clean-section14">
+          <section className="dry-clean-note2">
+            <div className="dry-clean-container2">
+              <div className="dry-clean-container3">
+                <Script
+                  html={`<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabbed Table Example</title>
+<style>
+  body, html {
+    height: 1000px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:inherit;
+  }
+
+  /* Tab button styles */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    text-align: center;
+  }
+
+  .tablink:hover {
+    background-color: #C6FF4B;
+  }
+
+  /* Tab content styles */
+  .tabcontent {
+    display: none;
+    
+    height: calc(100% - 56px); /* Adjust height considering the tab buttons height */
+    box-sizing: border-box; /* Include padding in height calculation */
+    background-color: inherit;
+  }
+
+  /* Specific styles for tab content backgrounds */
+  #Home { background-color: inherit; }
+  #News { background-color: inherit; }
+  #Contact { background-color: inherit; }
+  #About { background-color: inherit; }
+
+  /* Container for scrollable table */
+  .table-container {
+    height: 400px; /* Adjust height as needed */
+    overflow-y: auto; /* Enables vertical scrolling */
+    margin-top: 20px; /* Space between the table and tabs */
+     /* Optional: Adds a border around the scrollable area */
+    padding: 10px; /* Optional: Adds padding inside the scrollable area */
+    background-color: inherit; /* Optional: Ensures the background color is white for better visibility */
+  }
+
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Space between rows */
+    height:100%;
+  }
+
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff; /* Optional: Adds a white background for a cleaner look */
+  }
+
+  /* Container for item with image, name, and price */
+  .item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Left section containing image and name */
+  .left-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /* Circle container to display images in a circular shape */
+  .circle-container {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Styling for the price section */
+  .price {
+    font-size: 14px;
+    color: #555;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+
+<!-- Tab buttons -->
+<button class="tablink" onclick="openPage('Home', this, '#C6FF4B')" id="defaultOpen">Men</button>
+<button class="tablink" onclick="openPage('News', this, '#C6FF4B')">Women</button>
+<button class="tablink" onclick="openPage('Contact', this, '#C6FF4B')">Kids</button>
+<button class="tablink" onclick="openPage('About', this, '#C6FF4B')">Household</button>
+
+<!-- Tab content for Home -->
+<div id="Home" class="tabcontent">
+  <div class="table-container">
+    <table>
+      <tr>
+        <td>
+          <div class="item-container">
+            <!-- Left section with image and name -->
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shirt Half Standard Pack</div>
+            </div>
+            <!-- Right section with price -->
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+      <!-- Example rows with image, name, and price -->
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">T-Shirt Half Standard Pack</div>
+            </div>
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Trousers Standard Pack</div>
+            </div>
+            <div class="price">₹40</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Jeans Standard Pack</div>
+            </div>
+            <div class="price">₹50</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shorts Standard Pack</div>
+            </div>
+            <div class="price">₹30</div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Jacket Hanger Pack</div>
+            </div>
+            <div class="price">₹150</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Half Jacket Standard Pack</div>
+            </div>
+            <div class="price">₹100</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Sweater Premium Pack</div>
+            </div>
+            <div class="price">₹75</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Kurta Standard Pack</div>
+            </div>
+            <div class="price">₹40</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Churidar/Pyjama Standard Pk</div>
+            </div>
+            <div class="price">₹40</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Sweatshirt Standard Pack</div>
+            </div>
+            <div class="price">₹75</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Trackpant Standard Pack</div>
+            </div>
+            <div class="price">₹40</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Muffler</div>
+            </div>
+            <div class="price">₹30</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bathrobe Standard Pack</div>
+            </div>
+            <div class="price">₹100</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Dhoti Standard Pack</div>
+            </div>
+            <div class="price">₹50</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">T-Shirt Full Standard Pack</div>
+            </div>
+            <div class="price">₹35</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shirt Full Standard Pack</div>
+            </div>
+            <div class="price">₹30</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- Other tab content sections -->
+<div id="News" class="tabcontent">
+<div class="table-container">
+<table>
+      <tr>
+        <td>
+          <div class="item-container">
+            <!-- Left section with image and name -->
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shirt Half Standard Pack</div>
+            </div>
+            <!-- Right section with price -->
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+      <!-- Example rows with image, name, and price -->
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">T-Shirt/Top Half Standard Pack</div>
+            </div>
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Trousers/Pant Standard Pack</div>
+            </div>
+            <div class="price">₹40</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Jeggings Standard Pack</div>
+            </div>
+            <div class="price">₹50</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shorts/Capris Standard Pack</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Jacket Hanger Pack</div>
+            </div>
+            <div class="price">₹150</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Cardigan Standard Pack</div>
+            </div>
+            <div class="price">₹60</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Jumpsuit Standard Pack</div>
+            </div>
+            <div class="price">₹75</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Sweatshirt Standard Pack</div>
+            </div>
+            <div class="price">₹60</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Salwar(bottom) Standard Pk</div>
+            </div>
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Dupatta Standard Pack</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Scarf Standard Pack</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Muffler</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bathrobe Standard Pack</div>
+            </div>
+            <div class="price">₹100</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Saree Plain Standard Pack</div>
+            </div>
+            <div class="price">₹50</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Saree - Zaree Standard Pack</div>
+            </div>
+            <div class="price">₹75</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Blouse Standard Pack</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Peticoat Standard Pack</div>
+            </div>
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shawl/Stole Plain Standard Pack</div>
+            </div>
+            <div class="price">₹50</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Night Gown Standard Pack</div>
+            </div>
+            <div class="price">₹30</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bathrobe Standard Pack</div>
+            </div>
+            <div class="price">₹75</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Kurta Standard Pack</div>
+            </div>
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Leggings Standard Pack</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shirt Full Standard Pack</div>
+            </div>
+            <div class="price">₹30</div>
+          </div>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">TShirt Full Standard Pack</div>
+            </div>
+            <div class="price">₹30</div>
+          </div>
+        </td>
+      </tr>
+
+    </table>
+</div>
+    </div>
+
+<div id="Contact" class="tabcontent">
+  <div class="table-container">
+<table>
+      <tr>
+        <td>
+          <div class="item-container">
+            <!-- Left section with image and name -->
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shirt</div>
+            </div>
+            <!-- Right section with price -->
+            <div class="price">₹15</div>
+          </div>
+        </td>
+      </tr>
+      <!-- Example rows with image, name, and price -->
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">T-Shirt</div>
+            </div>
+            <div class="price">₹15</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Trousers</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Dress/Frock</div>
+            </div>
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Kurta</div>
+            </div>
+            <div class="price">₹15</div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Jumpsuit</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Sweater</div>
+            </div>
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Shorts</div>
+            </div>
+            <div class="price">₹15</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+</div>
+</div>
+
+<div id="About" class="tabcontent">
+<div class="table-container">
+<table>
+      <tr>
+        <td>
+          <div class="item-container">
+            <!-- Left section with image and name -->
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Apron</div>
+            </div>
+            <!-- Right section with price -->
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+      <!-- Example rows with image, name, and price -->
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bed Sheet Single</div>
+            </div>
+            <div class="price">₹35</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bed Sheet Double</div>
+            </div>
+            <div class="price">₹50</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bed Cover Single</div>
+            </div>
+            <div class="price">₹50</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bed Cover Double</div>
+            </div>
+            <div class="price">₹70</div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Pillow Cover Single</div>
+            </div>
+            <div class="price">₹20</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Blanket Single</div>
+            </div>
+            <div class="price">₹100</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Blanket Double</div>
+            </div>
+            <div class="price">₹125</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Blanket Cover Single</div>
+            </div>
+            <div class="price">₹50</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Blanket Cover Double</div>
+            </div>
+            <div class="price">₹75</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Quilt Single</div>
+            </div>
+            <div class="price">₹100</div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Quilt Double</div>
+            </div>
+            <div class="price">₹125</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Table Cloth (Small)</div>
+            </div>
+            <div class="price">₹25</div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bed Sheet Single Fitted</div>
+            </div>
+            <div class="price">₹45</div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Bed Sheet Double Fitted</div>
+            </div>
+            <div class="price">₹60</div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <div class="item-container">
+            <div class="left-section">
+              <div class="circle-container">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+              </div>
+              <div class="name">Table Cloth (Large)</div>
+            </div>
+            <div class="price">₹30</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+</div>
+</div>
+
+<script>
+  function openPage(pageName, elmnt, color) {
+    // Hide all elements with class="tabcontent"
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Remove the background color of all tablinks/buttons
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundColor = "";
+    }
+
+    // Show the specific tab content
+    document.getElementById(pageName).style.display = "block";
+
+    // Add the specific color to the button used to open the tab content
+    elmnt.style.backgroundColor = color;
+  }
+
+  // Click on the element with id="defaultOpen" to open the default tab
+  document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
+`}
+                ></Script>
+              </div>
+            </div>
+            <div className="dry-clean-content3">
+              <main className="dry-clean-main3">
+                <header className="dry-clean-caption2">
+                  <span className="dry-clean-section15 section-head">
+                    Dry Clean prices
+                  </span>
+                </header>
+              </main>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="dry-clean-link3"
+              >
+                <div className="dry-clean-get-started3 button">
+                  <span className="dry-clean-text3">Get started</span>
+                </div>
+              </a>
+            </div>
+          </section>
+        </section>
+        <section className="dry-clean-section16">
+          <header className="dry-clean-header4">
+            <span className="section-head">FAQ</span>
+            <h2 className="dry-clean-heading5 section-heading">
+              Frequently asked questions
+            </h2>
+          </header>
+          <main className="dry-clean-accordion">
+            <FAQ3 rootClassName="faq3root-class-name"></FAQ3>
+          </main>
+        </section>
+        <section className="dry-clean-section18">
+          <section className="dry-clean-note3">
+            <div className="dry-clean-content4">
+              <main className="dry-clean-main4">
+                <header className="dry-clean-caption3">
+                  <span className="dry-clean-section19 section-head">
+                    What you GET ?
+                  </span>
+                </header>
+                <main className="dry-clean-heading6">
+                  <header className="dry-clean-header5">
+                    <h2 className="dry-clean-heading7 section-heading">
+                      Quality without a doubt, day in, day out.
+                    </h2>
+                  </header>
+                </main>
+              </main>
+            </div>
+          </section>
+        </section>
+        <footer className="dry-clean-footer">
+          <div className="dry-clean-content5">
+            <main className="dry-clean-main-content">
+              <div className="dry-clean-content6">
+                <header className="dry-clean-main5">
+                  <div className="dry-clean-header6">
+                    <img
+                      alt="image"
+                      src="/external/logo-200w.png"
+                      className="dry-clean-branding"
+                    />
+                    <span className="dry-clean-text4">
+                      Make your everyday laundry easy
+                    </span>
+                  </div>
+                  <div className="dry-clean-socials">
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="dry-clean-link4"
+                    >
+                      <img
+                        alt="image"
+                        src="/Icons/linkedin-200h.png"
+                        className="social"
+                      />
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="dry-clean-link5"
+                    >
+                      <img
+                        alt="image"
+                        src="/Icons/instagram-200h.png"
+                        className="social"
+                      />
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="dry-clean-link6"
+                    >
+                      <img
+                        alt="image"
+                        src="/Icons/twitter-200h.png"
+                        className="social"
+                      />
+                    </a>
+                  </div>
+                </header>
+                <header className="dry-clean-categories">
+                  <div className="dry-clean-category">
+                    <div className="dry-clean-header7">
+                      <span className="footer-header">Company</span>
+                    </div>
+                    <div className="dry-clean-links">
+                      <span className="footer-link">About</span>
+                      <Link href="/">
+                        <a className="dry-clean-link7 footer-link">Home</a>
+                      </Link>
+                    </div>
+                  </div>
+                </header>
+              </div>
+              <section className="dry-clean-copyright1"></section>
+            </main>
+            <main className="dry-clean-subscribe"></main>
+            <section className="dry-clean-copyright2"></section>
+          </div>
+        </footer>
+      </div>
+      <style jsx>
+        {`
+          .dry-clean-container1 {
+            width: 100%;
+            display: flex;
+            overflow: auto;
+            min-height: 100vh;
+            overflow-x: hidden;
+            align-items: center;
+            padding-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+            background-color: #0f0f0f;
+          }
+          .dry-clean-section10 {
+            width: 100%;
+            height: 105%;
+            display: flex;
+            margin-top: var(--dl-space-space-oneandhalfunits);
+            align-items: center;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            border-color: #51515a;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            justify-content: center;
+            border-bottom-width: 1px;
+          }
+          .dry-clean-hero {
+            width: 100%;
+            display: flex;
+            max-width: 1200px;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .dry-clean-content1 {
+            gap: var(--dl-space-space-fiveunits);
+            width: 100%;
+            display: flex;
+            max-width: 600px;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .dry-clean-main1 {
+            gap: var(--dl-space-space-threeunits);
+            width: 100%;
+            display: flex;
+            align-self: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-header1 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .dry-clean-heading1 {
+            color: rgb(255, 255, 255);
+            font-size: 64px;
+            font-style: normal;
+            font-family: 'Poppins';
+            font-weight: 600;
+          }
+          .dry-clean-buttons {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+          }
+          .dry-clean-link1 {
+            display: contents;
+          }
+          .dry-clean-get-started1 {
+            display: flex;
+            text-decoration: none;
+            background-color: #80ff44;
+          }
+          .dry-clean-text1 {
+            color: rgb(12, 16, 12);
+            font-size: 16px;
+            font-style: normal;
+            font-family: 'Poppins';
+            font-weight: 500;
+            line-height: 24px;
+          }
+          .dry-clean-image1 {
+            width: 493px;
+            height: auto;
+            display: flex;
+            position: relative;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-pasted-image {
+            width: 100%;
+            height: 455px;
+            border-radius: var(--dl-radius-radius-buttonradius);
+            justify-content: initial;
+          }
+          .dry-clean-section11 {
+            gap: var(--dl-space-space-fiveunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 120px;
+            border-color: #51515a;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column;
+            padding-bottom: 120px;
+            justify-content: center;
+            border-top-width: 1px;
+          }
+          .dry-clean-header2 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            width: 100%;
+            display: flex;
+            max-width: 1200px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-left {
+            gap: var(--dl-space-space-oneandhalfunits);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-right {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-paragraph {
+            width: 100%;
+            font-size: 34px;
+            max-width: 100%;
+            line-height: 36px;
+          }
+          .dry-clean-section12 {
+            gap: var(--dl-space-space-fiveunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 21px;
+            border-color: #51515a;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
+            justify-content: center;
+            border-top-width: 1px;
+          }
+          .dry-clean-note1 {
+            gap: var(--dl-space-space-twounits);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            margin-top: var(--dl-space-space-halfunit);
+            align-items: center;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column-reverse;
+            justify-content: center;
+          }
+          .dry-clean-image2 {
+            gap: var(--dl-space-space-halfunit);
+            flex: 1;
+            width: 100%;
+            height: 410px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .dry-clean-content2 {
+            gap: var(--dl-space-space-threeunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-main2 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-caption1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-section13 {
+            color: rgb(198, 255, 75);
+            font-size: 35px;
+          }
+          .dry-clean-heading3 {
+            gap: var(--dl-space-space-twounits);
+            width: 100%;
+            display: flex;
+            max-width: 600px;
+            align-self: center;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-header3 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-checkmarks {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            align-self: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .dry-clean-link2 {
+            display: contents;
+          }
+          .dry-clean-get-started2 {
+            display: flex;
+            text-decoration: none;
+            background-color: #80ff44;
+          }
+          .dry-clean-text2 {
+            color: #0c100c;
+            font-size: 16px;
+            font-style: normal;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 24px;
+          }
+          .dry-clean-section14 {
+            gap: var(--dl-space-space-fiveunits);
+            width: 100%;
+            height: 868px;
+            display: flex;
+            align-items: center;
+            padding-top: 21px;
+            border-color: #51515a;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
+            justify-content: center;
+            border-top-width: 1px;
+          }
+          .dry-clean-note2 {
+            gap: var(--dl-space-space-twounits);
+            width: 100%;
+            height: 706px;
+            display: flex;
+            align-items: center;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column-reverse;
+            justify-content: center;
+          }
+          .dry-clean-container2 {
+            width: 100%;
+            height: 531px;
+          }
+          .dry-clean-container3 {
+            display: contents;
+          }
+          .dry-clean-content3 {
+            gap: var(--dl-space-space-threeunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-main3 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-caption2 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-section15 {
+            color: rgb(198, 255, 75);
+            font-size: 35px;
+          }
+          .dry-clean-link3 {
+            display: contents;
+          }
+          .dry-clean-get-started3 {
+            display: flex;
+            text-decoration: none;
+            background-color: #80ff44;
+          }
+          .dry-clean-text3 {
+            color: rgb(12, 16, 12);
+            font-size: 16px;
+            font-style: normal;
+            font-family: 'Poppins';
+            font-weight: 500;
+            line-height: 24px;
+          }
+          .dry-clean-section16 {
+            gap: var(--dl-space-space-fiveunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 120px;
+            border-color: #51515a;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column;
+            padding-bottom: 120px;
+            justify-content: center;
+            border-top-width: 1px;
+          }
+          .dry-clean-header4 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            width: 100%;
+            display: flex;
+            max-width: 1200px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-heading5 {
+            text-align: center;
+          }
+          .dry-clean-accordion {
+            gap: var(--dl-space-space-threeunits);
+            width: 100%;
+            display: flex;
+            max-width: 800px;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .dry-clean-section18 {
+            gap: var(--dl-space-space-fiveunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 21px;
+            border-color: #51515a;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
+            justify-content: center;
+            border-top-width: 1px;
+          }
+          .dry-clean-note3 {
+            gap: var(--dl-space-space-twounits);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            margin-top: var(--dl-space-space-halfunit);
+            align-items: center;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column-reverse;
+            justify-content: center;
+          }
+          .dry-clean-content4 {
+            gap: var(--dl-space-space-threeunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-main4 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-caption3 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-section19 {
+            color: rgb(198, 255, 75);
+            font-size: 35px;
+          }
+          .dry-clean-heading6 {
+            gap: var(--dl-space-space-twounits);
+            width: 100%;
+            display: flex;
+            max-width: 600px;
+            align-self: center;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-header5 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-heading7 {
+            text-align: center;
+          }
+          .dry-clean-footer {
+            gap: var(--dl-space-space-fiveunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 27px;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            justify-content: center;
+          }
+          .dry-clean-content5 {
+            width: 100%;
+            display: flex;
+            max-width: 1200px;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .dry-clean-main-content {
+            gap: var(--dl-space-space-fiveunits);
+            flex: 1;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .dry-clean-content6 {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .dry-clean-main5 {
+            gap: var(--dl-space-space-threeunits);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-header6 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-branding {
+            width: 120px;
+            object-fit: cover;
+          }
+          .dry-clean-text4 {
+            color: rgb(255, 255, 255);
+            width: 100%;
+            font-size: 14px;
+            max-width: 260px;
+            font-family: Poppins;
+            line-height: 21px;
+          }
+          .dry-clean-socials {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .dry-clean-link4 {
+            display: contents;
+          }
+          .dry-clean-link5 {
+            display: contents;
+          }
+          .dry-clean-link6 {
+            display: contents;
+          }
+          .dry-clean-categories {
+            gap: var(--dl-space-space-fourunits);
+            flex: 0;
+            width: var(--dl-size-size-xxlarge);
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .dry-clean-category {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: 175px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-header7 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-links {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .dry-clean-link7 {
+            text-decoration: none;
+          }
+          .dry-clean-copyright1 {
+            gap: var(--dl-space-space-fiveunits);
+            flex: 1;
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-subscribe {
+            gap: var(--dl-space-space-unit);
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .dry-clean-copyright2 {
+            gap: var(--dl-space-space-fiveunits);
+            flex: 1;
+            width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: none;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          @media (max-width: 991px) {
+            .dry-clean-section10 {
+              height: auto;
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+            .dry-clean-hero {
+              gap: var(--dl-space-space-fourunits);
+              flex: 1;
+              position: relative;
+              max-width: auto;
+              align-items: center;
+              flex-direction: column;
+              justify-content: center;
+            }
+            .dry-clean-content1 {
+              position: relative;
+              align-items: center;
+            }
+            .dry-clean-main1 {
+              align-items: center;
+            }
+            .dry-clean-heading1 {
+              text-align: left;
+            }
+            .dry-clean-buttons {
+              width: 100%;
+            }
+            .dry-clean-get-started1 {
+              flex: 1;
+            }
+            .dry-clean-image1 {
+              width: 515px;
+              height: 640px;
+              display: flex;
+              align-items: flex-end;
+              flex-direction: column;
+            }
+            .dry-clean-pasted-image {
+              width: 95%;
+              height: auto;
+            }
+            .dry-clean-section11 {
+              gap: var(--dl-space-space-threeunits);
+              padding-top: 100px;
+              padding-bottom: 100px;
+            }
+            .dry-clean-header2 {
+              gap: var(--dl-space-space-unit);
+              align-items: flex-start;
+              flex-direction: column;
+              justify-content: flex-start;
+            }
+            .dry-clean-section12 {
+              gap: var(--dl-space-space-threeunits);
+              padding-top: 100px;
+              padding-bottom: 100px;
+            }
+            .dry-clean-image2 {
+              flex-wrap: wrap;
+              flex-direction: row;
+            }
+            .dry-clean-section14 {
+              gap: var(--dl-space-space-threeunits);
+              padding-top: 100px;
+              padding-bottom: 100px;
+            }
+            .dry-clean-section18 {
+              gap: var(--dl-space-space-threeunits);
+              padding-top: 100px;
+              padding-bottom: 100px;
+            }
+            .dry-clean-content5 {
+              gap: var(--dl-space-space-threeunits);
+              align-items: flex-start;
+              flex-direction: column;
+              justify-content: flex-start;
+            }
+            .dry-clean-copyright1 {
+              display: none;
+            }
+            .dry-clean-copyright2 {
+              display: flex;
+            }
+          }
+          @media (max-width: 767px) {
+            .dry-clean-content1 {
+              gap: var(--dl-space-space-threeunits);
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .dry-clean-heading1 {
+              font-size: 40px;
+            }
+            .dry-clean-get-started1 {
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .dry-clean-pasted-image {
+              width: 95%;
+              height: fit-content;
+            }
+            .dry-clean-left {
+              gap: var(--dl-space-space-unit);
+            }
+            .dry-clean-note1 {
+              flex-direction: column-reverse;
+            }
+            .dry-clean-image2 {
+              flex-wrap: initial;
+              flex-direction: column;
+            }
+            .dry-clean-note2 {
+              flex-direction: column-reverse;
+            }
+            .dry-clean-note3 {
+              flex-direction: column-reverse;
+            }
+            .dry-clean-content6 {
+              gap: var(--dl-space-space-threeunits);
+              flex-direction: column;
+            }
+            .dry-clean-main5 {
+              gap: var(--dl-space-space-twounits);
+            }
+            .dry-clean-categories {
+              gap: var(--dl-space-space-twounits);
+              flex-direction: column;
+            }
+          }
+          @media (max-width: 479px) {
+            .dry-clean-container1 {
+              gap: var(--dl-space-space-unit);
+              padding-top: var(--dl-space-space-oneandhalfunits);
+            }
+            .dry-clean-section10 {
+              padding-top: var(--dl-space-space-oneandhalfunits);
+            }
+            .dry-clean-header1 {
+              align-items: flex-start;
+            }
+            .dry-clean-heading1 {
+              color: rgb(255, 255, 255);
+              width: auto;
+              font-size: 50px;
+              max-width: 100%;
+              align-self: flex-start;
+              font-style: normal;
+              text-align: center;
+              font-family: Poppins;
+              font-weight: 600;
+            }
+            .dry-clean-image1 {
+              width: 100%;
+              height: auto;
+              align-items: center;
+            }
+            .dry-clean-pasted-image {
+              width: 95%;
+              height: auto;
+            }
+            .dry-clean-header2 {
+              align-items: center;
+              justify-content: center;
+            }
+            .dry-clean-heading2 {
+              text-align: center;
+            }
+            .dry-clean-paragraph {
+              fill: #ffffff;
+              color: rgb(255, 255, 255);
+              width: 100%;
+              font-size: 20px;
+              line-height: 36px;
+            }
+            .dry-clean-image2 {
+              gap: var(--dl-space-space-unit);
+              flex-wrap: inherit;
+              flex-direction: column;
+            }
+            .dry-clean-heading4 {
+              text-align: center;
+            }
+            .dry-clean-section14 {
+              padding-left: var(--dl-space-space-halfunit);
+              padding-right: var(--dl-space-space-halfunit);
+            }
+            .dry-clean-section15 {
+              color: rgb(198, 255, 75);
+              font-size: 35px;
+              text-align: center;
+              line-height: 49px;
+            }
+            .dry-clean-text4 {
+              color: rgb(255, 255, 255);
+              font-size: 14px;
+              font-family: Poppins;
+              line-height: 21px;
+            }
+          }
+        `}
+      </style>
+    </>
+  )
+}
+
+export default DryClean
