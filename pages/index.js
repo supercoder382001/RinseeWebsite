@@ -390,14 +390,14 @@ const Home = (props) => {
                   </h2>
                 </div>
                 <Accordion
-                  text="accordion100% happiness guarantee"
-                  text1="accordion-if you are not completely satisfied with the wash or dry cleaning, we will reprocess your clothes for free"
-                  text2="accordion-high quality services"
-                  text3="accordion-we work hard to make sure that the clothes you get back are spotless and ready for action"
-                  text4="accordion-we give fast services"
-                  text5="accordion-we pickup, process and deliver in less than 24 hours"
-                  text41="accordion-affordable prices for you"
-                  text51="accordion-the amount we charge is equivalent to the cost you bear to get the laundry done at your home"
+                  text="100% happiness guarantee"
+                  text1="If you are not completely satisfied with the wash or dry cleaning, we will reprocess your clothes for free"
+                  text2="High quality services"
+                  text3="We work hard to make sure that the clothes you get back are spotless and ready for action"
+                  text4="We give fast services"
+                  text5="We pickup, process and deliver in less than 24 hours"
+                  text41="Affordable prices for you"
+                  text51="The amount we charge is equivalent to the cost you bear to get the laundry done at your home"
                   rootClassName="accordionroot-class-name"
                 ></Accordion>
               </div>
