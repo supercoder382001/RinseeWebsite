@@ -17,7 +17,7 @@ const FAQ2 = (props) => {
             <span data-role="accordion-content" className="faq2-text2">
               When it comes to delicate fabrics, steam ironing is said to be
               better. Also, steam ironing works well for precise pleats and
-              crisper creases. At LaundryMate, we’re all about perfection and
+              crisper creases. At RINSEE, we’re all about perfection and
               nothing says that better than a well-pressed garment.
               <span
                 dangerouslySetInnerHTML={{
@@ -42,7 +42,7 @@ const FAQ2 = (props) => {
               Quite simply put, it is a pressing iron that comes with a
               compartment that can hold water. The iron’s heat then turns the
               water into steam which in turn issues out of the holes at the
-              bottom of the iron and onto the fabric. LaundryMate’s steam
+              bottom of the iron and onto the fabric. RINSEE’s steam
               ironing service shows a finer understanding of fabrics and
               therefore of the amount of heat to be applied.
               <span
@@ -70,7 +70,7 @@ const FAQ2 = (props) => {
               Steam plays a vital part in precise ironing because it eases out
               wrinkles quickly and effectively. It goes into the very fibres of
               the fabric and the heat of the iron then makes these fibres settle
-              smoothly into place. LaundryMate’s experts know the advantages of
+              smoothly into place. RINSEE’s experts know the advantages of
               steam irons and are experienced in handling the nuances of fabric
               and heat.
             </span>

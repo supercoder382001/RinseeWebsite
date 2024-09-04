@@ -16,7 +16,7 @@ const FAQ1 = (props) => {
               If you’ve been searching for “wash and fold” online you’d see that
               it’s a basic laundry service where the garments are washed, dried
               and folded before being returned to you. It does not however
-              include ironing or pressing. But remember that, at LaundryMate,
+              include ironing or pressing. But remember that, at RINSEE,
               while we do have a wash and fold service we also have options to
               wash and iron, steam iron and even dry clean.
               <span
@@ -47,7 +47,7 @@ const FAQ1 = (props) => {
               processes are quite similar in that they involve the same process
               – wash, dry,fold the laundry to be cupboard ready. The scale,
               technology and performance factors of the machines are what make
-              the difference, as LaundryMate demonstrates.
+              the difference, as RINSEE demonstrates.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -74,7 +74,7 @@ const FAQ1 = (props) => {
               laundry making it easy to iron and wear. Also, it reduces storage
               space, keeps the shelves more organised, even increases the
               lifespan of clothes. So when you’re looking for an option for wash
-              and fold near you, LaundryMate – with its reach all across
+              and fold near you, RINSEE – with its reach all across
               Bengaluru and its 24-hour delivery – is the ideal choice.
               <span
                 dangerouslySetInnerHTML={{
@@ -99,7 +99,7 @@ const FAQ1 = (props) => {
             </span>
             <span data-role="accordion-content" className="faq1-text8">
               Dry cleaning, steam ironing or pressing are not part of the wash
-              and fold process. But since LaundryMate has all these services as
+              and fold process. But since RINSEE has all these services as
               individual offerings, you will have no problem at all.
             </span>
           </div>

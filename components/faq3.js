@@ -67,7 +67,7 @@ const FAQ3 = (props) => {
               odours you want removed. It is also good for apparel that are
               bulky, large and heavy. Dry cleaning restores old clothes, and
               even protects garments from moths and insects. Needless to say, at
-              LaundryMate we also make sure your aHre feels extra-fresh and adds
+              RINSEE we also make sure your aHre feels extra-fresh and adds
               a flawless finish to your ensemble.
             </span>
           </div>
@@ -108,7 +108,7 @@ const FAQ3 = (props) => {
             </span>
             <span data-role="accordion-content" className="faq3-text19">
               Yes, the final stage of the dry cleaning process does include
-              finishing, pressing and steam ironing. At LaundryMate, we spend
+              finishing, pressing and steam ironing. At RINSEE, we spend
               Ome on this last mile to ensure that you get a perfect end result
               from both the dry clean and iron processes.
             </span>
