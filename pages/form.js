@@ -26,7 +26,7 @@ function submit() {
           referid:value
         })
       });
-      if (response.status==200) {
+      if (!response.ok) {
           window.location.href = 'https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU';
       } else {
         console.error('Error:', response);
