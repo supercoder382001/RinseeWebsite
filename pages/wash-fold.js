@@ -34,7 +34,7 @@ const WashFold = (props) => {
                 </header>
                 <div className="wash-fold-buttons">
                   <a
-                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                    href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="wash-fold-link1"
@@ -76,27 +76,27 @@ const WashFold = (props) => {
           <section className="wash-fold-note1">
             <div className="wash-fold-image2">
               <Card4
-                header="card4-step 1"
-                imageSrc="card4/external/pickup-300w.png"
-                description="card4-pickup"
+                header="Step 1"
+                imageSrc="/external/pickup-300w.png"
+                description="Pickup"
                 rootClassName="card4root-class-name4"
               ></Card4>
               <Card4
-                header="card4-step 2"
-                imageSrc="card4/external/wash-300w.png"
-                description="card4-wash &amp; dry"
+                header="Step 2"
+                imageSrc="/external/wash-300w.png"
+                description="Wash &amp; Dry"
                 rootClassName="card4root-class-name5"
               ></Card4>
               <Card4
-                header="card4-step 3"
-                imageSrc="card4/external/fold-300w.png"
-                description="card4-fold"
+                header="Step 3"
+                imageSrc="/external/fold-300w.png"
+                description="Fold"
                 rootClassName="card4root-class-name6"
               ></Card4>
               <Card4
-                header="card4-step 4"
-                imageSrc="card4/external/delivery-300w.png"
-                description="card4-delivery"
+                header="Step 4"
+                imageSrc="/external/delivery-300w.png"
+                description="Delivery"
                 rootClassName="card4root-class-name7"
               ></Card4>
             </div>
@@ -119,7 +119,7 @@ const WashFold = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="wash-fold-link2"
@@ -1193,12 +1193,12 @@ const WashFold = (props) => {
               <main className="wash-fold-main3">
                 <header className="wash-fold-caption2">
                   <span className="wash-fold-section15 section-head">
-                    Wash and fold prices
+                    Wash and Fold prices
                   </span>
                 </header>
               </main>
               <a
-                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="wash-fold-link3"

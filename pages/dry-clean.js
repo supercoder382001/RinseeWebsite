@@ -83,7 +83,7 @@ const DryClean = (props) => {
               ></Card4>
               <Card4
                 header="Step 2"
-                imageSrc="card4/external/wash-300w.png"
+                imageSrc="/external/wash-300w.png"
                 description="Wash &amp; Dry"
                 rootClassName="card4root-class-name33"
               ></Card4>
