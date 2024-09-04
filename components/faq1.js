@@ -75,7 +75,7 @@ const FAQ1 = (props) => {
               space, keeps the shelves more organised, even increases the
               lifespan of clothes. So when you’re looking for an option for wash
               and fold near you, RINSEE – with its reach all across
-              Bengaluru and its 24-hour delivery – is the ideal choice.
+              Delhi and its 24-hour delivery – is the ideal choice.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
