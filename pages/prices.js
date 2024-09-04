@@ -17,9 +17,9 @@ const Prices = (props) => {
           <meta property="og:title" content="Prices - Rinsee" />
         </Head>
         <Navbar
-          imageAlt="navbar/icons/hamburger-200h.png"
-          imageSrc="navbar/icons/hamburger-200h.png"
-          brandingLogo="navbar/external/logo-200w.png"
+          imageAlt="/Icons/hamburger-200h.png"
+          imageSrc="/Icons/hamburger-200h.png"
+          brandingLogo="/external/logo-200w.png"
           rootClassName="navbarroot-class-name8"
         ></Navbar>
         <section className="prices-section1">
