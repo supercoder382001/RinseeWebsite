@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import { useState } from 'react';
 
 import Script from 'dangerous-html/react'
 
@@ -19,14 +20,14 @@ function submit() {
         },
         body: JSON.stringify({
           name: namer.value,
-          mobilenumber: mobile.value,
+          mobile: mobile.value,
           gender: gender.value,
           email: email.value,
           referid:value
         })
-      })   
-      if (response.code==101) {
-        window.location.href = 'https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU';
+      });
+      if (!response.ok) {
+          window.location.href = 'https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU';
       } else {
         console.error('Error:', response);
       }  } 
@@ -113,7 +114,7 @@ const Form = (props) => {
                   >
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
-                    <option value="Option 3">Others</option>
+                    <option value="Others">Others</option>
                   </select>
                 </header>
                 <div className="form-buttons1">
