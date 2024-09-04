@@ -102,6 +102,14 @@ const Card2 = (props) => {
             margin-left: 0px;
             margin-right: 0px;
           }
+          .card2root-class-name3 {
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          .card2root-class-name4 {
+            margin-left: 0px;
+            margin-right: 0px;
+          }
           @media (max-width: 479px) {
             .card2-card {
               width: 100%;
@@ -147,6 +155,14 @@ const Card2 = (props) => {
               margin-right: 0px;
             }
             .card2root-class-name2 {
+              margin-left: 0px;
+              margin-right: 0px;
+            }
+            .card2root-class-name3 {
+              margin-left: 0px;
+              margin-right: 0px;
+            }
+            .card2root-class-name4 {
               margin-left: 0px;
               margin-right: 0px;
             }

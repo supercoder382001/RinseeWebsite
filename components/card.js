@@ -102,6 +102,26 @@ const Card = (props) => {
           .cardroot-class-name11 {
             height: var(--dl-size-size-xxlarge);
           }
+          .cardroot-class-name12 {
+            flex: 1;
+            height: var(--dl-size-size-xxlarge);
+          }
+          .cardroot-class-name13 {
+            height: var(--dl-size-size-xxlarge);
+          }
+          .cardroot-class-name14 {
+            height: var(--dl-size-size-xxlarge);
+          }
+          .cardroot-class-name15 {
+            flex: 1;
+            height: var(--dl-size-size-xxlarge);
+          }
+          .cardroot-class-name16 {
+            height: var(--dl-size-size-xxlarge);
+          }
+          .cardroot-class-name17 {
+            height: var(--dl-size-size-xxlarge);
+          }
           @media (max-width: 991px) {
             .cardroot-class-name {
               flex: 0 0 auto;
@@ -148,6 +168,30 @@ const Card = (props) => {
               width: 100%;
             }
             .cardroot-class-name11 {
+              flex: 0 0 auto;
+              width: 100%;
+            }
+            .cardroot-class-name12 {
+              flex: 0 0 auto;
+              width: 100%;
+            }
+            .cardroot-class-name13 {
+              flex: 0 0 auto;
+              width: 100%;
+            }
+            .cardroot-class-name14 {
+              flex: 0 0 auto;
+              width: 100%;
+            }
+            .cardroot-class-name15 {
+              flex: 0 0 auto;
+              width: 100%;
+            }
+            .cardroot-class-name16 {
+              flex: 0 0 auto;
+              width: 100%;
+            }
+            .cardroot-class-name17 {
               flex: 0 0 auto;
               width: 100%;
             }

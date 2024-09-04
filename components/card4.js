@@ -255,6 +255,40 @@ const Card4 = (props) => {
             width: 275px;
             height: 100%;
           }
+          .card4root-class-name44 {
+            width: 275px;
+            height: 100%;
+          }
+          .card4root-class-name45 {
+            flex: 1;
+            width: 275px;
+            height: 100%;
+          }
+          .card4root-class-name46 {
+            width: 275px;
+            height: 100%;
+          }
+          .card4root-class-name47 {
+            width: 275px;
+            height: 100%;
+          }
+          .card4root-class-name48 {
+            width: 275px;
+            height: 100%;
+          }
+          .card4root-class-name49 {
+            flex: 1;
+            width: 275px;
+            height: 100%;
+          }
+          .card4root-class-name50 {
+            width: 275px;
+            height: 100%;
+          }
+          .card4root-class-name51 {
+            width: 275px;
+            height: 100%;
+          }
           @media (max-width: 767px) {
             .card4-description {
               text-align: center;
@@ -389,6 +423,30 @@ const Card4 = (props) => {
               width: 100%;
             }
             .card4root-class-name43 {
+              width: 100%;
+            }
+            .card4root-class-name44 {
+              width: 100%;
+            }
+            .card4root-class-name45 {
+              width: 100%;
+            }
+            .card4root-class-name46 {
+              width: 100%;
+            }
+            .card4root-class-name47 {
+              width: 100%;
+            }
+            .card4root-class-name48 {
+              width: 100%;
+            }
+            .card4root-class-name49 {
+              width: 100%;
+            }
+            .card4root-class-name50 {
+              width: 100%;
+            }
+            .card4root-class-name51 {
               width: 100%;
             }
           }
@@ -547,6 +605,30 @@ const Card4 = (props) => {
               width: 100%;
             }
             .card4root-class-name43 {
+              width: 100%;
+            }
+            .card4root-class-name44 {
+              width: 100%;
+            }
+            .card4root-class-name45 {
+              width: 100%;
+            }
+            .card4root-class-name46 {
+              width: 100%;
+            }
+            .card4root-class-name47 {
+              width: 100%;
+            }
+            .card4root-class-name48 {
+              width: 100%;
+            }
+            .card4root-class-name49 {
+              width: 100%;
+            }
+            .card4root-class-name50 {
+              width: 100%;
+            }
+            .card4root-class-name51 {
               width: 100%;
             }
           }

@@ -18,8 +18,8 @@ const SteamIron = (props) => {
           <meta property="og:title" content="SteamIron - Rinsee" />
         </Head>
         <Navbar
-          imageAlt="/external/logo-200w.png"
-          imageSrc="/external/logo-200w.png"
+          imageAlt="/Icons/hamburger-200h.png"
+          imageSrc="/Icons/hamburger-200h.png"
           brandingLogo="/external/logo-200w.png"
           rootClassName="navbarroot-class-name6"
         ></Navbar>
@@ -78,13 +78,13 @@ const SteamIron = (props) => {
               <Card4
                 header="Step 1"
                 imageSrc="/external/pickup-300w.png"
-                description="pickup"
+                description="Pickup"
                 rootClassName="card4root-class-name28"
               ></Card4>
               <Card4
                 header="Step 2"
                 imageSrc="/external/wash-300w.png"
-                description="Wash &amp; dry"
+                description="Wash &amp; Dry"
                 rootClassName="card4root-class-name29"
               ></Card4>
               <Card4
@@ -1198,7 +1198,7 @@ const SteamIron = (props) => {
                 </header>
               </main>
               <a
-                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="steam-iron-link3"
@@ -1305,6 +1305,9 @@ const SteamIron = (props) => {
                       <Link href="/">
                         <a className="steam-iron-link7 footer-link">Home</a>
                       </Link>
+                      <Link href="/">
+                        <a className="steam-iron-link8 footer-link">Terms</a>
+                      </Link>
                     </div>
                   </div>
                 </header>
@@ -1312,11 +1315,7 @@ const SteamIron = (props) => {
               <section className="steam-iron-copyright1"></section>
             </main>
             <main className="steam-iron-subscribe"></main>
-            <section className="steam-iron-copyright2">
-              <span className="steam-iron-text8">
-                © 2022 latitude. All Rights Reserved.
-              </span>
-            </section>
+            <section className="steam-iron-copyright2"></section>
           </div>
         </footer>
       </div>
@@ -1871,6 +1870,9 @@ const SteamIron = (props) => {
           .steam-iron-link7 {
             text-decoration: none;
           }
+          .steam-iron-link8 {
+            text-decoration: none;
+          }
           .steam-iron-copyright1 {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
@@ -1894,17 +1896,11 @@ const SteamIron = (props) => {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
             width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: none;
             align-items: center;
             flex-direction: column;
             justify-content: center;
-          }
-          .steam-iron-text8 {
-            color: #c4c4c4;
-            width: 100%;
-            font-size: 14px;
-            font-family: Poppins;
-            line-height: 21px;
           }
           @media (max-width: 991px) {
             .steam-iron-section10 {
@@ -2103,6 +2099,9 @@ const SteamIron = (props) => {
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
+            }
+            .steam-iron-link8 {
+              text-decoration: none;
             }
           }
         `}

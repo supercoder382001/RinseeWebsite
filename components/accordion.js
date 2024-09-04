@@ -341,6 +341,12 @@ const Accordion = (props) => {
             .accordionroot-class-name2 {
               width: 100%;
             }
+            .accordionroot-class-name3 {
+              width: 100%;
+            }
+            .accordionroot-class-name4 {
+              width: 100%;
+            }
           }
         `}
       </style>

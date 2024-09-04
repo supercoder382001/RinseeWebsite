@@ -27,7 +27,7 @@ const Navbar = (props) => {
             <span className="nav-link">Contact</span>
           </div>
           <div className="get-started navbar-get-started1">
-            <span className="navbar-text1">Get started</span>
+            <a href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU" className="navbar-text1">Get started</a>
           </div>
           <div id="open-mobile-menu" className="navbar-hamburger get-started">
             <img
@@ -40,9 +40,9 @@ const Navbar = (props) => {
         <div id="mobile-menu" className="navbar-mobile-menu">
           <div className="navbar-branding">
             <img
-              alt={props.imageAlt1}
-              src={props.imageSrc1}
-              className="navbar-image2"
+              src={props.brandingLogo}
+              alt="Rinsee"
+              className="navbar-branding-logo"
             />
             <div id="close-mobile-menu" className="navbar-container1">
               <svg viewBox="0 0 1024 1024" className="navbar-icon1">
@@ -63,7 +63,7 @@ const Navbar = (props) => {
             <span className="nav-link">Contact</span>
           </div>
           <div className="get-started">
-            <span className="navbar-text2">Get started</span>
+            <a href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU" className="navbar-text2">Get started</a>
           </div>
         </div>
         <div>
@@ -274,6 +274,9 @@ listenForUrlChangesMobileMenu()
             width: 90%;
             opacity: 0.95;
           }
+          .navbarroot-class-name9 {
+            width: 95%;
+          }
           @media (max-width: 991px) {
             .navbar-branding-logo {
               width: var(--dl-size-size-medium);
@@ -322,6 +325,10 @@ listenForUrlChangesMobileMenu()
               padding-top: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
+            .navbar-image2 {
+              width: 80px;
+              height: var(--dl-size-size-medium);
+            }
             .navbarroot-class-name {
               height: auto;
             }
@@ -334,6 +341,9 @@ listenForUrlChangesMobileMenu()
             .navbarroot-class-name5 {
               height: auto;
             }
+            .navbarroot-class-name9 {
+              height: auto;
+            }
           }
         `}
       </style>
@@ -343,18 +353,14 @@ listenForUrlChangesMobileMenu()
 
 Navbar.defaultProps = {
   imageAlt: 'image',
-  imageSrc1: '/external/logo-1500h.png',
   imageSrc: '/Icons/hamburger-200h.png',
-  imageAlt1: 'image',
   rootClassName: '',
   brandingLogo: '/Branding/planical7012-wzf.svg',
 }
 
 Navbar.propTypes = {
   imageAlt: PropTypes.string,
-  imageSrc1: PropTypes.string,
   imageSrc: PropTypes.string,
-  imageAlt1: PropTypes.string,
   rootClassName: PropTypes.string,
   brandingLogo: PropTypes.string,
 }

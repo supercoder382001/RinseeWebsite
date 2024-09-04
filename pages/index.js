@@ -28,6 +28,7 @@ const Home = (props) => {
         <Navbar
           brandingLogo="/external/logo-1200w.png"
           rootClassName="navbarroot-class-name"
+          imageAlt="/Icons/hamburger-200h.png"
         ></Navbar>
         <section id="home" className="home-section10">
           <div className="home-hero">
@@ -156,19 +157,19 @@ const Home = (props) => {
               <Card4
                 header="Step 1"
                 imageSrc="/external/pickup-300w.png"
-                description="pickup"
+                description="Pickup"
                 rootClassName="card4root-class-name"
               ></Card4>
               <Card4
                 header="Step 2"
                 imageSrc="/external/wash-300w.png"
-                description="wash &amp; dry"
+                description="Wash &amp; Dry"
                 rootClassName="card4root-class-name3"
               ></Card4>
               <Card4
                 header="Step 3"
                 imageSrc="/external/fold-300w.png"
-                description="fold"
+                description="Fold"
                 rootClassName="card4root-class-name2"
               ></Card4>
               <Card4
@@ -193,7 +194,7 @@ const Home = (props) => {
                   </header>
                   <div className="home-checkmarks">
                     <Mark
-                      label="mark-how it works ?"
+                      label="How it works ?"
                       rootClassName="markroot-class-name"
                     ></Mark>
                   </div>
@@ -236,7 +237,7 @@ const Home = (props) => {
                       </span>
                     </Fragment>
                   }
-                  header="refer your friend"
+                  header="Refer your friend"
                   description="Share your unique code with your friend and ask them to install rinsee app"
                   rootClassName="card7root-class-name"
                 ></Card7>
@@ -295,7 +296,7 @@ const Home = (props) => {
           </header>
           <main className="home-cards1">
             <Card
-              header="certified machinery "
+              header="Certified machinery "
               description="To prevent colour loss and shrinkage"
               rootClassName="cardroot-class-name"
             ></Card>
@@ -306,7 +307,7 @@ const Home = (props) => {
               rootClassName="cardroot-class-name1"
             ></Card>
             <Card
-              icon="/Icons/group%201314-200h.png"
+              icon="/Icons/group%201317-200h.png"
               header="Eco friendly cleaning solutions"
               description="Tough on stains, gentle on fabric"
               rootClassName="cardroot-class-name2"
@@ -328,7 +329,7 @@ const Home = (props) => {
             <Link href="/wash-fold">
               <a className="home-link14">
                 <Card6
-                  header="wash + fold"
+                  header="Wash + fold"
                   description="You just want spotlessly clean clothes, carefully folded and shelf-ready? well, what’s wrong with expecting that"
                   rootClassName="card6root-class-name"
                   className="home-component25"
@@ -338,7 +339,7 @@ const Home = (props) => {
             <Link href="/wash-iron">
               <a className="home-link15">
                 <Card6
-                  header="Wash + Iron"
+                  header="Wash + iron"
                   description="You need your clothes super clean, neatly pressed and easily stackable? sure, that’s a reasonable ask."
                   rootClassName="card6root-class-name3"
                   className="home-component26"
@@ -389,14 +390,14 @@ const Home = (props) => {
                   </h2>
                 </div>
                 <Accordion
-                  text="100% happiness guarantee"
-                  text1="If you are not completely satisfied with the wash or dry cleaning, we will reprocess your clothes for free"
-                  text2="High quality services"
-                  text3="We work hard to make sure that the clothes you get back are spotless and ready for action"
-                  text4="We give fast services"
-                  text5="We pickup, process and deliver in less than 24 hours"
-                  text41="Affordable prices for you"
-                  text51="The amount we charge is equivalent to the cost you bear to get the laundry done at your home"
+                  text="accordion100% happiness guarantee"
+                  text1="accordion-if you are not completely satisfied with the wash or dry cleaning, we will reprocess your clothes for free"
+                  text2="accordion-high quality services"
+                  text3="accordion-we work hard to make sure that the clothes you get back are spotless and ready for action"
+                  text4="accordion-we give fast services"
+                  text5="accordion-we pickup, process and deliver in less than 24 hours"
+                  text41="accordion-affordable prices for you"
+                  text51="accordion-the amount we charge is equivalent to the cost you bear to get the laundry done at your home"
                   rootClassName="accordionroot-class-name"
                 ></Accordion>
               </div>
@@ -774,6 +775,12 @@ const Home = (props) => {
                       <a href="#Faq" className="home-text67 footer-link">
                         FAQs
                       </a>
+                      <Link href="/termsand-conditions">
+                        <a className="home-link26 footer-link">
+                          <span>Terms</span>
+                          <br></br>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </header>
@@ -2315,6 +2322,9 @@ Here's what the above is doing:
             text-decoration: none;
           }
           .home-text67 {
+            text-decoration: none;
+          }
+          .home-link26 {
             text-decoration: none;
           }
           .home-copyright1 {

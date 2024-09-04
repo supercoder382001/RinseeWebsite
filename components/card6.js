@@ -67,6 +67,63 @@ const Card6 = (props) => {
             width: auto;
             height: 250px;
           }
+          .card6root-class-name4 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name5 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name6 {
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name7 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name8 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name9 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name10 {
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name11 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name12 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name13 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name14 {
+            width: auto;
+            height: 250px;
+          }
+          .card6root-class-name15 {
+            flex: 1;
+            width: auto;
+            height: 250px;
+          }
         `}
       </style>
     </>

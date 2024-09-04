@@ -18,8 +18,8 @@ const DryClean = (props) => {
           <meta property="og:title" content="DryClean - Rinsee" />
         </Head>
         <Navbar
-          imageAlt="/external/logo-200w.png"
-          imageSrc="/external/logo-200w.png"
+          imageAlt="/Icons/hamburger-200h.png"
+          imageSrc="/Icons/hamburger-200h.png"
           brandingLogo="/external/logo-200w.png"
           rootClassName="navbarroot-class-name7"
         ></Navbar>
@@ -83,8 +83,8 @@ const DryClean = (props) => {
               ></Card4>
               <Card4
                 header="Step 2"
-                imageSrc="/external/wash-300w.png"
-                description="Wash &amp; dry"
+                imageSrc="card4/external/wash-300w.png"
+                description="Wash &amp; Dry"
                 rootClassName="card4root-class-name33"
               ></Card4>
               <Card4
@@ -1305,6 +1305,9 @@ const DryClean = (props) => {
                       <Link href="/">
                         <a className="dry-clean-link7 footer-link">Home</a>
                       </Link>
+                      <Link href="/termsand-conditions">
+                        <a className="dry-clean-link8 footer-link">Terms</a>
+                      </Link>
                     </div>
                   </div>
                 </header>
@@ -1867,6 +1870,9 @@ const DryClean = (props) => {
           .dry-clean-link7 {
             text-decoration: none;
           }
+          .dry-clean-link8 {
+            text-decoration: none;
+          }
           .dry-clean-copyright1 {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
@@ -2069,6 +2075,7 @@ const DryClean = (props) => {
               color: rgb(255, 255, 255);
               width: 100%;
               font-size: 20px;
+              text-align: center;
               line-height: 36px;
             }
             .dry-clean-image2 {
@@ -2094,6 +2101,9 @@ const DryClean = (props) => {
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
+            }
+            .dry-clean-link8 {
+              text-decoration: none;
             }
           }
         `}

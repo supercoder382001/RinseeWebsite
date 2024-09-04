@@ -59,6 +59,12 @@ const Mark = (props) => {
             .markroot-class-name1 {
               align-self: center;
             }
+            .markroot-class-name2 {
+              align-self: center;
+            }
+            .markroot-class-name3 {
+              align-self: center;
+            }
           }
         `}
       </style>

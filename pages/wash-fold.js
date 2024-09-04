@@ -18,9 +18,9 @@ const WashFold = (props) => {
           <meta property="og:title" content="WashFold - Rinsee" />
         </Head>
         <Navbar
-          imageAlt="/external/logo-200w.png"
-          imageSrc="/external/logo-200w.png"
-          brandingLogo="/external/logo-200w.png"
+          imageAlt="navbar/icons/hamburger-200h.png"
+          imageSrc="navbar/icons/hamburger-200h.png"
+          brandingLogo="navbar/external/logo-200w.png"
           rootClassName="navbarroot-class-name2"
         ></Navbar>
         <section className="wash-fold-section10">
@@ -76,27 +76,27 @@ const WashFold = (props) => {
           <section className="wash-fold-note1">
             <div className="wash-fold-image2">
               <Card4
-                header="Step 1"
-                imageSrc="/external/pickup-300w.png"
-                description="Pickup"
+                header="card4-step 1"
+                imageSrc="card4/external/pickup-300w.png"
+                description="card4-pickup"
                 rootClassName="card4root-class-name4"
               ></Card4>
               <Card4
-                header="step 2"
-                imageSrc="/external/wash-300w.png"
-                description="Wash &amp; dry"
+                header="card4-step 2"
+                imageSrc="card4/external/wash-300w.png"
+                description="card4-wash &amp; dry"
                 rootClassName="card4root-class-name5"
               ></Card4>
               <Card4
-                header="Step 3"
-                imageSrc="/external/fold-300w.png"
-                description="Fold"
+                header="card4-step 3"
+                imageSrc="card4/external/fold-300w.png"
+                description="card4-fold"
                 rootClassName="card4root-class-name6"
               ></Card4>
               <Card4
-                header="Step 4"
-                imageSrc="/external/delivery-300w.png"
-                description="Delivery"
+                header="card4-step 4"
+                imageSrc="card4/external/delivery-300w.png"
+                description="card4-delivery"
                 rootClassName="card4root-class-name7"
               ></Card4>
             </div>
@@ -1305,6 +1305,9 @@ const WashFold = (props) => {
                       <Link href="/">
                         <a className="wash-fold-link7 footer-link">Home</a>
                       </Link>
+                      <Link href="/">
+                        <a className="wash-fold-link8 footer-link">Terms</a>
+                      </Link>
                     </div>
                   </div>
                 </header>
@@ -1865,6 +1868,9 @@ const WashFold = (props) => {
           .wash-fold-link7 {
             text-decoration: none;
           }
+          .wash-fold-link8 {
+            text-decoration: none;
+          }
           .wash-fold-copyright1 {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
@@ -2087,6 +2093,9 @@ const WashFold = (props) => {
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
+            }
+            .wash-fold-link8 {
+              text-decoration: none;
             }
           }
         `}

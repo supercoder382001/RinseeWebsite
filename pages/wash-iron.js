@@ -18,8 +18,8 @@ const WashIron = (props) => {
           <meta property="og:title" content="WashIron - Rinsee" />
         </Head>
         <Navbar
-          imageAlt="/external/logo-200w.png"
-          imageSrc="/external/logo-200w.png"
+          imageAlt="/Icons/hamburger-200h.png"
+          imageSrc="/Icons/hamburger-200h.png"
           brandingLogo="/external/logo-200w.png"
           rootClassName="navbarroot-class-name3"
         ></Navbar>
@@ -34,7 +34,7 @@ const WashIron = (props) => {
                 </header>
                 <div className="wash-iron-buttons">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="wash-iron-link1"
@@ -84,7 +84,7 @@ const WashIron = (props) => {
               <Card4
                 header="Step 2"
                 imageSrc="/external/wash-300w.png"
-                description="Wash &amp; dry"
+                description="Wash &amp; Dry"
                 rootClassName="card4root-class-name13"
               ></Card4>
               <Card4
@@ -119,7 +119,7 @@ const WashIron = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="wash-iron-link2"
@@ -1198,7 +1198,7 @@ const WashIron = (props) => {
                 </header>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="wash-iron-link3"
@@ -1304,6 +1304,9 @@ const WashIron = (props) => {
                       <span className="footer-link">About</span>
                       <Link href="/">
                         <a className="wash-iron-link7 footer-link">Home</a>
+                      </Link>
+                      <Link href="/">
+                        <a className="wash-iron-link8 footer-link">Terms</a>
                       </Link>
                     </div>
                   </div>
@@ -1867,6 +1870,9 @@ const WashIron = (props) => {
           .wash-iron-link7 {
             text-decoration: none;
           }
+          .wash-iron-link8 {
+            text-decoration: none;
+          }
           .wash-iron-copyright1 {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
@@ -2095,6 +2101,9 @@ const WashIron = (props) => {
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
+            }
+            .wash-iron-link8 {
+              text-decoration: none;
             }
           }
         `}

@@ -100,11 +100,49 @@ const Card7 = (props) => {
             margin-left: 0px;
             margin-right: 0px;
           }
+          .card7root-class-name3 {
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          .card7root-class-name4 {
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          .card7root-class-name5 {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          .card7root-class-name6 {
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          .card7root-class-name7 {
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          .card7root-class-name8 {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+          }
           @media (max-width: 767px) {
             .card7root-class-name {
               width: 100%;
             }
             .card7root-class-name2 {
+              width: 100%;
+            }
+            .card7root-class-name3 {
+              width: 100%;
+            }
+            .card7root-class-name4 {
+              width: 100%;
+            }
+            .card7root-class-name6 {
+              width: 100%;
+            }
+            .card7root-class-name7 {
               width: 100%;
             }
           }

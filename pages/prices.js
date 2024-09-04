@@ -17,9 +17,9 @@ const Prices = (props) => {
           <meta property="og:title" content="Prices - Rinsee" />
         </Head>
         <Navbar
-          imageAlt="/external/logo-200w.png"
-          imageSrc="/external/logo-200w.png"
-          brandingLogo="/external/logo-200w.png"
+          imageAlt="navbar/icons/hamburger-200h.png"
+          imageSrc="navbar/icons/hamburger-200h.png"
+          brandingLogo="navbar/external/logo-200w.png"
           rootClassName="navbarroot-class-name8"
         ></Navbar>
         <section className="prices-section1">
@@ -66,7 +66,7 @@ const Prices = (props) => {
               <Card4
                 header="Step 2"
                 imageSrc="/external/wash-300w.png"
-                description="Wash &amp; dry"
+                description="Wash &amp; Dry"
                 rootClassName="card4root-class-name37"
               ></Card4>
               <Card4
@@ -1627,6 +1627,9 @@ function showContent(contentId) {
                       <Link href="/">
                         <a className="prices-link7 footer-link">Home</a>
                       </Link>
+                      <Link href="/termsand-conditions">
+                        <a className="prices-link8 footer-link">Terms</a>
+                      </Link>
                     </div>
                   </div>
                 </header>
@@ -1634,11 +1637,7 @@ function showContent(contentId) {
               <section className="prices-copyright1"></section>
             </main>
             <main className="prices-subscribe"></main>
-            <section className="prices-copyright2">
-              <span className="prices-text8">
-                © 2022 latitude. All Rights Reserved.
-              </span>
-            </section>
+            <section className="prices-copyright2"></section>
           </div>
         </footer>
       </div>
@@ -2112,6 +2111,9 @@ function showContent(contentId) {
           .prices-link7 {
             text-decoration: none;
           }
+          .prices-link8 {
+            text-decoration: none;
+          }
           .prices-copyright1 {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
@@ -2135,17 +2137,11 @@ function showContent(contentId) {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
             width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: none;
             align-items: center;
             flex-direction: column;
             justify-content: center;
-          }
-          .prices-text8 {
-            color: #c4c4c4;
-            width: 100%;
-            font-size: 14px;
-            font-family: Poppins;
-            line-height: 21px;
           }
           @media (max-width: 991px) {
             .prices-section1 {
