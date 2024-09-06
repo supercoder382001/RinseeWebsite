@@ -509,6 +509,19 @@ const TermsandConditions = (props) => {
               </span>
               <br className="termsand-conditions-text277"></br>
               <br></br>
+              <br></br>
+              <span className="termsand-conditions-text280">Contact Us</span>
+              <br className="termsand-conditions-text281"></br>
+              <br className="termsand-conditions-text282"></br>
+              <span className="termsand-conditions-text283">
+                Email:- jatindua2001@gmail.com
+              </span>
+              <br className="termsand-conditions-text284"></br>
+              <span className="termsand-conditions-text285">
+                Phone:- 8800677646
+              </span>
+              <br className="termsand-conditions-text286"></br>
+              <br></br>
             </span>
           </main>
         </section>
@@ -525,7 +538,7 @@ const TermsandConditions = (props) => {
                     src="/Icons/apple-200w.png"
                     className="termsand-conditions-icon1"
                   />
-                  <span className="termsand-conditions-text279">
+                  <span className="termsand-conditions-text288">
                     Download for iOS
                   </span>
                 </div>
@@ -541,7 +554,7 @@ const TermsandConditions = (props) => {
                       src="/Icons/android-200h.png"
                       className="termsand-conditions-icon2"
                     />
-                    <span className="termsand-conditions-text280">
+                    <span className="termsand-conditions-text289">
                       Download for Android
                     </span>
                   </div>
@@ -566,7 +579,7 @@ const TermsandConditions = (props) => {
                       src="/external/logo-1200w.png"
                       className="termsand-conditions-branding"
                     />
-                    <span className="termsand-conditions-text281">
+                    <span className="termsand-conditions-text290">
                       Make your everyday laundry easy
                     </span>
                   </div>
@@ -616,7 +629,7 @@ const TermsandConditions = (props) => {
                     </div>
                     <div className="termsand-conditions-links">
                       <span className="footer-link">About</span>
-                      <span className="termsand-conditions-text284 footer-link">
+                      <span className="termsand-conditions-text293 footer-link">
                         Home
                       </span>
                       <Link href="/">
@@ -626,7 +639,7 @@ const TermsandConditions = (props) => {
                       </Link>
                       <a
                         href="#Terms"
-                        className="termsand-conditions-text286 footer-link"
+                        className="termsand-conditions-text295 footer-link"
                       >
                         Terms
                       </a>
@@ -993,7 +1006,7 @@ Here's what the above is doing:
             width: 16px;
             object-fit: cover;
           }
-          .termsand-conditions-text279 {
+          .termsand-conditions-text288 {
             color: #ffffff;
             font-size: 16px;
             font-style: normal;
@@ -1015,7 +1028,7 @@ Here's what the above is doing:
             width: 16px;
             object-fit: cover;
           }
-          .termsand-conditions-text280 {
+          .termsand-conditions-text289 {
             color: rgb(255, 255, 255);
             font-size: 16px;
             font-style: normal;
@@ -1088,7 +1101,7 @@ Here's what the above is doing:
             width: 120px;
             object-fit: cover;
           }
-          .termsand-conditions-text281 {
+          .termsand-conditions-text290 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -1146,13 +1159,13 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .termsand-conditions-text284 {
+          .termsand-conditions-text293 {
             text-decoration: none;
           }
           .termsand-conditions-link5 {
             text-decoration: none;
           }
-          .termsand-conditions-text286 {
+          .termsand-conditions-text295 {
             text-decoration: none;
           }
           .termsand-conditions-copyright1 {
@@ -1377,6 +1390,41 @@ Here's what the above is doing:
             }
             .termsand-conditions-text276 {
               line-height: 2;
+            }
+            .termsand-conditions-text280 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text281 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text282 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text283 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text284 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text285 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text286 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
             }
             .termsand-conditions-content1 {
               align-items: center;
@@ -2127,13 +2175,13 @@ Here's what the above is doing:
             .termsand-conditions-image {
               width: 100%;
             }
-            .termsand-conditions-text281 {
+            .termsand-conditions-text290 {
               color: rgb(255, 255, 255);
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
             }
-            .termsand-conditions-text286 {
+            .termsand-conditions-text295 {
               text-decoration: none;
             }
           }
