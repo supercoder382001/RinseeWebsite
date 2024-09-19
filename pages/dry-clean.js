@@ -18,6 +18,7 @@ const DryClean = (props) => {
           <meta property="og:title" content="Refresh Your Wardrobe with Rinsee’s Premium Dry Cleaning Service in Delhi" />
           <meta name="description" content="Experience Rinsee’s premium dry cleaning service in Delhi. We provide convenient doorstep pickup and delivery,your clothes are handled with expert care and presented beautifully. Whether it’s delicate fabrics or daily outfits, our affordable and dependable service ensures your wardrobe stays refreshed and spotless. Enjoy both convenience and quality with Rinsee!"/>
           <meta name="keywords" content="dry cleaning service Delhi, professional dry cleaning near me, best dry cleaners near me, affordable dry cleaning Delhi, best dry cleaning service Delhi, dry cleaning with pickup and delivery, dry cleaners near me, dry cleaners"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
           brandingLogo="/external/logo-200w.png"
@@ -1308,9 +1309,11 @@ const DryClean = (props) => {
                       <Link href="/aboutus">
                         <a className="dry-clean-link16 footer-link">About</a>
                       </Link>
-                      <a href="#home" className="dry-clean-text19 footer-link">
+                      <Link href="/">
+                      <a className="dry-clean-text19 footer-link">
                         Home
                       </a>
+                      </Link>
                       <a href="#faqs" className="dry-clean-text20 footer-link">
                         FAQs
                       </a>

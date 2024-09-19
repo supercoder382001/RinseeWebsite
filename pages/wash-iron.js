@@ -14,9 +14,10 @@ const WashIron = (props) => {
     <>
       <div className="wash-iron-container1">
         <Head>
-        <meta property="og:title" content="Professional Wash and Iron Service in Delhi | Rinsee" />
+          <meta property="og:title" content="Professional Wash and Iron Service in Delhi | Rinsee" />
           <meta name="description" content="Rinsee offers an exceptional wash and iron service in Delhi, complete with easy doorstep pickup and delivery. We guarantee that your clothes are impeccably cleaned, expertly ironed, and ready to wear. Experience quick, budget-friendly service with same-day options, crafted to save you time while providing professional laundry care."/>
           <meta name="keywords" content="wash and iron service Delhi, laundry with ironing near me, doorstep wash and iron service, wash and iron near me, washing and ironing service near me, professional wash and iron Delhi, same day wash and iron"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
           brandingLogo="/external/logo-200w.png"
@@ -1310,9 +1311,11 @@ const WashIron = (props) => {
                       <Link href="/aboutus">
                         <a className="wash-iron-link16 footer-link">About</a>
                       </Link>
-                      <a href="#home" className="wash-iron-text16 footer-link">
+                      <Link href="/">
+                      <a className="wash-iron-text16 footer-link">
                         Home
                       </a>
+                      </Link>
                       <a href="#faq" className="wash-iron-text17 footer-link">
                         FAQs
                       </a>

@@ -15,7 +15,10 @@ const SteamIron = (props) => {
       <div className="steam-iron-container1">
         <Head>
           <title>SteamIron - Rinsee</title>
-          <meta property="og:title" content="SteamIron - Rinsee" />
+          <meta property="og:title" content="Expert Steam Ironing Service in Delhi | Rinsee - Wrinkle-Free Clothes with Fast Deliver" />
+          <meta name="description" content="Rinsee offers expert steam ironing services in Delhi to give your clothes a flawless, wrinkle-free finish. Our professionals use advanced steam technology for a crisp and polished look. Enjoy convenient pickup and delivery right at your doorstep, making laundry care effortless and stress-free."/>
+          <meta name="keywords" content="Steam iron service Delhi, Professional clothes ironing, Steam ironing in Delhi, Wrinkle-free clothes ironing, Rinsee ironing service, Laundry steam iron service, Ironing service with delivery"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
           brandingLogo="/external/logo-200w.png"
@@ -1304,9 +1307,11 @@ const SteamIron = (props) => {
                       <Link href="/aboutus">
                         <a className="steam-iron-link16 footer-link">About</a>
                       </Link>
-                      <a href="#home" className="steam-iron-text16 footer-link">
+                      <Link href="/">
+                      <a className="steam-iron-text16 footer-link">
                         Home
                       </a>
+                      </Link>
                       <a href="#faq" className="steam-iron-text17 footer-link">
                         FAQs
                       </a>

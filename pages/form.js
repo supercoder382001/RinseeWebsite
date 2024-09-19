@@ -1,10 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
-import { useState } from 'react';
 
 import Script from 'dangerous-html/react'
-
+import { useState } from 'react'
 import Card6 from '../components/card6'
 
 function submit() {
@@ -37,15 +36,15 @@ function submit() {
   } 
 
 const Form = (props) => {
-  const [namer, setNamer] = useState('');
-  const [email, setEmail] = useState('');
-  const [mobile, setmobile] = useState('');
-  const [gender, setGender] = useState('');
-  const [inputValue, setInputValue] = useState('');
-  const handleInputChange = (event) => {
-    const { id, value } = event.target;
-    if (id === 'email') {
-      setEmail(value);
+    const [namer, setNamer] = useState('');
+    const [email, setEmail] = useState('');
+    const [mobile, setmobile] = useState('');
+    const [gender, setGender] = useState('');
+    const [inputValue, setInputValue] = useState('');
+    const handleInputChange = (event) => {
+      const { id, value } = event.target;
+      if (id === 'email') {
+        setEmail(value);
     } else if (id === 'namer') {
       setNamer(value);
     } else if (id === 'mobile') {
@@ -61,13 +60,14 @@ const Form = (props) => {
         <Head>
           <title>Form - Rinsee</title>
           <meta property="og:title" content="Form - Rinsee" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <section id="home" className="form-section1">
           <div className="form-hero1">
             <div className="form-content1">
               <img
-                src="/external/logo%20back-500w.png"
                 alt="image"
+                src="/external/logoback.png"
                 className="form-image1"
               />
             </div>
@@ -76,7 +76,7 @@ const Form = (props) => {
             <div className="form-content2">
               <main className="form-main1">
                 <header className="form-header1">
-                  <input
+                <input
                     type="text"
                     placeholder="Enter Your Name"
                     id="namer"
@@ -118,9 +118,16 @@ const Form = (props) => {
                   </select>
                 </header>
                 <div className="form-buttons1">
+                  <a
+                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="form-link10"
+                  >
                     <div className="form-get-started button" onClick={submit}>
-                      <span className="form-text1">Get started</span>
+                      <span className="form-text10" >Get started</span>
                     </div>
+                  </a>
                 </div>
               </main>
               <div className="form-highlight">
@@ -161,26 +168,26 @@ const Form = (props) => {
           </header>
           <main className="form-cards">
             <Card6
-              header="card6-wash + fold"
-              description="card6-you just want spotlessly clean clothes, carefully folded and shelf-ready? well, what’s wrong with expecting that"
+              header="Wash + Fold"
+              description="You just want spotlessly clean clothes, carefully folded and shelf-ready? Well, what’s wrong with expecting that"
               rootClassName="card6root-class-name4"
               className="form-component1"
             ></Card6>
             <Card6
-              header="card6-wash + iron"
-              description="card6-you need your clothes super clean, neatly pressed and easily stackable? sure, that’s a reasonable ask."
+              header="Wash + Iron"
+              description="You need your clothes super clean, neatly pressed and easily stackable? Sure, that’s a reasonable ask."
               rootClassName="card6root-class-name5"
               className="form-component2"
             ></Card6>
             <Card6
-              header="card6-steam iron"
-              description="card6-you need smoothly ironed, creaselessly presented clothes, ready-to-wear? of course, that’s something you should insist on."
+              header="Steam Iron"
+              description="You need smoothly ironed, creaselessly presented clothes, ready-to-wear? Of course, that’s something you should insist on."
               rootClassName="card6root-class-name6"
               className="form-component3"
             ></Card6>
             <Card6
-              header="card6-dry clean"
-              description="card6-you need delicately handled, professionally dry-cleaned clothes, on handy hangers? now, your premium wear does deserve that"
+              header="Dry Clean"
+              description="You need delicately handled, professionally dry-cleaned clothes, on handy hangers? Now, your premium wear does deserve that"
               rootClassName="card6root-class-name7"
               className="form-component4"
             ></Card6>
@@ -199,13 +206,13 @@ const Form = (props) => {
                     src="/Icons/apple-200w.png"
                     className="form-icon1"
                   />
-                  <span className="form-text2">Download for iOS</span>
+                  <span className="form-text11">Download for iOS</span>
                 </div>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                  href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="form-link2"
+                  className="form-link11"
                 >
                   <div className="form-android button">
                     <img
@@ -213,7 +220,7 @@ const Form = (props) => {
                       src="/Icons/android-200h.png"
                       className="form-icon2"
                     />
-                    <span className="form-text3">Download for Android</span>
+                    <span className="form-text12">Download for Android</span>
                   </div>
                 </a>
               </div>
@@ -232,11 +239,11 @@ const Form = (props) => {
                 <header className="form-main2">
                   <div className="form-header4">
                     <img
-                      alt="image"
+                      alt="Dry Clean"
                       src="/external/logo-1200w.png"
                       className="form-branding"
                     />
-                    <span className="form-text4">
+                    <span className="form-text13">
                       Make your everyday laundry easy
                     </span>
                   </div>
@@ -245,7 +252,7 @@ const Form = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="form-link3"
+                      className="form-link12"
                     >
                       <img
                         alt="image"
@@ -257,7 +264,7 @@ const Form = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="form-link4"
+                      className="form-link13"
                     >
                       <img
                         alt="image"
@@ -269,7 +276,7 @@ const Form = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="form-link5"
+                      className="form-link14"
                     >
                       <img
                         alt="image"
@@ -280,18 +287,91 @@ const Form = (props) => {
                   </div>
                 </header>
                 <header className="form-categories">
-                  <div className="form-category">
+                  <div className="form-category1">
                     <div className="form-header5">
                       <span className="footer-header">Company</span>
                     </div>
-                    <div className="form-links">
-                      <span className="footer-link">About</span>
-                      <a href="#home" className="form-text7 footer-link">
+                    <div className="form-links1">
+                      <Link href="/aboutus">
+                      <a className="footer-link">About</a>
+                      </Link>
+                      <Link href="/">
+                      <a className="form-text16 footer-link">
                         Home
                       </a>
-                      <span className="form-text8 footer-link">FAQs</span>
+                      </Link>
+                      <Link href="/">
+                      <a href="#Faq" className="form-text17 footer-link">
+                        FAQs
+                      </a>
+                      </Link>
                       <Link href="/termsand-conditions">
-                        <a className="form-link6 footer-link">Terms</a>
+                        <a className="form-link15 footer-link">
+                          <span>Terms</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="form-category2">
+                    <div className="form-header6">
+                      <span className="footer-header">Services</span>
+                    </div>
+                    <div className="form-links2">
+                      <Link href="/wash-fold">
+                        <a className="form-link16 footer-link">
+                          Wash &amp; Fold
+                        </a>
+                      </Link>
+                      <Link href="/wash-iron">
+                        <a className="form-link17 footer-link">
+                          Wash &amp; Iron
+                        </a>
+                      </Link>
+                      <Link href="/steam-iron">
+                        <a className="form-link18 footer-link">Steam Iron</a>
+                      </Link>
+                      <Link href="/dry-clean">
+                        <a className="form-link19 footer-link">
+                          <span>Dry Clean</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="form-category3">
+                    <div className="form-header7">
+                      <span className="footer-header">Get in touch</span>
+                    </div>
+                    <div className="form-links3">
+                      <span className="footer-link">
+                        <span>Email : jatindua2001@gmail.com</span>
+                        <br></br>
+                        <span>Contact: 7428160047</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="form-category4">
+                    <div className="form-header8">
+                      <span className="footer-header">About Us</span>
+                    </div>
+                    <div className="form-links4">
+                      <Link href="/aboutus">
+                      <span className="form-text35 footer-link">
+                        <span>
+                          We at Rinsee are dedicated to saving time, effort, and
+                          precious resources for all our delighted customers who
+                          seek the best laundry service. With exciting ideas
+                          that have been spinning in our heads, we are thrilled
+                          to introduce you to our compelling and innovative
+                          services, including the convenient wash and fold
+                          laundry service near me, designed to meet your needs
+                          effortlessly. READ MORE.......
+                        </span>
+                        
+                        <br></br>
+                      </span>
                       </Link>
                     </div>
                   </div>

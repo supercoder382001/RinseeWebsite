@@ -18,6 +18,7 @@ const WashFold = (props) => {
           <meta property="og:title" content="Affordable Wash & Fold Laundry Service in Delhi | Rinsee" />
           <meta name="description" content="Are you searching for an affordable wash and fold laundry service in Delhi? Look no further than Rinsee! We provide professional laundry services with convenient doorstep pickup and delivery. Enjoy our fast, same-day service that ensures your clothes come back clean, fresh, and neatly folded. Experience hassle-free laundry solutions with the top service in Delhi."/>
           <meta name="keywords" content="wash and fold laundry service Delhi, laundry service near me, wash and fold near me, doorstep laundry service, wash and fold laundry near me, wash and fold, best laundry service Delhi, same day laundry service, laundry delivery service, fluff and fold laundry near me"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
           imageAlt="/Icons/hamburger-200h.png"
@@ -1309,9 +1310,11 @@ const WashFold = (props) => {
                       <Link href="/aboutus">
                         <a className="wash-fold-link16 footer-link">About</a>
                       </Link>
-                      <a href="#home" className="wash-fold-text16 footer-link">
+                      <Link href="/">
+                      <a className="wash-fold-text16 footer-link">
                         Home
                       </a>
+                      </Link>
                       <a href="#faq" className="wash-fold-text17 footer-link">
                         FAQs
                       </a>

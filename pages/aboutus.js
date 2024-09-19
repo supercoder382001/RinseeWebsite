@@ -11,8 +11,9 @@ const Aboutus = (props) => {
     <>
       <div className="aboutus-container1">
         <Head>
-          <title>aboutus - Rinsee</title>
+          <title>About Us</title>
           <meta property="og:title" content="aboutus - Rinsee" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
           brandingLogo="/external/logo-1200w.png"

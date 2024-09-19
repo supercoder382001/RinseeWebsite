@@ -13,6 +13,7 @@ const TermsandConditions = (props) => {
         <Head>
           <title>TermsandConditions - Rinsee</title>
           <meta property="og:title" content="TermsandConditions - Rinsee" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
           brandingLogo="/external/logo-1200w.png"
@@ -633,19 +634,21 @@ const TermsandConditions = (props) => {
                       <span className="footer-header">Company</span>
                     </div>
                     <div className="termsand-conditions-links1">
-                      <span className="footer-link">About</span>
-                      <a
-                        href="#home"
-                        className="termsand-conditions-text296 footer-link"
-                      >
+                      <Link href="/aboutus">
+                      <a className="footer-link">About</a>
+                      </Link>
+                      <Link href="/">
+                      <a className="termsand-conditions-text296 footer-link">
                         Home
                       </a>
+                      </Link>
+                      <Link href="/">
                       <a
-                        href="#Faq"
                         className="termsand-conditions-text297 footer-link"
                       >
                         FAQs
                       </a>
+                      </Link>
                       <Link href="/termsand-conditions">
                         <a className="termsand-conditions-link5 footer-link">
                           <span>Terms</span>
