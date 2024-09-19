@@ -4,109 +4,112 @@ import Link from 'next/link'
 import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
-const Navbar = (props) => {
+const NavbarP = (props) => {
   return (
     <>
-      <header className={`navbar-navbar ${props.rootClassName} `}>
+      <header className={`navbar-p-navbar ${props.rootClassName} `}>
         <img
           alt="Rinsee"
           src={props.brandingLogo}
-          className="navbar-branding-logo"
+          className="navbar-p-branding-logo"
         />
-        <div className="navbar-nav-content">
-          <div className="navbar-container1">
-            <div className="navbar-nav-links1">
-              <a href="#features" className="navbar-link10 nav-link">
-                Features
-              </a>
-              <a href="#WhyUs" className="navbar-link11 nav-link">
-                Why us
-              </a>
-              <Link href="/prices">
-                <a className="navbar-link13 nav-link">Prices</a>
+        <div className="navbar-p-nav-content">
+          <div className="navbar-p-container1">
+            <div className="navbar-p-nav-links1">
+              <Link href="/">
+                <a className="navbar-p-link11 nav-link">Home</a>
               </Link>
-              <span className="nav-link">Contact</span>
+              <Link href="/prices">
+                <a className="navbar-p-link13 nav-link">Prices</a>
+              </Link>
+              <Link href="/aboutus">
+                <a className="navbar-p-link15 nav-link">Contact</a>
+              </Link>
               <div
                 data-thq="thq-dropdown"
-                className="navbar-thq-dropdown1 list-item"
+                className="navbar-p-thq-dropdown1 list-item"
               >
                 <div
                   data-thq="thq-dropdown-toggle"
-                  className="navbar-dropdown-toggle10"
+                  className="navbar-p-dropdown-toggle10"
                 >
-                  <span className="navbar-text10">
-                    <span className="navbar-text11">Services</span>
+                  <span className="navbar-p-text10">
+                    <span className="navbar-p-text11">Services</span>
                     <br></br>
                   </span>
                   <div
                     data-thq="thq-dropdown-arrow"
-                    className="navbar-dropdown-arrow1"
+                    className="navbar-p-dropdown-arrow1"
                   >
-                    <svg viewBox="0 0 1024 1024" className="navbar-icon1">
+                    <svg viewBox="0 0 1024 1024" className="navbar-p-icon1">
                       <path d="M426 726v-428l214 214z"></path>
                     </svg>
                   </div>
                 </div>
                 <ul
                   data-thq="thq-dropdown-list"
-                  className="navbar-dropdown-list1"
+                  className="navbar-p-dropdown-list1"
                 >
                   <li
                     data-thq="thq-dropdown"
-                    className="navbar-dropdown1 list-item"
+                    className="navbar-p-dropdown1 list-item"
                   >
                     <Link href="/wash-fold">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="navbar-dropdown-toggle11"
+                          className="navbar-p-dropdown-toggle11"
                         >
-                          <span className="navbar-text13">Wash &amp; Fold</span>
+                          <span className="navbar-p-text13">
+                            Wash &amp; Fold
+                          </span>
                         </div>
                       </a>
                     </Link>
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="navbar-dropdown2 list-item"
+                    className="navbar-p-dropdown2 list-item"
                   >
                     <Link href="/wash-iron">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="navbar-dropdown-toggle12"
+                          className="navbar-p-dropdown-toggle12"
                         >
-                          <span className="navbar-text14">Wash &amp; Iron</span>
+                          <span className="navbar-p-text14">
+                            Wash &amp; Iron
+                          </span>
                         </div>
                       </a>
                     </Link>
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="navbar-dropdown3 list-item"
+                    className="navbar-p-dropdown3 list-item"
                   >
                     <Link href="/dry-clean">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="navbar-dropdown-toggle13"
+                          className="navbar-p-dropdown-toggle13"
                         >
-                          <span className="navbar-text15">Dry Cleaning</span>
+                          <span className="navbar-p-text15">Dry Cleaning</span>
                         </div>
                       </a>
                     </Link>
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="navbar-dropdown4 list-item"
+                    className="navbar-p-dropdown4 list-item"
                   >
                     <Link href="/steam-iron">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="navbar-dropdown-toggle14"
+                          className="navbar-p-dropdown-toggle14"
                         >
-                          <span className="navbar-text16">Steam Iron</span>
+                          <span className="navbar-p-text16">Steam Iron</span>
                         </div>
                       </a>
                     </Link>
@@ -115,122 +118,121 @@ const Navbar = (props) => {
               </div>
             </div>
           </div>
-          <div className="get-started navbar-get-started1">
-            <span className="navbar-text17">Get started</span>
+          <div className="get-started navbar-p-get-started1">
+            <span className="navbar-p-text17">Get started</span>
           </div>
-          <div id="open-mobile-menu" className="navbar-hamburger get-started">
+          <div id="open-mobile-menu" className="navbar-p-hamburger get-started">
             <img
               alt={props.imageAlt}
               src={props.imageSrc}
-              className="navbar-image1"
+              className="navbar-p-image1"
             />
           </div>
         </div>
-        <div id="mobile-menu" className="navbar-mobile-menu">
-          <div className="navbar-branding">
+        <div id="mobile-menu" className="navbar-p-mobile-menu">
+          <div className="navbar-p-branding">
             <img
               alt="Rinsee"
               src={props.brandingLogo}
-              className="navbar-image2"
+              className="navbar-p-image2"
             />
-            <div id="close-mobile-menu" className="navbar-container2">
-              <svg viewBox="0 0 1024 1024" className="navbar-icon3">
+            <div id="close-mobile-menu" className="navbar-p-container2">
+              <svg viewBox="0 0 1024 1024" className="navbar-p-icon3">
                 <path d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
               </svg>
             </div>
           </div>
-          <div className="navbar-nav-links2">
-            <a href="#features" className="navbar-link19 nav-link">
-              Features
-            </a>
-            <a href="#WhyUs" className="navbar-link20 nav-link">
-              Why us
-            </a>
-            <Link href="/prices">
-              <a className="navbar-link22 nav-link">Prices</a>
+          <div className="navbar-p-nav-links2">
+            <Link href="/">
+              <a className="navbar-p-link21 nav-link">Home</a>
             </Link>
-            <span className="nav-link">Contact</span>
+            <Link href="/prices">
+              <a className="navbar-p-link23 nav-link">Prices</a>
+            </Link>
+            <Link href="/aboutus">
+              <a className="navbar-p-link25 nav-link">About Us</a>
+            </Link>
             <div
               data-thq="thq-dropdown"
-              className="navbar-thq-dropdown2 list-item"
+              className="navbar-p-thq-dropdown2 list-item"
             >
               <div
                 data-thq="thq-dropdown-toggle"
-                className="navbar-dropdown-toggle15"
+                className="navbar-p-dropdown-toggle15"
               >
-                <span className="navbar-text18">
+                <span className="navbar-p-text18">
                   <span>Services</span>
                   <br></br>
                 </span>
                 <div
                   data-thq="thq-dropdown-arrow"
-                  className="navbar-dropdown-arrow2"
+                  className="navbar-p-dropdown-arrow2"
                 >
-                  <svg viewBox="0 0 1024 1024" className="navbar-icon5">
+                  <svg viewBox="0 0 1024 1024" className="navbar-p-icon5">
                     <path d="M426 726v-428l214 214z"></path>
                   </svg>
                 </div>
               </div>
               <ul
                 data-thq="thq-dropdown-list"
-                className="navbar-dropdown-list2"
+                className="navbar-p-dropdown-list2"
               >
                 <li
                   data-thq="thq-dropdown"
-                  className="navbar-dropdown5 list-item"
+                  className="navbar-p-dropdown5 list-item"
                 >
                   <Link href="/wash-fold">
                     <a>
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="navbar-dropdown-toggle16"
+                        className="navbar-p-dropdown-toggle16"
                       >
-                        <span className="navbar-text21">Wash &amp; Fold</span>
+                        <span className="navbar-p-text21">Wash &amp; Fold</span>
                       </div>
                     </a>
                   </Link>
                 </li>
                 <li
                   data-thq="thq-dropdown"
-                  className="navbar-dropdown6 list-item"
+                  className="navbar-p-dropdown6 list-item"
                 >
                   <Link href="/wash-iron">
                     <a>
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="navbar-dropdown-toggle17"
+                        className="navbar-p-dropdown-toggle17"
                       >
-                        <span className="navbar-text22">Wash &amp; Iron</span>
+                        <span className="navbar-p-text22">Wash &amp; Iron</span>
                       </div>
                     </a>
                   </Link>
                 </li>
                 <li
                   data-thq="thq-dropdown"
-                  className="navbar-dropdown7 list-item"
+                  className="navbar-p-dropdown7 list-item"
                 >
                   <Link href="/dry-clean">
                     <a>
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="navbar-dropdown-toggle18"
+                        className="navbar-p-dropdown-toggle18"
                       >
-                        <span className="navbar-text23">Dry Cleaning</span>
+                        <span className="navbar-p-text23">Dry Cleaning</span>
                       </div>
                     </a>
                   </Link>
                 </li>
                 <li
                   data-thq="thq-dropdown"
-                  className="navbar-dropdown8 list-item"
+                  className="navbar-p-dropdown8 list-item"
                 >
                   <Link href="/steam-iron">
                     <a>
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="navbar-dropdown-toggle19"
+                        className="navbar-p-dropdown-toggle19"
                       >
-                        <span className="navbar-text24">Steam Iron</span>
+                        <span className="navbar-p-text24">Steam Iron</span>
                       </div>
                     </a>
                   </Link>
@@ -239,11 +241,11 @@ const Navbar = (props) => {
             </div>
           </div>
           <div className="get-started">
-            <span className="navbar-text25">Get started</span>
+            <span className="navbar-p-text25">Get started</span>
           </div>
         </div>
         <div>
-          <div className="navbar-container4">
+          <div className="navbar-p-container4">
             <Script
               html={`<script defer>
     /*
@@ -295,7 +297,7 @@ listenForUrlChangesMobileMenu()
       </header>
       <style jsx>
         {`
-          .navbar-navbar {
+          .navbar-p-navbar {
             width: 85%;
             display: flex;
             opacity: 0.95;
@@ -312,12 +314,12 @@ listenForUrlChangesMobileMenu()
             padding-bottom: 19px;
             background-color: #6d6767;
           }
-          .navbar-branding-logo {
+          .navbar-p-branding-logo {
             width: var(--dl-size-size-medium);
             height: var(--dl-size-size-medium);
             box-sizing: inherit;
           }
-          .navbar-nav-content {
+          .navbar-p-nav-content {
             gap: var(--dl-space-space-threeunits);
             display: flex;
             align-items: center;
@@ -325,7 +327,7 @@ listenForUrlChangesMobileMenu()
             flex-direction: row;
             justify-content: flex-start;
           }
-          .navbar-container1 {
+          .navbar-p-container1 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -333,28 +335,28 @@ listenForUrlChangesMobileMenu()
             align-items: flex-start;
             flex-direction: column;
           }
-          .navbar-nav-links1 {
+          .navbar-p-nav-links1 {
             gap: var(--dl-space-space-threeunits);
             display: flex;
             align-items: center;
             border-color: transparent;
           }
-          .navbar-link10 {
+          .navbar-p-link11 {
             text-decoration: none;
           }
-          .navbar-link11 {
+          .navbar-p-link13 {
             text-decoration: none;
           }
-          .navbar-link13 {
+          .navbar-p-link15 {
             text-decoration: none;
           }
-          .navbar-thq-dropdown1 {
+          .navbar-p-thq-dropdown1 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle10 {
+          .navbar-p-dropdown-toggle10 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -366,24 +368,24 @@ listenForUrlChangesMobileMenu()
             padding-right: 0px;
             padding-bottom: 0px;
           }
-          .navbar-text10 {
+          .navbar-p-text10 {
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-text11 {
+          .navbar-p-text11 {
             color: #ffffff;
           }
-          .navbar-dropdown-arrow1 {
+          .navbar-p-dropdown-arrow1 {
             transition: 0.3s;
           }
-          .navbar-icon1 {
+          .navbar-p-icon1 {
             fill: #ffffff;
             width: 18px;
             height: 18px;
             transition: 0.3s;
           }
-          .navbar-dropdown-list1 {
+          .navbar-p-dropdown-list1 {
             left: 0%;
             width: max-content;
             display: none;
@@ -400,13 +402,13 @@ listenForUrlChangesMobileMenu()
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
-          .navbar-dropdown1 {
+          .navbar-p-dropdown1 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle11 {
+          .navbar-p-dropdown-toggle11 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -420,23 +422,23 @@ listenForUrlChangesMobileMenu()
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-dropdown-toggle11:hover {
+          .navbar-p-dropdown-toggle11:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .navbar-text13 {
+          .navbar-p-text13 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-dropdown2 {
+          .navbar-p-dropdown2 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle12 {
+          .navbar-p-dropdown-toggle12 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -450,23 +452,23 @@ listenForUrlChangesMobileMenu()
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-dropdown-toggle12:hover {
+          .navbar-p-dropdown-toggle12:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .navbar-text14 {
+          .navbar-p-text14 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-dropdown3 {
+          .navbar-p-dropdown3 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle13 {
+          .navbar-p-dropdown-toggle13 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -480,23 +482,23 @@ listenForUrlChangesMobileMenu()
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-dropdown-toggle13:hover {
+          .navbar-p-dropdown-toggle13:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .navbar-text15 {
+          .navbar-p-text15 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-dropdown4 {
+          .navbar-p-dropdown4 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle14 {
+          .navbar-p-dropdown-toggle14 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -510,17 +512,17 @@ listenForUrlChangesMobileMenu()
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-dropdown-toggle14:hover {
+          .navbar-p-dropdown-toggle14:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .navbar-text16 {
+          .navbar-p-text16 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-text17 {
+          .navbar-p-text17 {
             color: rgba(255, 255, 255, 1);
             align-self: auto;
             font-style: Medium;
@@ -530,14 +532,14 @@ listenForUrlChangesMobileMenu()
             font-stretch: normal;
             text-decoration: none;
           }
-          .navbar-hamburger {
+          .navbar-p-hamburger {
             display: none;
           }
-          .navbar-image1 {
+          .navbar-p-image1 {
             width: 100px;
             object-fit: cover;
           }
-          .navbar-mobile-menu {
+          .navbar-p-mobile-menu {
             gap: var(--dl-space-space-twounits);
             top: 0;
             left: 0;
@@ -553,49 +555,49 @@ listenForUrlChangesMobileMenu()
             flex-direction: column;
             background-color: #fff;
           }
-          .navbar-branding {
+          .navbar-p-branding {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .navbar-image2 {
+          .navbar-p-image2 {
             width: 100px;
             // filter: brightness(0) saturate(100%);
             object-fit: cover;
           }
-          .navbar-container2 {
+          .navbar-p-container2 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .navbar-icon3 {
+          .navbar-p-icon3 {
             width: 24px;
             height: 24px;
           }
-          .navbar-nav-links2 {
+          .navbar-p-nav-links2 {
             gap: var(--dl-space-space-unit);
             color: var(--dl-color-gray-black);
             display: flex;
             flex-direction: column;
           }
-          .navbar-link19 {
+          .navbar-p-link21 {
             text-decoration: none;
           }
-          .navbar-link20 {
+          .navbar-p-link23 {
             text-decoration: none;
           }
-          .navbar-link22 {
+          .navbar-p-link25 {
             text-decoration: none;
           }
-          .navbar-thq-dropdown2 {
+          .navbar-p-thq-dropdown2 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle15 {
+          .navbar-p-dropdown-toggle15 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -607,21 +609,21 @@ listenForUrlChangesMobileMenu()
             padding-right: 0px;
             padding-bottom: 0px;
           }
-          .navbar-text18 {
+          .navbar-p-text18 {
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-dropdown-arrow2 {
+          .navbar-p-dropdown-arrow2 {
             transition: 0.3s;
           }
-          .navbar-icon5 {
+          .navbar-p-icon5 {
             fill: #ffffff;
             width: 18px;
             height: 18px;
             transition: 0.3s;
           }
-          .navbar-dropdown-list2 {
+          .navbar-p-dropdown-list2 {
             left: 0%;
             width: max-content;
             display: none;
@@ -638,13 +640,13 @@ listenForUrlChangesMobileMenu()
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
-          .navbar-dropdown5 {
+          .navbar-p-dropdown5 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle16 {
+          .navbar-p-dropdown-toggle16 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -658,23 +660,23 @@ listenForUrlChangesMobileMenu()
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-dropdown-toggle16:hover {
+          .navbar-p-dropdown-toggle16:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .navbar-text21 {
+          .navbar-p-text21 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-dropdown6 {
+          .navbar-p-dropdown6 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle17 {
+          .navbar-p-dropdown-toggle17 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -688,23 +690,23 @@ listenForUrlChangesMobileMenu()
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-dropdown-toggle17:hover {
+          .navbar-p-dropdown-toggle17:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .navbar-text22 {
+          .navbar-p-text22 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-dropdown7 {
+          .navbar-p-dropdown7 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle18 {
+          .navbar-p-dropdown-toggle18 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -718,23 +720,23 @@ listenForUrlChangesMobileMenu()
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-dropdown-toggle18:hover {
+          .navbar-p-dropdown-toggle18:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .navbar-text23 {
+          .navbar-p-text23 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-dropdown8 {
+          .navbar-p-dropdown8 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle19 {
+          .navbar-p-dropdown-toggle19 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -748,17 +750,17 @@ listenForUrlChangesMobileMenu()
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-dropdown-toggle19:hover {
+          .navbar-p-dropdown-toggle19:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .navbar-text24 {
+          .navbar-p-text24 {
             font-size: 14px;
             font-style: normal;
             font-weight: 500;
           }
-          .navbar-text25 {
+          .navbar-p-text25 {
             color: rgba(255, 255, 255, 1);
             align-self: auto;
             font-style: Medium;
@@ -768,90 +770,99 @@ listenForUrlChangesMobileMenu()
             font-stretch: normal;
             text-decoration: none;
           }
-          .navbar-container4 {
+          .navbar-p-container4 {
             display: contents;
           }
-          .navbarroot-class-name {
-            width: 95%;
+          .navbar-proot-class-name {
+            width: 90%;
           }
-          .navbarroot-class-name1 {
-            width: 95%;
+          .navbar-proot-class-name1 {
+            width: 90%;
           }
-          .navbarroot-class-name4 {
-            width: 95%;
+          .navbar-proot-class-name2 {
+            width: 90%;
           }
-          .navbarroot-class-name5 {
-            width: 95%;
+          .navbar-proot-class-name3 {
+            width: 90%;
+          }
+          .navbar-proot-class-name4 {
+            width: 90%;
+          }
+          .navbar-proot-class-name5 {
+            width: 90%;
+          }
+          .navbar-proot-class-name6 {
+            width: 90%;
           }
           @media (max-width: 991px) {
-            .navbar-branding-logo {
+            .navbar-p-branding-logo {
               width: var(--dl-size-size-medium);
               height: var(--dl-size-size-medium);
             }
+            .navbar-p-nav-content {
+              gap: var(--dl-space-space-halfunit);
+            }
           }
           @media (max-width: 767px) {
-            .navbar-navbar {
+            .navbar-p-navbar {
               padding-bottom: var(--dl-space-space-halfunit);
             }
-            .navbar-branding-logo {
+            .navbar-p-branding-logo {
               width: 80px;
             }
-            .navbar-nav-links1 {
+            .navbar-p-nav-links1 {
               display: none;
             }
-            .navbar-get-started1 {
+            .navbar-p-dropdown-list1 {
               display: none;
             }
-            .navbar-hamburger {
+            .navbar-p-get-started1 {
+              display: none;
+            }
+            .navbar-p-hamburger {
               display: flex;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .navbar-image1 {
+            .navbar-p-image1 {
               width: 16px;
               height: 14px;
             }
-            .navbar-mobile-menu {
+            .navbar-p-mobile-menu {
               z-index: 100;
             }
-            .navbar-branding {
+            .navbar-p-branding {
               width: 100%;
             }
-            .navbar-nav-links2 {
+            .navbar-p-nav-links2 {
               margin-top: var(--dl-space-space-twounits);
               align-items: flex-start;
               margin-bottom: var(--dl-space-space-twounits);
               justify-content: center;
             }
+            .navbar-p-link21 {
+              text-decoration: none;
+            }
+            .navbar-p-dropdown-list2 {
+              display: none;
+            }
           }
           @media (max-width: 479px) {
-            .navbar-navbar {
+            .navbar-p-navbar {
               width: 95%;
               height: 107px;
               padding-top: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .navbar-image2 {
+            .navbar-p-image2 {
               width: 80px;
               height: var(--dl-size-size-medium);
             }
-            .navbar-text18 {
+            .navbar-p-text18 {
               color: #101010;
             }
-            .navbar-icon5 {
+            .navbar-p-icon5 {
               fill: #080808;
-            }
-            .navbarroot-class-name {
-              height: auto;
-            }
-            .navbarroot-class-name1 {
-              height: auto;
-            }
-            .navbarroot-class-name4 {
-              height: auto;
-            }
-            .navbarroot-class-name5 {
-              height: auto;
             }
           }
         `}
@@ -860,18 +871,21 @@ listenForUrlChangesMobileMenu()
   )
 }
 
-Navbar.defaultProps = {
+NavbarP.defaultProps = {
+  brandingLogo1:
+    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/08e9141c-e9e9-4d51-994d-22f260b21c68/0f4ac702-51a5-4a68-8182-06e3f427edb8?org_if_sml=14251',
   imageAlt: 'image',
   imageSrc: '/Icons/hamburger-200h.png',
   rootClassName: '',
   brandingLogo: '/Branding/planical7012-wzf.svg',
 }
 
-Navbar.propTypes = {
+NavbarP.propTypes = {
+  brandingLogo1: PropTypes.string,
   imageAlt: PropTypes.string,
   imageSrc: PropTypes.string,
   rootClassName: PropTypes.string,
   brandingLogo: PropTypes.string,
 }
 
-export default Navbar
+export default NavbarP

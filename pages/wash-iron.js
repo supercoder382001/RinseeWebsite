@@ -4,30 +4,29 @@ import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
 
-import Navbar from '../components/navbar'
+import NavbarP from '../components/navbar-p'
 import Card4 from '../components/card4'
 import Mark from '../components/mark'
-import FAQ1 from '../components/faq1'
+import FAQ4 from '../components/faq4'
 
 const WashIron = (props) => {
   return (
     <>
       <div className="wash-iron-container1">
         <Head>
-          <title>WashIron - Rinsee</title>
-          <meta property="og:title" content="WashIron - Rinsee" />
+        <meta property="og:title" content="Professional Wash and Iron Service in Delhi | Rinsee" />
+          <meta name="description" content="Rinsee offers an exceptional wash and iron service in Delhi, complete with easy doorstep pickup and delivery. We guarantee that your clothes are impeccably cleaned, expertly ironed, and ready to wear. Experience quick, budget-friendly service with same-day options, crafted to save you time while providing professional laundry care."/>
+          <meta name="keywords" content="wash and iron service Delhi, laundry with ironing near me, doorstep wash and iron service, wash and iron near me, washing and ironing service near me, professional wash and iron Delhi, same day wash and iron"/>
         </Head>
-        <Navbar
-          imageAlt="/Icons/hamburger-200h.png"
-          imageSrc="/Icons/hamburger-200h.png"
+        <NavbarP
           brandingLogo="/external/logo-200w.png"
-          rootClassName="navbarroot-class-name3"
-        ></Navbar>
+          rootClassName="navbar-proot-class-name4"
+        ></NavbarP>
         <section className="wash-iron-section10">
           <div className="wash-iron-hero">
             <div className="wash-iron-content1">
               <main className="wash-iron-main1">
-                <header className="wash-iron-header1">
+                <header className="wash-iron-header10">
                   <h1 className="wash-iron-heading1">
                     Wash &amp; Iron Laundry Service
                   </h1>
@@ -37,10 +36,10 @@ const WashIron = (props) => {
                     href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="wash-iron-link1"
+                    className="wash-iron-link10"
                   >
                     <div className="wash-iron-get-started1 button">
-                      <span className="wash-iron-text1">Download App now</span>
+                      <span className="wash-iron-text10">Download App now</span>
                     </div>
                   </a>
                 </div>
@@ -48,7 +47,7 @@ const WashIron = (props) => {
             </div>
             <div className="wash-iron-image1">
               <img
-                alt="pastedImage"
+                alt="Wash&amp;Iron"
                 src="/external/washandfold-1200w.png"
                 className="wash-iron-pasted-image"
               />
@@ -56,7 +55,7 @@ const WashIron = (props) => {
           </div>
         </section>
         <section className="wash-iron-section11">
-          <header className="wash-iron-header2">
+          <header className="wash-iron-header11">
             <header className="wash-iron-left">
               <h2 className="section-heading wash-iron-heading2">
                 Wash &amp; Iron with RINSEE
@@ -64,10 +63,13 @@ const WashIron = (props) => {
             </header>
             <div className="wash-iron-right">
               <p className="wash-iron-paragraph section-description">
-                You’re dealing with a laundry load that’s far more than mere
-                fabricit’s an intricate collection of personal essentials,
-                nostalgic keepsakes, and daily necessities, all requiring an
-                unparalleled level of care, attention, and meticulousness.
+                You&apos;re managing a laundry load that goes beyond just simple
+                fabric—it&apos;s a complex assortment of personal essentials,
+                cherished keepsakes, and everyday necessities. Each item in this
+                collection demands a unique level of care, attention, and
+                meticulous handling. This process is not just about cleaning;
+                it’s about preserving memories and ensuring that everything is
+                treated with respect.
               </p>
             </div>
           </header>
@@ -77,24 +79,28 @@ const WashIron = (props) => {
             <div className="wash-iron-image2">
               <Card4
                 header="Step 1"
+                imageAlt="Wash&amp;Iron"
                 imageSrc="/external/pickup-300w.png"
                 description="Pickup"
                 rootClassName="card4root-class-name12"
               ></Card4>
               <Card4
                 header="Step 2"
+                imageAlt="DryClean"
                 imageSrc="/external/wash-300w.png"
                 description="Wash &amp; Dry"
                 rootClassName="card4root-class-name13"
               ></Card4>
               <Card4
                 header="Step 3"
+                imageAlt="Steam Iron"
                 imageSrc="/external/fold-300w.png"
                 description="Fold"
                 rootClassName="card4root-class-name14"
               ></Card4>
               <Card4
                 header="Step 4"
+                imageAlt="SteamIron"
                 imageSrc="/external/delivery-300w.png"
                 description="Delivery"
                 rootClassName="card4root-class-name15"
@@ -108,7 +114,7 @@ const WashIron = (props) => {
                   </span>
                 </header>
                 <main className="wash-iron-heading3">
-                  <header className="wash-iron-header3">
+                  <header className="wash-iron-header12">
                     <h2 className="section-heading wash-iron-heading4">
                       Great care, wherever you are
                     </h2>
@@ -122,10 +128,10 @@ const WashIron = (props) => {
                 href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="wash-iron-link2"
+                className="wash-iron-link11"
               >
                 <div className="wash-iron-get-started2 button">
-                  <span className="wash-iron-text2">Get started</span>
+                  <span className="wash-iron-text11">Get started</span>
                 </div>
               </a>
             </div>
@@ -1201,24 +1207,24 @@ const WashIron = (props) => {
                 href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="wash-iron-link3"
+                className="wash-iron-link12"
               >
                 <div className="wash-iron-get-started3 button">
-                  <span className="wash-iron-text3">Get started</span>
+                  <span className="wash-iron-text12">Get started</span>
                 </div>
               </a>
             </div>
           </section>
         </section>
-        <section className="wash-iron-section16">
-          <header className="wash-iron-header4">
+        <section id="faq" className="wash-iron-section16">
+          <header className="wash-iron-header13">
             <span className="section-head">FAQ</span>
             <h2 className="wash-iron-heading5 section-heading">
               Frequently asked questions
             </h2>
           </header>
           <main className="wash-iron-accordion">
-            <FAQ1 rootClassName="faq1root-class-name1"></FAQ1>
+            <FAQ4 fAQ4Id="FAQ4" rootClassName="faq4root-class-name"></FAQ4>
           </main>
         </section>
         <section className="wash-iron-section18">
@@ -1231,7 +1237,7 @@ const WashIron = (props) => {
                   </span>
                 </header>
                 <main className="wash-iron-heading6">
-                  <header className="wash-iron-header5">
+                  <header className="wash-iron-header14">
                     <h2 className="wash-iron-heading7 section-heading">
                       Quality without a doubt, day in, day out.
                     </h2>
@@ -1246,13 +1252,13 @@ const WashIron = (props) => {
             <main className="wash-iron-main-content">
               <div className="wash-iron-content6">
                 <header className="wash-iron-main5">
-                  <div className="wash-iron-header6">
+                  <div className="wash-iron-header15">
                     <img
-                      alt="image"
+                      alt="Dry Clean"
                       src="/external/logo-200w.png"
                       className="wash-iron-branding"
                     />
-                    <span className="wash-iron-text4">
+                    <span className="wash-iron-text13">
                       Make your everyday laundry easy
                     </span>
                   </div>
@@ -1261,7 +1267,7 @@ const WashIron = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="wash-iron-link4"
+                      className="wash-iron-link13"
                     >
                       <img
                         alt="image"
@@ -1273,7 +1279,7 @@ const WashIron = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="wash-iron-link5"
+                      className="wash-iron-link14"
                     >
                       <img
                         alt="image"
@@ -1285,7 +1291,7 @@ const WashIron = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="wash-iron-link6"
+                      className="wash-iron-link15"
                     >
                       <img
                         alt="image"
@@ -1296,18 +1302,88 @@ const WashIron = (props) => {
                   </div>
                 </header>
                 <header className="wash-iron-categories">
-                  <div className="wash-iron-category">
-                    <div className="wash-iron-header7">
+                  <div className="wash-iron-category1">
+                    <div className="wash-iron-header16">
                       <span className="footer-header">Company</span>
                     </div>
-                    <div className="wash-iron-links">
-                      <span className="footer-link">About</span>
-                      <Link href="/">
-                        <a className="wash-iron-link7 footer-link">Home</a>
+                    <div className="wash-iron-links1">
+                      <Link href="/aboutus">
+                        <a className="wash-iron-link16 footer-link">About</a>
                       </Link>
-                      <Link href="/">
-                        <a className="wash-iron-link8 footer-link">Terms</a>
+                      <a href="#home" className="wash-iron-text16 footer-link">
+                        Home
+                      </a>
+                      <a href="#faq" className="wash-iron-text17 footer-link">
+                        FAQs
+                      </a>
+                      <Link href="/termsand-conditions">
+                        <a className="wash-iron-link17 footer-link">
+                          <span>Terms</span>
+                          <br></br>
+                        </a>
                       </Link>
+                    </div>
+                  </div>
+                  <div className="wash-iron-category2">
+                    <div className="wash-iron-header17">
+                      <span className="footer-header">Services</span>
+                    </div>
+                    <div className="wash-iron-links2">
+                      <Link href="/wash-fold">
+                        <a className="wash-iron-link18 footer-link">
+                          Wash &amp; Fold
+                        </a>
+                      </Link>
+                      <Link href="/wash-iron">
+                        <a className="wash-iron-link19 footer-link">
+                          Wash &amp; Iron
+                        </a>
+                      </Link>
+                      <Link href="/steam-iron">
+                        <a className="wash-iron-link20 footer-link">
+                          Steam Iron
+                        </a>
+                      </Link>
+                      <Link href="/dry-clean">
+                        <a className="wash-iron-link21 footer-link">
+                          <span>Dry Clean</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="wash-iron-category3">
+                    <div className="wash-iron-header18">
+                      <span className="footer-header">Get in touch</span>
+                    </div>
+                    <div className="wash-iron-links3">
+                      <span className="footer-link">
+                        <span>Email : jatindua2001@gmail.com</span>
+                        <br></br>
+                        <span>Contact: 7428160047</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="wash-iron-category4">
+                    <div className="wash-iron-header19">
+                      <span className="footer-header">About Us</span>
+                    </div>
+                    <div className="wash-iron-links4">
+                      <span className="wash-iron-text35 footer-link">
+                        <span>
+                          We at Rinsee are dedicated to saving time, effort, and
+                          precious resources for all our delighted customers who
+                          seek the best laundry service. With exciting ideas
+                          that have been spinning in our heads, we are thrilled
+                          to introduce you to our compelling and innovative
+                          services, including the convenient wash and fold
+                          laundry service near me, designed to meet your needs
+                          effortlessly.
+                        </span>
+                        <span>Readmore</span>
+                        <br></br>
+                      </span>
                     </div>
                   </div>
                 </header>
@@ -1372,7 +1448,7 @@ const WashIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-iron-header1 {
+          .wash-iron-header10 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
@@ -1391,7 +1467,7 @@ const WashIron = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .wash-iron-link1 {
+          .wash-iron-link10 {
             display: contents;
           }
           .wash-iron-get-started1 {
@@ -1399,7 +1475,7 @@ const WashIron = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .wash-iron-text1 {
+          .wash-iron-text10 {
             color: rgb(12, 16, 12);
             font-size: 16px;
             font-style: normal;
@@ -1437,7 +1513,7 @@ const WashIron = (props) => {
             justify-content: center;
             border-top-width: 1px;
           }
-          .wash-iron-header2 {
+          .wash-iron-header11 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -1540,7 +1616,7 @@ const WashIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-iron-header3 {
+          .wash-iron-header12 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1556,7 +1632,7 @@ const WashIron = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .wash-iron-link2 {
+          .wash-iron-link11 {
             display: contents;
           }
           .wash-iron-get-started2 {
@@ -1564,7 +1640,7 @@ const WashIron = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .wash-iron-text2 {
+          .wash-iron-text11 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -1630,7 +1706,7 @@ const WashIron = (props) => {
             color: rgb(198, 255, 75);
             font-size: 35px;
           }
-          .wash-iron-link3 {
+          .wash-iron-link12 {
             display: contents;
           }
           .wash-iron-get-started3 {
@@ -1638,7 +1714,7 @@ const WashIron = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .wash-iron-text3 {
+          .wash-iron-text12 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -1661,7 +1737,7 @@ const WashIron = (props) => {
             justify-content: center;
             border-top-width: 1px;
           }
-          .wash-iron-header4 {
+          .wash-iron-header13 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -1744,7 +1820,7 @@ const WashIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-iron-header5 {
+          .wash-iron-header14 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1760,11 +1836,11 @@ const WashIron = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
-            padding-top: 27px;
+            padding-top: 120px;
             padding-left: var(--dl-space-space-oneandhalfunits);
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
           .wash-iron-content5 {
@@ -1785,6 +1861,7 @@ const WashIron = (props) => {
             justify-content: flex-start;
           }
           .wash-iron-content6 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1798,8 +1875,9 @@ const WashIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-iron-header6 {
+          .wash-iron-header15 {
             gap: var(--dl-space-space-unit);
+            width: 255px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -1809,7 +1887,7 @@ const WashIron = (props) => {
             width: 120px;
             object-fit: cover;
           }
-          .wash-iron-text4 {
+          .wash-iron-text13 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -1825,26 +1903,24 @@ const WashIron = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .wash-iron-link4 {
+          .wash-iron-link13 {
             display: contents;
           }
-          .wash-iron-link5 {
+          .wash-iron-link14 {
             display: contents;
           }
-          .wash-iron-link6 {
+          .wash-iron-link15 {
             display: contents;
           }
           .wash-iron-categories {
-            gap: var(--dl-space-space-fourunits);
-            flex: 0;
-            width: var(--dl-size-size-xxlarge);
+            gap: var(--dl-space-space-unit);
             height: auto;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .wash-iron-category {
+          .wash-iron-category1 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1853,25 +1929,116 @@ const WashIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-iron-header7 {
+          .wash-iron-header16 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: center;
           }
-          .wash-iron-links {
+          .wash-iron-links1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .wash-iron-link7 {
+          .wash-iron-link16 {
             text-decoration: none;
           }
-          .wash-iron-link8 {
+          .wash-iron-text16 {
             text-decoration: none;
+          }
+          .wash-iron-text17 {
+            text-decoration: none;
+          }
+          .wash-iron-link17 {
+            text-decoration: none;
+          }
+          .wash-iron-category2 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: 175px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-iron-header17 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-iron-links2 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .wash-iron-link18 {
+            text-decoration: none;
+          }
+          .wash-iron-link19 {
+            text-decoration: none;
+          }
+          .wash-iron-link20 {
+            text-decoration: none;
+          }
+          .wash-iron-link21 {
+            text-decoration: none;
+          }
+          .wash-iron-category3 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: auto;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-iron-header18 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-iron-links3 {
+            gap: var(--dl-space-space-unit);
+            width: 240px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .wash-iron-category4 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            max-width: 350px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-iron-header19 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-iron-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .wash-iron-text35 {
+            text-align: justify;
           }
           .wash-iron-copyright1 {
             gap: var(--dl-space-space-fiveunits);
@@ -1949,7 +2116,7 @@ const WashIron = (props) => {
               padding-top: 100px;
               padding-bottom: 100px;
             }
-            .wash-iron-header2 {
+            .wash-iron-header11 {
               gap: var(--dl-space-space-unit);
               align-items: flex-start;
               flex-direction: column;
@@ -1979,6 +2146,20 @@ const WashIron = (props) => {
               align-items: flex-start;
               flex-direction: column;
               justify-content: flex-start;
+            }
+            .wash-iron-categories {
+              gap: 10px;
+              flex: 1;
+              width: 100%;
+              grid-gap: var(--dl-space-space-twounits);
+              flex-wrap: wrap;
+            }
+            .wash-iron-category3 {
+              width: auto;
+            }
+            .wash-iron-category4 {
+              width: 100%;
+              max-width: 1200px;
             }
             .wash-iron-copyright1 {
               display: none;
@@ -2028,7 +2209,8 @@ const WashIron = (props) => {
               gap: var(--dl-space-space-twounits);
             }
             .wash-iron-categories {
-              gap: var(--dl-space-space-twounits);
+              gap: var(--dl-space-space-threeunits);
+              flex-wrap: wrap;
               flex-direction: column;
             }
           }
@@ -2040,7 +2222,7 @@ const WashIron = (props) => {
             .wash-iron-section10 {
               padding-top: var(--dl-space-space-oneandhalfunits);
             }
-            .wash-iron-header1 {
+            .wash-iron-header10 {
               align-items: flex-start;
             }
             .wash-iron-heading1 {
@@ -2063,7 +2245,7 @@ const WashIron = (props) => {
               width: 95%;
               height: auto;
             }
-            .wash-iron-header2 {
+            .wash-iron-header11 {
               align-items: center;
               justify-content: center;
             }
@@ -2096,14 +2278,21 @@ const WashIron = (props) => {
               text-align: center;
               line-height: 54px;
             }
-            .wash-iron-text4 {
+            .wash-iron-section19 {
+              text-align: center;
+              line-height: 37px;
+            }
+            .wash-iron-text13 {
               color: rgb(255, 255, 255);
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
             }
-            .wash-iron-link8 {
-              text-decoration: none;
+            .wash-iron-categories {
+              flex-direction: column;
+            }
+            .wash-iron-text35 {
+              text-align: justify;
             }
           }
         `}

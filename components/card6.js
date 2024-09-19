@@ -51,21 +51,21 @@ const Card6 = (props) => {
           .card6root-class-name {
             flex: 1;
             width: auto;
-            height: 250px;
+            height: 350px;
           }
           .card6root-class-name1 {
             flex: 1;
             width: auto;
-            height: 250px;
+            height: 350px;
           }
           .card6root-class-name2 {
             width: auto;
-            height: 250px;
+            height: 350px;
           }
           .card6root-class-name3 {
             flex: 1;
             width: auto;
-            height: 250px;
+            height: 350px;
           }
           .card6root-class-name4 {
             flex: 1;

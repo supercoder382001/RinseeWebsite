@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
 
-import Navbar from '../components/navbar'
+import NavbarP from '../components/navbar-p'
 import Card4 from '../components/card4'
 import Mark from '../components/mark'
 import FAQ2 from '../components/faq2'
@@ -17,30 +17,30 @@ const SteamIron = (props) => {
           <title>SteamIron - Rinsee</title>
           <meta property="og:title" content="SteamIron - Rinsee" />
         </Head>
-        <Navbar
-          imageAlt="/Icons/hamburger-200h.png"
-          imageSrc="/Icons/hamburger-200h.png"
+        <NavbarP
           brandingLogo="/external/logo-200w.png"
-          rootClassName="navbarroot-class-name6"
-        ></Navbar>
+          rootClassName="navbar-proot-class-name1"
+        ></NavbarP>
         <section className="steam-iron-section10">
           <div className="steam-iron-hero">
             <div className="steam-iron-content1">
               <main className="steam-iron-main1">
-                <header className="steam-iron-header1">
+                <header className="steam-iron-header10">
                   <h1 className="steam-iron-heading1">
                     Steam Iron Laundry Service
                   </h1>
                 </header>
                 <div className="steam-iron-buttons">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="steam-iron-link1"
+                    className="steam-iron-link10"
                   >
                     <div className="steam-iron-get-started1 button">
-                      <span className="steam-iron-text1">Download App now</span>
+                      <span className="steam-iron-text10">
+                        Download App now
+                      </span>
                     </div>
                   </a>
                 </div>
@@ -56,7 +56,7 @@ const SteamIron = (props) => {
           </div>
         </section>
         <section className="steam-iron-section11">
-          <header className="steam-iron-header2">
+          <header className="steam-iron-header11">
             <header className="steam-iron-left">
               <h2 className="section-heading steam-iron-heading2">
                 Steam Iron with RINSEE
@@ -64,10 +64,10 @@ const SteamIron = (props) => {
             </header>
             <div className="steam-iron-right">
               <p className="steam-iron-paragraph section-description">
-                A wrinkled blazer. A crumpled bedsheet. A twisted napkin. A
-                puckered curtain. A scrunched-up pocket square. If this pile
-                looks all too familiar, don’t let the wrinkles win—press pause
-                and let the steam work its magic.
+                A creased jacket. A rumpled blanket. A folded serviette. A
+                bunched-up drape. A crinkled handkerchief. If this heap seems
+                all too common, don&apos;t let the creases prevail—take a break
+                and allow the vapor to work wonders
               </p>
             </div>
           </header>
@@ -108,7 +108,7 @@ const SteamIron = (props) => {
                   </span>
                 </header>
                 <main className="steam-iron-heading3">
-                  <header className="steam-iron-header3">
+                  <header className="steam-iron-header12">
                     <h2 className="section-heading steam-iron-heading4">
                       Great care, wherever you are
                     </h2>
@@ -119,13 +119,13 @@ const SteamIron = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="steam-iron-link2"
+                className="steam-iron-link11"
               >
                 <div className="steam-iron-get-started2 button">
-                  <span className="steam-iron-text2">Get started</span>
+                  <span className="steam-iron-text11">Get started</span>
                 </div>
               </a>
             </div>
@@ -1198,20 +1198,20 @@ const SteamIron = (props) => {
                 </header>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="steam-iron-link3"
+                className="steam-iron-link12"
               >
                 <div className="steam-iron-get-started3 button">
-                  <span className="steam-iron-text3">Get started</span>
+                  <span className="steam-iron-text12">Get started</span>
                 </div>
               </a>
             </div>
           </section>
         </section>
-        <section className="steam-iron-section16">
-          <header className="steam-iron-header4">
+        <section id="faq" className="steam-iron-section16">
+          <header className="steam-iron-header13">
             <span className="section-head">FAQ</span>
             <h2 className="steam-iron-heading5 section-heading">
               Frequently asked questions
@@ -1231,7 +1231,7 @@ const SteamIron = (props) => {
                   </span>
                 </header>
                 <main className="steam-iron-heading6">
-                  <header className="steam-iron-header5">
+                  <header className="steam-iron-header14">
                     <h2 className="steam-iron-heading7 section-heading">
                       Quality without a doubt, day in, day out.
                     </h2>
@@ -1246,13 +1246,13 @@ const SteamIron = (props) => {
             <main className="steam-iron-main-content">
               <div className="steam-iron-content6">
                 <header className="steam-iron-main5">
-                  <div className="steam-iron-header6">
+                  <div className="steam-iron-header15">
                     <img
-                      alt="image"
+                      alt="Dry Clean"
                       src="/external/logo-200w.png"
                       className="steam-iron-branding"
                     />
-                    <span className="steam-iron-text4">
+                    <span className="steam-iron-text13">
                       Make your everyday laundry easy
                     </span>
                   </div>
@@ -1261,7 +1261,7 @@ const SteamIron = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="steam-iron-link4"
+                      className="steam-iron-link13"
                     >
                       <img
                         alt="image"
@@ -1273,7 +1273,7 @@ const SteamIron = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="steam-iron-link5"
+                      className="steam-iron-link14"
                     >
                       <img
                         alt="image"
@@ -1285,7 +1285,7 @@ const SteamIron = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="steam-iron-link6"
+                      className="steam-iron-link15"
                     >
                       <img
                         alt="image"
@@ -1296,18 +1296,88 @@ const SteamIron = (props) => {
                   </div>
                 </header>
                 <header className="steam-iron-categories">
-                  <div className="steam-iron-category">
-                    <div className="steam-iron-header7">
+                  <div className="steam-iron-category1">
+                    <div className="steam-iron-header16">
                       <span className="footer-header">Company</span>
                     </div>
-                    <div className="steam-iron-links">
-                      <span className="footer-link">About</span>
-                      <Link href="/">
-                        <a className="steam-iron-link7 footer-link">Home</a>
+                    <div className="steam-iron-links1">
+                      <Link href="/aboutus">
+                        <a className="steam-iron-link16 footer-link">About</a>
                       </Link>
-                      <Link href="/">
-                        <a className="steam-iron-link8 footer-link">Terms</a>
+                      <a href="#home" className="steam-iron-text16 footer-link">
+                        Home
+                      </a>
+                      <a href="#faq" className="steam-iron-text17 footer-link">
+                        FAQs
+                      </a>
+                      <Link href="/termsand-conditions">
+                        <a className="steam-iron-link17 footer-link">
+                          <span>Terms</span>
+                          <br></br>
+                        </a>
                       </Link>
+                    </div>
+                  </div>
+                  <div className="steam-iron-category2">
+                    <div className="steam-iron-header17">
+                      <span className="footer-header">Services</span>
+                    </div>
+                    <div className="steam-iron-links2">
+                      <Link href="/wash-fold">
+                        <a className="steam-iron-link18 footer-link">
+                          Wash &amp; Fold
+                        </a>
+                      </Link>
+                      <Link href="/wash-iron">
+                        <a className="steam-iron-link19 footer-link">
+                          Wash &amp; Iron
+                        </a>
+                      </Link>
+                      <Link href="/steam-iron">
+                        <a className="steam-iron-link20 footer-link">
+                          Steam Iron
+                        </a>
+                      </Link>
+                      <Link href="/dry-clean">
+                        <a className="steam-iron-link21 footer-link">
+                          <span>Dry Clean</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="steam-iron-category3">
+                    <div className="steam-iron-header18">
+                      <span className="footer-header">Get in touch</span>
+                    </div>
+                    <div className="steam-iron-links3">
+                      <span className="footer-link">
+                        <span>Email : jatindua2001@gmail.com</span>
+                        <br></br>
+                        <span>Contact: 7428160047</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="steam-iron-category4">
+                    <div className="steam-iron-header19">
+                      <span className="footer-header">About Us</span>
+                    </div>
+                    <div className="steam-iron-links4">
+                      <span className="steam-iron-text35 footer-link">
+                        <span>
+                          We at Rinsee are dedicated to saving time, effort, and
+                          precious resources for all our delighted customers who
+                          seek the best laundry service. With exciting ideas
+                          that have been spinning in our heads, we are thrilled
+                          to introduce you to our compelling and innovative
+                          services, including the convenient wash and fold
+                          laundry service near me, designed to meet your needs
+                          effortlessly.
+                        </span>
+                        <span>Readmore</span>
+                        <br></br>
+                      </span>
                     </div>
                   </div>
                 </header>
@@ -1372,7 +1442,7 @@ const SteamIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .steam-iron-header1 {
+          .steam-iron-header10 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
@@ -1391,7 +1461,7 @@ const SteamIron = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .steam-iron-link1 {
+          .steam-iron-link10 {
             display: contents;
           }
           .steam-iron-get-started1 {
@@ -1399,7 +1469,7 @@ const SteamIron = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .steam-iron-text1 {
+          .steam-iron-text10 {
             color: rgb(12, 16, 12);
             font-size: 16px;
             font-style: normal;
@@ -1437,7 +1507,7 @@ const SteamIron = (props) => {
             justify-content: center;
             border-top-width: 1px;
           }
-          .steam-iron-header2 {
+          .steam-iron-header11 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -1540,7 +1610,7 @@ const SteamIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .steam-iron-header3 {
+          .steam-iron-header12 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1556,7 +1626,7 @@ const SteamIron = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .steam-iron-link2 {
+          .steam-iron-link11 {
             display: contents;
           }
           .steam-iron-get-started2 {
@@ -1564,7 +1634,7 @@ const SteamIron = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .steam-iron-text2 {
+          .steam-iron-text11 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -1630,7 +1700,7 @@ const SteamIron = (props) => {
             color: rgb(198, 255, 75);
             font-size: 35px;
           }
-          .steam-iron-link3 {
+          .steam-iron-link12 {
             display: contents;
           }
           .steam-iron-get-started3 {
@@ -1638,7 +1708,7 @@ const SteamIron = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .steam-iron-text3 {
+          .steam-iron-text12 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -1661,7 +1731,7 @@ const SteamIron = (props) => {
             justify-content: center;
             border-top-width: 1px;
           }
-          .steam-iron-header4 {
+          .steam-iron-header13 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -1744,7 +1814,7 @@ const SteamIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .steam-iron-header5 {
+          .steam-iron-header14 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1760,11 +1830,11 @@ const SteamIron = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
-            padding-top: 27px;
+            padding-top: 120px;
             padding-left: var(--dl-space-space-oneandhalfunits);
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
           .steam-iron-content5 {
@@ -1785,6 +1855,7 @@ const SteamIron = (props) => {
             justify-content: flex-start;
           }
           .steam-iron-content6 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1798,8 +1869,9 @@ const SteamIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .steam-iron-header6 {
+          .steam-iron-header15 {
             gap: var(--dl-space-space-unit);
+            width: 255px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -1809,7 +1881,7 @@ const SteamIron = (props) => {
             width: 120px;
             object-fit: cover;
           }
-          .steam-iron-text4 {
+          .steam-iron-text13 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -1825,26 +1897,24 @@ const SteamIron = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .steam-iron-link4 {
+          .steam-iron-link13 {
             display: contents;
           }
-          .steam-iron-link5 {
+          .steam-iron-link14 {
             display: contents;
           }
-          .steam-iron-link6 {
+          .steam-iron-link15 {
             display: contents;
           }
           .steam-iron-categories {
-            gap: var(--dl-space-space-fourunits);
-            flex: 0;
-            width: var(--dl-size-size-xxlarge);
+            gap: var(--dl-space-space-unit);
             height: auto;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .steam-iron-category {
+          .steam-iron-category1 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1853,25 +1923,116 @@ const SteamIron = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .steam-iron-header7 {
+          .steam-iron-header16 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: center;
           }
-          .steam-iron-links {
+          .steam-iron-links1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .steam-iron-link7 {
+          .steam-iron-link16 {
             text-decoration: none;
           }
-          .steam-iron-link8 {
+          .steam-iron-text16 {
             text-decoration: none;
+          }
+          .steam-iron-text17 {
+            text-decoration: none;
+          }
+          .steam-iron-link17 {
+            text-decoration: none;
+          }
+          .steam-iron-category2 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: 175px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .steam-iron-header17 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .steam-iron-links2 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .steam-iron-link18 {
+            text-decoration: none;
+          }
+          .steam-iron-link19 {
+            text-decoration: none;
+          }
+          .steam-iron-link20 {
+            text-decoration: none;
+          }
+          .steam-iron-link21 {
+            text-decoration: none;
+          }
+          .steam-iron-category3 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: auto;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .steam-iron-header18 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .steam-iron-links3 {
+            gap: var(--dl-space-space-unit);
+            width: 240px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .steam-iron-category4 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            max-width: 350px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .steam-iron-header19 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .steam-iron-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .steam-iron-text35 {
+            text-align: justify;
           }
           .steam-iron-copyright1 {
             gap: var(--dl-space-space-fiveunits);
@@ -1949,7 +2110,7 @@ const SteamIron = (props) => {
               padding-top: 100px;
               padding-bottom: 100px;
             }
-            .steam-iron-header2 {
+            .steam-iron-header11 {
               gap: var(--dl-space-space-unit);
               align-items: flex-start;
               flex-direction: column;
@@ -1979,6 +2140,20 @@ const SteamIron = (props) => {
               align-items: flex-start;
               flex-direction: column;
               justify-content: flex-start;
+            }
+            .steam-iron-categories {
+              gap: 10px;
+              flex: 1;
+              width: 100%;
+              grid-gap: var(--dl-space-space-twounits);
+              flex-wrap: wrap;
+            }
+            .steam-iron-category3 {
+              width: auto;
+            }
+            .steam-iron-category4 {
+              width: 100%;
+              max-width: 1200px;
             }
             .steam-iron-copyright1 {
               display: none;
@@ -2028,7 +2203,8 @@ const SteamIron = (props) => {
               gap: var(--dl-space-space-twounits);
             }
             .steam-iron-categories {
-              gap: var(--dl-space-space-twounits);
+              gap: var(--dl-space-space-threeunits);
+              flex-wrap: wrap;
               flex-direction: column;
             }
           }
@@ -2040,7 +2216,7 @@ const SteamIron = (props) => {
             .steam-iron-section10 {
               padding-top: var(--dl-space-space-oneandhalfunits);
             }
-            .steam-iron-header1 {
+            .steam-iron-header10 {
               align-items: flex-start;
             }
             .steam-iron-heading1 {
@@ -2063,7 +2239,7 @@ const SteamIron = (props) => {
               width: 95%;
               height: auto;
             }
-            .steam-iron-header2 {
+            .steam-iron-header11 {
               align-items: center;
               justify-content: center;
             }
@@ -2094,14 +2270,21 @@ const SteamIron = (props) => {
               text-align: center;
               line-height: 49px;
             }
-            .steam-iron-text4 {
+            .steam-iron-section19 {
+              text-align: center;
+              line-height: 37px;
+            }
+            .steam-iron-text13 {
               color: rgb(255, 255, 255);
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
             }
-            .steam-iron-link8 {
-              text-decoration: none;
+            .steam-iron-categories {
+              flex-direction: column;
+            }
+            .steam-iron-text35 {
+              text-align: justify;
             }
           }
         `}

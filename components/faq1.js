@@ -11,19 +11,19 @@ const FAQ1 = (props) => {
           className="faq1-element1 accordion-element"
         >
           <div className="faq1-details1">
-            <span className="faq1-text1">What does wash &amp; fold mean ?</span>
-            <span data-role="accordion-content" className="faq1-text2">
-              If you’ve been searching for “wash and fold” online you’d see that
-              it’s a basic laundry service where the garments are washed, dried
-              and folded before being returned to you. It does not however
-              include ironing or pressing. But remember that, at RINSEE,
-              while we do have a wash and fold service we also have options to
-              wash and iron, steam iron and even dry clean.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+            <span className="faq1-text10">
+              What does wash &amp; fold mean ?
+            </span>
+            <span data-role="accordion-content" className="faq1-text11">
+              <span>
+                When you search for &quot;wash and fold&quot; online,
+                you&apos;ll find it&apos;s a basic laundry service. Your clothes
+                are washed, dried, and folded before being returned to you. This
+                service doesn&apos;t include ironing or pressing. At RINSEE, we
+                offer wash and fold, but we also provide options for washing and
+                ironing, steam ironing, and dry cleaning.
+              </span>
+              <br></br>
             </span>
           </div>
           <div data-role="accordion-icon">
@@ -37,17 +37,15 @@ const FAQ1 = (props) => {
           className="faq1-element2 accordion-element"
         >
           <div className="faq1-details2">
-            <span className="faq1-text3">
+            <span className="faq1-text14">
               What is the difference between wash and fold and laundry?
             </span>
-            <span data-role="accordion-content" className="faq1-text4">
-              While they are often used interchangeably the phrase wash and fold
-              usually refers to a laundry service offering – as opposed to
-              washing clothes at home. It must be said, though,that the two
-              processes are quite similar in that they involve the same process
-              – wash, dry,fold the laundry to be cupboard ready. The scale,
-              technology and performance factors of the machines are what make
-              the difference, as RINSEE demonstrates.
+            <span data-role="accordion-content" className="faq1-text15">
+              People often use &quot;wash and fold&quot; to mean a laundry
+              service, not home washing. The process is similar - wash, dry, and
+              fold clothes to make them ready for storage. But the scale,
+              technology, and performance of machines make the difference, as
+              RINSEE shows.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -66,21 +64,25 @@ const FAQ1 = (props) => {
           className="faq1-element3 accordion-element"
         >
           <div className="faq1-details3">
-            <span className="faq1-text5">
+            <span className="faq1-text16">
               Why is it important to fold laundry?
             </span>
-            <span data-role="accordion-content" className="faq1-text6">
-              Folding greatly reduces the number of wrinkles and creases in your
-              laundry making it easy to iron and wear. Also, it reduces storage
-              space, keeps the shelves more organised, even increases the
-              lifespan of clothes. So when you’re looking for an option for wash
-              and fold near you, RINSEE – with its reach all across
-              Delhi and its 24-hour delivery – is the ideal choice.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+            <span data-role="accordion-content" className="faq1-text17">
+              <span>
+                Folding helps reduce wrinkles and creases in your laundry,
+                making it easier to iron and wear. It also saves storage space,
+                keeps shelves tidy, and can extend the life of your clothes. If
+                you&apos;re looking for a wash and fold service near you, RINSEE
+                is ideal. We cover all of DELHI and offer 24-hour delivery.
+              </span>
+              <br></br>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
             </span>
           </div>
           <div data-role="accordion-icon">
@@ -94,12 +96,12 @@ const FAQ1 = (props) => {
           className="faq1-element4 accordion-element"
         >
           <div className="faq1-details4">
-            <span className="faq1-text7">
+            <span className="faq1-text21">
               What is not considered wash and fold?
             </span>
-            <span data-role="accordion-content" className="faq1-text8">
+            <span data-role="accordion-content" className="faq1-text22">
               Dry cleaning, steam ironing or pressing are not part of the wash
-              and fold process. But since RINSEE has all these services as
+              and fold process. But since LaundryMate has all these services as
               individual offerings, you will have no problem at all.
             </span>
           </div>
@@ -134,7 +136,7 @@ const FAQ1 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .faq1-text1 {
+          .faq1-text10 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -142,7 +144,7 @@ const FAQ1 = (props) => {
             font-weight: 500;
             line-height: 28px;
           }
-          .faq1-text2 {
+          .faq1-text11 {
             color: rgb(204, 204, 204);
             text-align: justify;
             font-family: 'Poppins';
@@ -167,7 +169,7 @@ const FAQ1 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .faq1-text3 {
+          .faq1-text14 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -175,7 +177,7 @@ const FAQ1 = (props) => {
             font-weight: 500;
             line-height: 28px;
           }
-          .faq1-text4 {
+          .faq1-text15 {
             color: rgb(204, 204, 204);
             text-align: justify;
             font-family: 'Poppins';
@@ -200,7 +202,7 @@ const FAQ1 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .faq1-text5 {
+          .faq1-text16 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -208,7 +210,7 @@ const FAQ1 = (props) => {
             font-weight: 500;
             line-height: 28px;
           }
-          .faq1-text6 {
+          .faq1-text17 {
             color: rgb(204, 204, 204);
             text-align: justify;
             font-family: 'Poppins';
@@ -233,7 +235,7 @@ const FAQ1 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .faq1-text7 {
+          .faq1-text21 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -241,7 +243,7 @@ const FAQ1 = (props) => {
             font-weight: 500;
             line-height: 28px;
           }
-          .faq1-text8 {
+          .faq1-text22 {
             color: rgb(204, 204, 204);
             text-align: justify;
             font-family: 'Poppins';
@@ -254,25 +256,25 @@ const FAQ1 = (props) => {
           }
 
           @media (max-width: 767px) {
-            .faq1-text1 {
+            .faq1-text10 {
               font-size: 16px;
               line-height: 24px;
             }
-            .faq1-text3 {
+            .faq1-text14 {
               font-size: 16px;
               line-height: 24px;
             }
-            .faq1-text5 {
+            .faq1-text16 {
               font-size: 16px;
               line-height: 24px;
             }
-            .faq1-text7 {
+            .faq1-text21 {
               font-size: 16px;
               line-height: 24px;
             }
           }
           @media (max-width: 479px) {
-            .faq1-text1 {
+            .faq1-text10 {
               color: rgb(255, 255, 255);
               font-size: 16px;
               font-style: normal;
@@ -280,12 +282,12 @@ const FAQ1 = (props) => {
               font-weight: 500;
               line-height: 24px;
             }
-            .faq1-text2 {
+            .faq1-text11 {
               color: rgb(204, 204, 204);
               font-family: Poppins;
               line-height: 24px;
             }
-            .faq1-text3 {
+            .faq1-text14 {
               color: rgb(255, 255, 255);
               font-size: 16px;
               font-style: normal;
@@ -293,25 +295,12 @@ const FAQ1 = (props) => {
               font-weight: 500;
               line-height: 24px;
             }
-            .faq1-text4 {
-              color: rgb(204, 204, 204);
-              font-family: Poppins;
-              line-height: 28px;
-            }
-            .faq1-text5 {
-              color: rgb(255, 255, 255);
-              font-size: 16px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 500;
-              line-height: 24px;
-            }
-            .faq1-text6 {
+            .faq1-text15 {
               color: rgb(204, 204, 204);
               font-family: Poppins;
               line-height: 28px;
             }
-            .faq1-text7 {
+            .faq1-text16 {
               color: rgb(255, 255, 255);
               font-size: 16px;
               font-style: normal;
@@ -319,7 +308,20 @@ const FAQ1 = (props) => {
               font-weight: 500;
               line-height: 24px;
             }
-            .faq1-text8 {
+            .faq1-text17 {
+              color: rgb(204, 204, 204);
+              font-family: Poppins;
+              line-height: 28px;
+            }
+            .faq1-text21 {
+              color: rgb(255, 255, 255);
+              font-size: 16px;
+              font-style: normal;
+              font-family: Poppins;
+              font-weight: 500;
+              line-height: 24px;
+            }
+            .faq1-text22 {
               color: rgb(204, 204, 204);
               font-family: Poppins;
               line-height: 28px;

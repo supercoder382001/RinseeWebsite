@@ -48,6 +48,12 @@ class CustomDocument extends Document {
             rel="stylesheet"
             href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
           ></link>
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html:
+                '</noscript>\n        <style>[data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {\n    display: flex;\n  }\n\n  [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {\n    transform: rotate(90deg);\n  }</style><noscript>',
+            }}
+          ></noscript>
         </Head>
         <body>
           <Main></Main>

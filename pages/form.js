@@ -488,7 +488,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: row;
           }
-          .form-link1 {
+          .form-link10 {
             display: contents;
           }
           .form-get-started {
@@ -496,7 +496,7 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: #80ff44;
           }
-          .form-text1 {
+          .form-text10 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -649,7 +649,7 @@ Here's what the above is doing:
             width: 16px;
             object-fit: cover;
           }
-          .form-text2 {
+          .form-text11 {
             color: #ffffff;
             font-size: 16px;
             font-style: normal;
@@ -657,7 +657,7 @@ Here's what the above is doing:
             font-weight: 500;
             line-height: 24px;
           }
-          .form-link2 {
+          .form-link11 {
             display: contents;
           }
           .form-android {
@@ -671,7 +671,7 @@ Here's what the above is doing:
             width: 16px;
             object-fit: cover;
           }
-          .form-text3 {
+          .form-text12 {
             color: rgb(255, 255, 255);
             font-size: 16px;
             font-style: normal;
@@ -744,7 +744,7 @@ Here's what the above is doing:
             width: 120px;
             object-fit: cover;
           }
-          .form-text4 {
+          .form-text13 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -760,26 +760,24 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: flex-start;
           }
-          .form-link3 {
+          .form-link12 {
             display: contents;
           }
-          .form-link4 {
+          .form-link13 {
             display: contents;
           }
-          .form-link5 {
+          .form-link14 {
             display: contents;
           }
           .form-categories {
             gap: var(--dl-space-space-fourunits);
-            flex: 0;
-            width: var(--dl-size-size-xxlarge);
             height: auto;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .form-category {
+          .form-category1 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -795,21 +793,106 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .form-links {
+          .form-links1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .form-text7 {
+          .form-text16 {
             text-decoration: none;
           }
-          .form-text8 {
+          .form-text17 {
             text-decoration: none;
           }
-          .form-link6 {
+          .form-link15 {
             text-decoration: none;
+          }
+          .form-category2 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: 175px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .form-header6 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .form-links2 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .form-link16 {
+            text-decoration: none;
+          }
+          .form-link17 {
+            text-decoration: none;
+          }
+          .form-link18 {
+            text-decoration: none;
+          }
+          .form-link19 {
+            text-decoration: none;
+          }
+          .form-category3 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: auto;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .form-header7 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .form-links3 {
+            gap: var(--dl-space-space-unit);
+            width: 240px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .form-category4 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            max-width: 350px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .form-header8 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .form-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .form-text35 {
+            text-align: justify;
           }
           .form-copyright1 {
             gap: var(--dl-space-space-fiveunits);
@@ -931,6 +1014,20 @@ Here's what the above is doing:
               flex-direction: column;
               justify-content: flex-start;
             }
+            .form-categories {
+              gap: 10px;
+              flex: 1;
+              width: 100%;
+              grid-gap: var(--dl-space-space-twounits);
+              flex-wrap: wrap;
+            }
+            .form-category3 {
+              width: auto;
+            }
+            .form-category4 {
+              width: 100%;
+              max-width: 1200px;
+            }
             .form-copyright1 {
               display: none;
             }
@@ -993,13 +1090,18 @@ Here's what the above is doing:
               gap: var(--dl-space-space-twounits);
             }
             .form-categories {
-              gap: var(--dl-space-space-twounits);
+              gap: var(--dl-space-space-threeunits);
+              flex-wrap: wrap;
               flex-direction: column;
             }
           }
           @media (max-width: 479px) {
             .form-section1 {
               padding-top: var(--dl-space-space-oneandhalfunits);
+            }
+            .form-image1 {
+              width: 100%;
+              height: 100%;
             }
             .form-hero2 {
               margin-top: var(--dl-space-space-unit);
@@ -1039,15 +1141,19 @@ Here's what the above is doing:
             }
             .form-image5 {
               width: 100%;
+              height: 100%;
             }
-            .form-text4 {
+            .form-text13 {
               color: rgb(255, 255, 255);
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
             }
-            .form-link6 {
-              text-decoration: none;
+            .form-categories {
+              flex-direction: column;
+            }
+            .form-text35 {
+              text-align: justify;
             }
           }
         `}

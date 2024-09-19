@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
 
-import Navbar from '../components/navbar'
+import NavbarP from '../components/navbar-p'
 import Card4 from '../components/card4'
 import Mark from '../components/mark'
 import FAQ3 from '../components/faq3'
@@ -14,31 +14,31 @@ const DryClean = (props) => {
     <>
       <div className="dry-clean-container1">
         <Head>
-          <title>DryClean - Rinsee</title>
-          <meta property="og:title" content="DryClean - Rinsee" />
+        <title>DryClean - Rinsee</title>
+          <meta property="og:title" content="Refresh Your Wardrobe with Rinsee’s Premium Dry Cleaning Service in Delhi" />
+          <meta name="description" content="Experience Rinsee’s premium dry cleaning service in Delhi. We provide convenient doorstep pickup and delivery,your clothes are handled with expert care and presented beautifully. Whether it’s delicate fabrics or daily outfits, our affordable and dependable service ensures your wardrobe stays refreshed and spotless. Enjoy both convenience and quality with Rinsee!"/>
+          <meta name="keywords" content="dry cleaning service Delhi, professional dry cleaning near me, best dry cleaners near me, affordable dry cleaning Delhi, best dry cleaning service Delhi, dry cleaning with pickup and delivery, dry cleaners near me, dry cleaners"/>
         </Head>
-        <Navbar
-          imageAlt="/Icons/hamburger-200h.png"
-          imageSrc="/Icons/hamburger-200h.png"
+        <NavbarP
           brandingLogo="/external/logo-200w.png"
-          rootClassName="navbarroot-class-name7"
-        ></Navbar>
+          rootClassName="navbar-proot-class-name5"
+        ></NavbarP>
         <section className="dry-clean-section10">
           <div className="dry-clean-hero">
             <div className="dry-clean-content1">
               <main className="dry-clean-main1">
-                <header className="dry-clean-header1">
+                <header className="dry-clean-header10">
                   <h1 className="dry-clean-heading1">Dry Clean with RINSEE</h1>
                 </header>
                 <div className="dry-clean-buttons">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="dry-clean-link1"
+                    className="dry-clean-link10"
                   >
                     <div className="dry-clean-get-started1 button">
-                      <span className="dry-clean-text1">Download App now</span>
+                      <span className="dry-clean-text10">Download App now</span>
                     </div>
                   </a>
                 </div>
@@ -54,7 +54,7 @@ const DryClean = (props) => {
           </div>
         </section>
         <section className="dry-clean-section11">
-          <header className="dry-clean-header2">
+          <header className="dry-clean-header11">
             <header className="dry-clean-left">
               <h2 className="section-heading dry-clean-heading2">
                 Dry Cleaning with RINSEE
@@ -62,12 +62,16 @@ const DryClean = (props) => {
             </header>
             <div className="dry-clean-right">
               <p className="dry-clean-paragraph section-description">
-                A delicate lace gown. A luxurious velvet sherwani. An
-                intricately handwoven pashmina shawl. A timeless brocade
-                lehenga. Precious family heirlooms. These aren’t just clothes;
-                they’re memories woven into fabric. We understand the
-                value—they’re not just garments you’re handing over, but your
-                trust, too.
+                <span>
+                  A fragile silk dress. An opulent velvet coat. A finely crafted
+                  cashmere wrap. A classic embroidered skirt. Cherished family
+                  treasures. These are more than clothes; they&apos;re stories
+                  stitched into cloth. We recognize their
+                  significance—you&apos;re entrusting us with not just garments,
+                  but your heritage, too.
+                </span>
+                <br></br>
+                <br></br>
               </p>
             </div>
           </header>
@@ -108,7 +112,7 @@ const DryClean = (props) => {
                   </span>
                 </header>
                 <main className="dry-clean-heading3">
-                  <header className="dry-clean-header3">
+                  <header className="dry-clean-header12">
                     <h2 className="section-heading dry-clean-heading4">
                       Great care, wherever you are
                     </h2>
@@ -119,13 +123,13 @@ const DryClean = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="dry-clean-link2"
+                className="dry-clean-link11"
               >
                 <div className="dry-clean-get-started2 button">
-                  <span className="dry-clean-text2">Get started</span>
+                  <span className="dry-clean-text14">Get started</span>
                 </div>
               </a>
             </div>
@@ -1198,20 +1202,20 @@ const DryClean = (props) => {
                 </header>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="dry-clean-link3"
+                className="dry-clean-link12"
               >
                 <div className="dry-clean-get-started3 button">
-                  <span className="dry-clean-text3">Get started</span>
+                  <span className="dry-clean-text15">Get started</span>
                 </div>
               </a>
             </div>
           </section>
         </section>
-        <section className="dry-clean-section16">
-          <header className="dry-clean-header4">
+        <section id="faqs" className="dry-clean-section16">
+          <header className="dry-clean-header13">
             <span className="section-head">FAQ</span>
             <h2 className="dry-clean-heading5 section-heading">
               Frequently asked questions
@@ -1231,7 +1235,7 @@ const DryClean = (props) => {
                   </span>
                 </header>
                 <main className="dry-clean-heading6">
-                  <header className="dry-clean-header5">
+                  <header className="dry-clean-header14">
                     <h2 className="dry-clean-heading7 section-heading">
                       Quality without a doubt, day in, day out.
                     </h2>
@@ -1246,13 +1250,13 @@ const DryClean = (props) => {
             <main className="dry-clean-main-content">
               <div className="dry-clean-content6">
                 <header className="dry-clean-main5">
-                  <div className="dry-clean-header6">
+                  <div className="dry-clean-header15">
                     <img
-                      alt="image"
+                      alt="Dry Clean"
                       src="/external/logo-200w.png"
                       className="dry-clean-branding"
                     />
-                    <span className="dry-clean-text4">
+                    <span className="dry-clean-text16">
                       Make your everyday laundry easy
                     </span>
                   </div>
@@ -1261,7 +1265,7 @@ const DryClean = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="dry-clean-link4"
+                      className="dry-clean-link13"
                     >
                       <img
                         alt="image"
@@ -1273,7 +1277,7 @@ const DryClean = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="dry-clean-link5"
+                      className="dry-clean-link14"
                     >
                       <img
                         alt="image"
@@ -1285,7 +1289,7 @@ const DryClean = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="dry-clean-link6"
+                      className="dry-clean-link15"
                     >
                       <img
                         alt="image"
@@ -1296,18 +1300,88 @@ const DryClean = (props) => {
                   </div>
                 </header>
                 <header className="dry-clean-categories">
-                  <div className="dry-clean-category">
-                    <div className="dry-clean-header7">
+                  <div className="dry-clean-category1">
+                    <div className="dry-clean-header16">
                       <span className="footer-header">Company</span>
                     </div>
-                    <div className="dry-clean-links">
-                      <span className="footer-link">About</span>
-                      <Link href="/">
-                        <a className="dry-clean-link7 footer-link">Home</a>
+                    <div className="dry-clean-links1">
+                      <Link href="/aboutus">
+                        <a className="dry-clean-link16 footer-link">About</a>
                       </Link>
+                      <a href="#home" className="dry-clean-text19 footer-link">
+                        Home
+                      </a>
+                      <a href="#faqs" className="dry-clean-text20 footer-link">
+                        FAQs
+                      </a>
                       <Link href="/termsand-conditions">
-                        <a className="dry-clean-link8 footer-link">Terms</a>
+                        <a className="dry-clean-link17 footer-link">
+                          <span>Terms</span>
+                          <br></br>
+                        </a>
                       </Link>
+                    </div>
+                  </div>
+                  <div className="dry-clean-category2">
+                    <div className="dry-clean-header17">
+                      <span className="footer-header">Services</span>
+                    </div>
+                    <div className="dry-clean-links2">
+                      <Link href="/wash-fold">
+                        <a className="dry-clean-link18 footer-link">
+                          Wash &amp; Fold
+                        </a>
+                      </Link>
+                      <Link href="/wash-iron">
+                        <a className="dry-clean-link19 footer-link">
+                          Wash &amp; Iron
+                        </a>
+                      </Link>
+                      <Link href="/steam-iron">
+                        <a className="dry-clean-link20 footer-link">
+                          Steam Iron
+                        </a>
+                      </Link>
+                      <Link href="/dry-clean">
+                        <a className="dry-clean-link21 footer-link">
+                          <span>Dry Clean</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="dry-clean-category3">
+                    <div className="dry-clean-header18">
+                      <span className="footer-header">Get in touch</span>
+                    </div>
+                    <div className="dry-clean-links3">
+                      <span className="footer-link">
+                        <span>Email : jatindua2001@gmail.com</span>
+                        <br></br>
+                        <span>Contact: 7428160047</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="dry-clean-category4">
+                    <div className="dry-clean-header19">
+                      <span className="footer-header">About Us</span>
+                    </div>
+                    <div className="dry-clean-links4">
+                      <span className="dry-clean-text38 footer-link">
+                        <span>
+                          We at Rinsee are dedicated to saving time, effort, and
+                          precious resources for all our delighted customers who
+                          seek the best laundry service. With exciting ideas
+                          that have been spinning in our heads, we are thrilled
+                          to introduce you to our compelling and innovative
+                          services, including the convenient wash and fold
+                          laundry service near me, designed to meet your needs
+                          effortlessly.
+                        </span>
+                        <span>Readmore</span>
+                        <br></br>
+                      </span>
                     </div>
                   </div>
                 </header>
@@ -1372,7 +1446,7 @@ const DryClean = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .dry-clean-header1 {
+          .dry-clean-header10 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
@@ -1391,7 +1465,7 @@ const DryClean = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .dry-clean-link1 {
+          .dry-clean-link10 {
             display: contents;
           }
           .dry-clean-get-started1 {
@@ -1399,7 +1473,7 @@ const DryClean = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .dry-clean-text1 {
+          .dry-clean-text10 {
             color: rgb(12, 16, 12);
             font-size: 16px;
             font-style: normal;
@@ -1437,7 +1511,7 @@ const DryClean = (props) => {
             justify-content: center;
             border-top-width: 1px;
           }
-          .dry-clean-header2 {
+          .dry-clean-header11 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -1466,6 +1540,7 @@ const DryClean = (props) => {
             width: 100%;
             font-size: 34px;
             max-width: 100%;
+            text-align: center;
             line-height: 36px;
           }
           .dry-clean-section12 {
@@ -1540,7 +1615,7 @@ const DryClean = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .dry-clean-header3 {
+          .dry-clean-header12 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1556,7 +1631,7 @@ const DryClean = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .dry-clean-link2 {
+          .dry-clean-link11 {
             display: contents;
           }
           .dry-clean-get-started2 {
@@ -1564,7 +1639,7 @@ const DryClean = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .dry-clean-text2 {
+          .dry-clean-text14 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -1630,7 +1705,7 @@ const DryClean = (props) => {
             color: rgb(198, 255, 75);
             font-size: 35px;
           }
-          .dry-clean-link3 {
+          .dry-clean-link12 {
             display: contents;
           }
           .dry-clean-get-started3 {
@@ -1638,7 +1713,7 @@ const DryClean = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .dry-clean-text3 {
+          .dry-clean-text15 {
             color: rgb(12, 16, 12);
             font-size: 16px;
             font-style: normal;
@@ -1661,7 +1736,7 @@ const DryClean = (props) => {
             justify-content: center;
             border-top-width: 1px;
           }
-          .dry-clean-header4 {
+          .dry-clean-header13 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -1744,7 +1819,7 @@ const DryClean = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .dry-clean-header5 {
+          .dry-clean-header14 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1760,11 +1835,11 @@ const DryClean = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
-            padding-top: 27px;
+            padding-top: 120px;
             padding-left: var(--dl-space-space-oneandhalfunits);
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
           .dry-clean-content5 {
@@ -1785,6 +1860,7 @@ const DryClean = (props) => {
             justify-content: flex-start;
           }
           .dry-clean-content6 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1798,8 +1874,9 @@ const DryClean = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .dry-clean-header6 {
+          .dry-clean-header15 {
             gap: var(--dl-space-space-unit);
+            width: 255px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -1809,7 +1886,7 @@ const DryClean = (props) => {
             width: 120px;
             object-fit: cover;
           }
-          .dry-clean-text4 {
+          .dry-clean-text16 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -1825,26 +1902,24 @@ const DryClean = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .dry-clean-link4 {
+          .dry-clean-link13 {
             display: contents;
           }
-          .dry-clean-link5 {
+          .dry-clean-link14 {
             display: contents;
           }
-          .dry-clean-link6 {
+          .dry-clean-link15 {
             display: contents;
           }
           .dry-clean-categories {
-            gap: var(--dl-space-space-fourunits);
-            flex: 0;
-            width: var(--dl-size-size-xxlarge);
+            gap: var(--dl-space-space-unit);
             height: auto;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .dry-clean-category {
+          .dry-clean-category1 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1853,25 +1928,116 @@ const DryClean = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .dry-clean-header7 {
+          .dry-clean-header16 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: center;
           }
-          .dry-clean-links {
+          .dry-clean-links1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .dry-clean-link7 {
+          .dry-clean-link16 {
             text-decoration: none;
           }
-          .dry-clean-link8 {
+          .dry-clean-text19 {
             text-decoration: none;
+          }
+          .dry-clean-text20 {
+            text-decoration: none;
+          }
+          .dry-clean-link17 {
+            text-decoration: none;
+          }
+          .dry-clean-category2 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: 175px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-header17 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-links2 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .dry-clean-link18 {
+            text-decoration: none;
+          }
+          .dry-clean-link19 {
+            text-decoration: none;
+          }
+          .dry-clean-link20 {
+            text-decoration: none;
+          }
+          .dry-clean-link21 {
+            text-decoration: none;
+          }
+          .dry-clean-category3 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: auto;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-header18 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-links3 {
+            gap: var(--dl-space-space-unit);
+            width: 240px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .dry-clean-category4 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            max-width: 350px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-header19 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .dry-clean-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .dry-clean-text38 {
+            text-align: justify;
           }
           .dry-clean-copyright1 {
             gap: var(--dl-space-space-fiveunits);
@@ -1949,7 +2115,7 @@ const DryClean = (props) => {
               padding-top: 100px;
               padding-bottom: 100px;
             }
-            .dry-clean-header2 {
+            .dry-clean-header11 {
               gap: var(--dl-space-space-unit);
               align-items: flex-start;
               flex-direction: column;
@@ -1979,6 +2145,20 @@ const DryClean = (props) => {
               align-items: flex-start;
               flex-direction: column;
               justify-content: flex-start;
+            }
+            .dry-clean-categories {
+              gap: 10px;
+              flex: 1;
+              width: 100%;
+              grid-gap: var(--dl-space-space-twounits);
+              flex-wrap: wrap;
+            }
+            .dry-clean-category3 {
+              width: auto;
+            }
+            .dry-clean-category4 {
+              width: 100%;
+              max-width: 1200px;
             }
             .dry-clean-copyright1 {
               display: none;
@@ -2028,7 +2208,8 @@ const DryClean = (props) => {
               gap: var(--dl-space-space-twounits);
             }
             .dry-clean-categories {
-              gap: var(--dl-space-space-twounits);
+              gap: var(--dl-space-space-threeunits);
+              flex-wrap: wrap;
               flex-direction: column;
             }
           }
@@ -2040,7 +2221,7 @@ const DryClean = (props) => {
             .dry-clean-section10 {
               padding-top: var(--dl-space-space-oneandhalfunits);
             }
-            .dry-clean-header1 {
+            .dry-clean-header10 {
               align-items: flex-start;
             }
             .dry-clean-heading1 {
@@ -2063,7 +2244,7 @@ const DryClean = (props) => {
               width: 95%;
               height: auto;
             }
-            .dry-clean-header2 {
+            .dry-clean-header11 {
               align-items: center;
               justify-content: center;
             }
@@ -2096,14 +2277,21 @@ const DryClean = (props) => {
               text-align: center;
               line-height: 49px;
             }
-            .dry-clean-text4 {
+            .dry-clean-section19 {
+              text-align: center;
+              line-height: 37px;
+            }
+            .dry-clean-text16 {
               color: rgb(255, 255, 255);
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
             }
-            .dry-clean-link8 {
-              text-decoration: none;
+            .dry-clean-categories {
+              flex-direction: column;
+            }
+            .dry-clean-text38 {
+              text-align: justify;
             }
           }
         `}

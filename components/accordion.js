@@ -114,6 +114,7 @@ const Accordion = (props) => {
             color: var(--dl-color-gray-900);
             width: 100%;
             max-width: 535px;
+            text-align: justify;
             font-family: Poppins;
             line-height: 24px;
             user-select: text;
@@ -149,6 +150,7 @@ const Accordion = (props) => {
             color: var(--dl-color-gray-900);
             width: 100%;
             max-width: 535px;
+            text-align: justify;
             font-family: Poppins;
             line-height: 24px;
             user-select: text;
@@ -184,6 +186,7 @@ const Accordion = (props) => {
             color: var(--dl-color-gray-900);
             width: 100%;
             max-width: 535px;
+            text-align: justify;
             font-family: Poppins;
             line-height: 24px;
             user-select: text;
@@ -219,6 +222,7 @@ const Accordion = (props) => {
             color: var(--dl-color-gray-900);
             width: 100%;
             max-width: 535px;
+            text-align: justify;
             font-family: Poppins;
             line-height: 24px;
             user-select: text;
@@ -278,6 +282,7 @@ const Accordion = (props) => {
             }
             .accordion-text2 {
               color: var(--dl-color-gray-900);
+              text-align: justify;
               font-family: Poppins;
               line-height: 24px;
             }
@@ -295,6 +300,7 @@ const Accordion = (props) => {
             }
             .accordion-text4 {
               color: var(--dl-color-gray-900);
+              text-align: justify;
               font-family: Poppins;
               line-height: 24px;
             }
@@ -312,6 +318,7 @@ const Accordion = (props) => {
             }
             .accordion-text6 {
               color: var(--dl-color-gray-900);
+              text-align: justify;
               font-family: Poppins;
               line-height: 24px;
             }
@@ -329,6 +336,7 @@ const Accordion = (props) => {
             }
             .accordion-text8 {
               color: var(--dl-color-gray-900);
+              text-align: justify;
               font-family: Poppins;
               line-height: 24px;
             }

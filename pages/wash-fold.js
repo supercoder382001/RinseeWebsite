@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
 
-import Navbar from '../components/navbar'
+import NavbarP from '../components/navbar-p'
 import Card4 from '../components/card4'
 import Mark from '../components/mark'
 import FAQ1 from '../components/faq1'
@@ -14,33 +14,35 @@ const WashFold = (props) => {
     <>
       <div className="wash-fold-container1">
         <Head>
-          <title>WashFold - Rinsee</title>
-          <meta property="og:title" content="WashFold - Rinsee" />
+        <title>WashFold - Rinsee</title>
+          <meta property="og:title" content="Affordable Wash & Fold Laundry Service in Delhi | Rinsee" />
+          <meta name="description" content="Are you searching for an affordable wash and fold laundry service in Delhi? Look no further than Rinsee! We provide professional laundry services with convenient doorstep pickup and delivery. Enjoy our fast, same-day service that ensures your clothes come back clean, fresh, and neatly folded. Experience hassle-free laundry solutions with the top service in Delhi."/>
+          <meta name="keywords" content="wash and fold laundry service Delhi, laundry service near me, wash and fold near me, doorstep laundry service, wash and fold laundry near me, wash and fold, best laundry service Delhi, same day laundry service, laundry delivery service, fluff and fold laundry near me"/>
         </Head>
-        <Navbar
+        <NavbarP
           imageAlt="/Icons/hamburger-200h.png"
           imageSrc="/Icons/hamburger-200h.png"
-          brandingLogo="/external/logo-200w.png"
+          brandingLogo="../external/logo-200w.png"
           rootClassName="navbarroot-class-name2"
-        ></Navbar>
+        ></NavbarP>
         <section className="wash-fold-section10">
           <div className="wash-fold-hero">
             <div className="wash-fold-content1">
               <main className="wash-fold-main1">
-                <header className="wash-fold-header1">
+                <header className="wash-fold-header10">
                   <h1 className="wash-fold-heading1">
                     Wash &amp; Fold Laundry Service
                   </h1>
                 </header>
                 <div className="wash-fold-buttons">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="wash-fold-link1"
+                    className="wash-fold-link10"
                   >
                     <div className="wash-fold-get-started1 button">
-                      <span className="wash-fold-text1">Download App now</span>
+                      <span className="wash-fold-text10">Download App now</span>
                     </div>
                   </a>
                 </div>
@@ -56,7 +58,7 @@ const WashFold = (props) => {
           </div>
         </section>
         <section className="wash-fold-section11">
-          <header className="wash-fold-header2">
+          <header className="wash-fold-header11">
             <header className="wash-fold-left">
               <h2 className="section-heading wash-fold-heading2">
                 Wash &amp; Fold with RINSEE
@@ -64,10 +66,13 @@ const WashFold = (props) => {
             </header>
             <div className="wash-fold-right">
               <p className="wash-fold-paragraph section-description">
-                You’re dealing with a laundry load that’s far more than mere
-                fabricit’s an intricate collection of personal essentials,
-                nostalgic keepsakes, and daily necessities, all requiring an
-                unparalleled level of care, attention, and meticulousness.
+                You&apos;re managing a laundry load that goes beyond just simple
+                fabric—it&apos;s a complex assortment of personal essentials,
+                cherished keepsakes, and everyday necessities. Each item in this
+                collection demands a unique level of care, attention, and
+                meticulous handling. This process is not just about cleaning;
+                it’s about preserving memories and ensuring that everything is
+                treated with respect.
               </p>
             </div>
           </header>
@@ -108,7 +113,7 @@ const WashFold = (props) => {
                   </span>
                 </header>
                 <main className="wash-fold-heading3">
-                  <header className="wash-fold-header3">
+                  <header className="wash-fold-header12">
                     <h2 className="section-heading wash-fold-heading4">
                       Great care, wherever you are
                     </h2>
@@ -119,13 +124,13 @@ const WashFold = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="wash-fold-link2"
+                className="wash-fold-link11"
               >
                 <div className="wash-fold-get-started2 button">
-                  <span className="wash-fold-text2">Get started</span>
+                  <span className="wash-fold-text11">Get started</span>
                 </div>
               </a>
             </div>
@@ -1193,25 +1198,25 @@ const WashFold = (props) => {
               <main className="wash-fold-main3">
                 <header className="wash-fold-caption2">
                   <span className="wash-fold-section15 section-head">
-                    Wash and Fold prices
+                    Wash and fold prices
                   </span>
                 </header>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="wash-fold-link3"
+                className="wash-fold-link12"
               >
                 <div className="wash-fold-get-started3 button">
-                  <span className="wash-fold-text3">Get started</span>
+                  <span className="wash-fold-text12">Get started</span>
                 </div>
               </a>
             </div>
           </section>
         </section>
-        <section className="wash-fold-section16">
-          <header className="wash-fold-header4">
+        <section id="faq" className="wash-fold-section16">
+          <header className="wash-fold-header13">
             <span className="section-head">FAQ</span>
             <h2 className="wash-fold-heading5 section-heading">
               Frequently asked questions
@@ -1231,7 +1236,7 @@ const WashFold = (props) => {
                   </span>
                 </header>
                 <main className="wash-fold-heading6">
-                  <header className="wash-fold-header5">
+                  <header className="wash-fold-header14">
                     <h2 className="wash-fold-heading7 section-heading">
                       Quality without a doubt, day in, day out.
                     </h2>
@@ -1246,13 +1251,13 @@ const WashFold = (props) => {
             <main className="wash-fold-main-content">
               <div className="wash-fold-content6">
                 <header className="wash-fold-main5">
-                  <div className="wash-fold-header6">
+                  <div className="wash-fold-header15">
                     <img
-                      alt="image"
+                      alt="Dry Clean"
                       src="/external/logo-200w.png"
                       className="wash-fold-branding"
                     />
-                    <span className="wash-fold-text4">
+                    <span className="wash-fold-text13">
                       Make your everyday laundry easy
                     </span>
                   </div>
@@ -1261,7 +1266,7 @@ const WashFold = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="wash-fold-link4"
+                      className="wash-fold-link13"
                     >
                       <img
                         alt="image"
@@ -1273,7 +1278,7 @@ const WashFold = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="wash-fold-link5"
+                      className="wash-fold-link14"
                     >
                       <img
                         alt="image"
@@ -1285,7 +1290,7 @@ const WashFold = (props) => {
                       href="https://example.com"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="wash-fold-link6"
+                      className="wash-fold-link15"
                     >
                       <img
                         alt="image"
@@ -1296,18 +1301,88 @@ const WashFold = (props) => {
                   </div>
                 </header>
                 <header className="wash-fold-categories">
-                  <div className="wash-fold-category">
-                    <div className="wash-fold-header7">
+                  <div className="wash-fold-category1">
+                    <div className="wash-fold-header16">
                       <span className="footer-header">Company</span>
                     </div>
-                    <div className="wash-fold-links">
-                      <span className="footer-link">About</span>
-                      <Link href="/">
-                        <a className="wash-fold-link7 footer-link">Home</a>
+                    <div className="wash-fold-links1">
+                      <Link href="/aboutus">
+                        <a className="wash-fold-link16 footer-link">About</a>
                       </Link>
-                      <Link href="/">
-                        <a className="wash-fold-link8 footer-link">Terms</a>
+                      <a href="#home" className="wash-fold-text16 footer-link">
+                        Home
+                      </a>
+                      <a href="#faq" className="wash-fold-text17 footer-link">
+                        FAQs
+                      </a>
+                      <Link href="/termsand-conditions">
+                        <a className="wash-fold-link17 footer-link">
+                          <span>Terms</span>
+                          <br></br>
+                        </a>
                       </Link>
+                    </div>
+                  </div>
+                  <div className="wash-fold-category2">
+                    <div className="wash-fold-header17">
+                      <span className="footer-header">Services</span>
+                    </div>
+                    <div className="wash-fold-links2">
+                      <Link href="/wash-fold">
+                        <a className="wash-fold-link18 footer-link">
+                          Wash &amp; Fold
+                        </a>
+                      </Link>
+                      <Link href="/wash-iron">
+                        <a className="wash-fold-link19 footer-link">
+                          Wash &amp; Iron
+                        </a>
+                      </Link>
+                      <Link href="/steam-iron">
+                        <a className="wash-fold-link20 footer-link">
+                          Steam Iron
+                        </a>
+                      </Link>
+                      <Link href="/dry-clean">
+                        <a className="wash-fold-link21 footer-link">
+                          <span>Dry Clean</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="wash-fold-category3">
+                    <div className="wash-fold-header18">
+                      <span className="footer-header">Get in touch</span>
+                    </div>
+                    <div className="wash-fold-links3">
+                      <span className="footer-link">
+                        <span>Email : jatindua2001@gmail.com</span>
+                        <br></br>
+                        <span>Contact: 7428160047</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="wash-fold-category4">
+                    <div className="wash-fold-header19">
+                      <span className="footer-header">About Us</span>
+                    </div>
+                    <div className="wash-fold-links4">
+                      <span className="wash-fold-text35 footer-link">
+                        <span>
+                          We at Rinsee are dedicated to saving time, effort, and
+                          precious resources for all our delighted customers who
+                          seek the best laundry service. With exciting ideas
+                          that have been spinning in our heads, we are thrilled
+                          to introduce you to our compelling and innovative
+                          services, including the convenient wash and fold
+                          laundry service near me, designed to meet your needs
+                          effortlessly.
+                        </span>
+                        <span>Readmore</span>
+                        <br></br>
+                      </span>
                     </div>
                   </div>
                 </header>
@@ -1372,7 +1447,7 @@ const WashFold = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-fold-header1 {
+          .wash-fold-header10 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
@@ -1391,7 +1466,7 @@ const WashFold = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .wash-fold-link1 {
+          .wash-fold-link10 {
             display: contents;
           }
           .wash-fold-get-started1 {
@@ -1399,7 +1474,7 @@ const WashFold = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .wash-fold-text1 {
+          .wash-fold-text10 {
             color: rgb(12, 16, 12);
             font-size: 16px;
             font-style: normal;
@@ -1437,7 +1512,7 @@ const WashFold = (props) => {
             justify-content: center;
             border-top-width: 1px;
           }
-          .wash-fold-header2 {
+          .wash-fold-header11 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -1540,7 +1615,7 @@ const WashFold = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-fold-header3 {
+          .wash-fold-header12 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1556,7 +1631,7 @@ const WashFold = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .wash-fold-link2 {
+          .wash-fold-link11 {
             display: contents;
           }
           .wash-fold-get-started2 {
@@ -1564,7 +1639,7 @@ const WashFold = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .wash-fold-text2 {
+          .wash-fold-text11 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -1628,7 +1703,7 @@ const WashFold = (props) => {
             color: rgb(198, 255, 75);
             font-size: 35px;
           }
-          .wash-fold-link3 {
+          .wash-fold-link12 {
             display: contents;
           }
           .wash-fold-get-started3 {
@@ -1636,7 +1711,7 @@ const WashFold = (props) => {
             text-decoration: none;
             background-color: #80ff44;
           }
-          .wash-fold-text3 {
+          .wash-fold-text12 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -1659,7 +1734,7 @@ const WashFold = (props) => {
             justify-content: center;
             border-top-width: 1px;
           }
-          .wash-fold-header4 {
+          .wash-fold-header13 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -1742,7 +1817,7 @@ const WashFold = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-fold-header5 {
+          .wash-fold-header14 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1758,11 +1833,11 @@ const WashFold = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
-            padding-top: 27px;
+            padding-top: 120px;
             padding-left: var(--dl-space-space-oneandhalfunits);
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
           .wash-fold-content5 {
@@ -1783,6 +1858,7 @@ const WashFold = (props) => {
             justify-content: flex-start;
           }
           .wash-fold-content6 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1796,8 +1872,9 @@ const WashFold = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-fold-header6 {
+          .wash-fold-header15 {
             gap: var(--dl-space-space-unit);
+            width: 255px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -1807,7 +1884,7 @@ const WashFold = (props) => {
             width: 120px;
             object-fit: cover;
           }
-          .wash-fold-text4 {
+          .wash-fold-text13 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -1823,26 +1900,24 @@ const WashFold = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .wash-fold-link4 {
+          .wash-fold-link13 {
             display: contents;
           }
-          .wash-fold-link5 {
+          .wash-fold-link14 {
             display: contents;
           }
-          .wash-fold-link6 {
+          .wash-fold-link15 {
             display: contents;
           }
           .wash-fold-categories {
-            gap: var(--dl-space-space-fourunits);
-            flex: 0;
-            width: var(--dl-size-size-xxlarge);
+            gap: var(--dl-space-space-unit);
             height: auto;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .wash-fold-category {
+          .wash-fold-category1 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1851,25 +1926,116 @@ const WashFold = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .wash-fold-header7 {
+          .wash-fold-header16 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: center;
           }
-          .wash-fold-links {
+          .wash-fold-links1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .wash-fold-link7 {
+          .wash-fold-link16 {
             text-decoration: none;
           }
-          .wash-fold-link8 {
+          .wash-fold-text16 {
             text-decoration: none;
+          }
+          .wash-fold-text17 {
+            text-decoration: none;
+          }
+          .wash-fold-link17 {
+            text-decoration: none;
+          }
+          .wash-fold-category2 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: 175px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-fold-header17 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-fold-links2 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .wash-fold-link18 {
+            text-decoration: none;
+          }
+          .wash-fold-link19 {
+            text-decoration: none;
+          }
+          .wash-fold-link20 {
+            text-decoration: none;
+          }
+          .wash-fold-link21 {
+            text-decoration: none;
+          }
+          .wash-fold-category3 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: auto;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-fold-header18 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-fold-links3 {
+            gap: var(--dl-space-space-unit);
+            width: 240px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .wash-fold-category4 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            max-width: 350px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-fold-header19 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .wash-fold-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .wash-fold-text35 {
+            text-align: justify;
           }
           .wash-fold-copyright1 {
             gap: var(--dl-space-space-fiveunits);
@@ -1947,7 +2113,7 @@ const WashFold = (props) => {
               padding-top: 100px;
               padding-bottom: 100px;
             }
-            .wash-fold-header2 {
+            .wash-fold-header11 {
               gap: var(--dl-space-space-unit);
               align-items: flex-start;
               flex-direction: column;
@@ -1977,6 +2143,20 @@ const WashFold = (props) => {
               align-items: flex-start;
               flex-direction: column;
               justify-content: flex-start;
+            }
+            .wash-fold-categories {
+              gap: 10px;
+              flex: 1;
+              width: 100%;
+              grid-gap: var(--dl-space-space-twounits);
+              flex-wrap: wrap;
+            }
+            .wash-fold-category3 {
+              width: auto;
+            }
+            .wash-fold-category4 {
+              width: 100%;
+              max-width: 1200px;
             }
             .wash-fold-copyright1 {
               display: none;
@@ -2026,7 +2206,8 @@ const WashFold = (props) => {
               gap: var(--dl-space-space-twounits);
             }
             .wash-fold-categories {
-              gap: var(--dl-space-space-twounits);
+              gap: var(--dl-space-space-threeunits);
+              flex-wrap: wrap;
               flex-direction: column;
             }
           }
@@ -2038,7 +2219,7 @@ const WashFold = (props) => {
             .wash-fold-section10 {
               padding-top: var(--dl-space-space-oneandhalfunits);
             }
-            .wash-fold-header1 {
+            .wash-fold-header10 {
               align-items: flex-start;
             }
             .wash-fold-heading1 {
@@ -2061,7 +2242,7 @@ const WashFold = (props) => {
               width: 95%;
               height: auto;
             }
-            .wash-fold-header2 {
+            .wash-fold-header11 {
               align-items: center;
               justify-content: center;
             }
@@ -2088,14 +2269,17 @@ const WashFold = (props) => {
               text-align: center;
               line-height: 49px;
             }
-            .wash-fold-text4 {
+            .wash-fold-text13 {
               color: rgb(255, 255, 255);
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
             }
-            .wash-fold-link8 {
-              text-decoration: none;
+            .wash-fold-categories {
+              flex-direction: column;
+            }
+            .wash-fold-text35 {
+              text-align: justify;
             }
           }
         `}

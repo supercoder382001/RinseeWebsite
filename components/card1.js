@@ -125,8 +125,10 @@ const Card1 = (props) => {
               flex-direction: row;
             }
             .card1-description {
-              color: #ffffff;
+              color: rgb(255, 255, 255);
               width: auto;
+              font-family: Poppins;
+              line-height: 28px;
             }
             .card1root-class-name {
               margin-left: 0px;

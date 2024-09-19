@@ -15,12 +15,11 @@ const FAQ3 = (props) => {
               What is the meaning of dry cleaning?
             </span>
             <span data-role="accordion-content" className="faq3-text11">
-              There’s a reason why the term &apos;dry cleaning&apos; has become
-              part of our vocabulary. The process uses a liquid solvent to clean
-              clothes instead of conventional water and detergent. The solvent
-              contains little or no water. It requires specialised machinery and
-              expert handling, so choose the right dry cleaning service near
-              you. Luckily, RINSEE covers all of Delhi … so no worry there!
+              Dry cleaning isn&apos;t just a fancy term. It&apos;s a special way
+              to clean clothes without water. Instead, it uses a liquid solvent
+              and special machines. This method needs experts to do it right.
+              That&apos;s why picking a good dry cleaner matters. Good news -
+              RINSEE serves all of Delhi, so you&apos;re covered!
             </span>
           </div>
           <div data-role="accordion-icon">
@@ -39,13 +38,12 @@ const FAQ3 = (props) => {
               clothes?
             </span>
             <span data-role="accordion-content" className="faq3-text13">
-              Especially when it comes to formal wear, occasion wear or delicate
-              fabrics, dry cleaning helps to return garments to an
-              as-good-as-new condition. People opt for dry cleaning services
-              also because the process focuses on stain removal, protects
-              against shrinkage, prevents loss of colour and maintains texture.
-              That’s why RINSEE advanced technology works well for your
-              expensive or delicate outfits.
+              For fancy clothes, party wear, or soft fabrics, dry cleaning makes
+              them look new again. People choose it because it&apos;s great at
+              removing stains, stops clothes from shrinking, keeps colors
+              bright, and doesn&apos;t change how clothes feel. That&apos;s why
+              RINSEE&apos;s top-notch tech works wonders on your pricey or
+              delicate outfits.
             </span>
           </div>
           <div data-role="accordion-icon">
@@ -63,12 +61,11 @@ const FAQ3 = (props) => {
               What are the benefits of dry cleaning your clothes?
             </span>
             <span data-role="accordion-content" className="faq3-text15">
-              Dry cleaning clothes is a sensible opOon if there are stains and
-              odours you want removed. It is also good for apparel that are
-              bulky, large and heavy. Dry cleaning restores old clothes, and
-              even protects garments from moths and insects. Needless to say, at
-              RINSEE we also make sure your aHre feels extra-fresh and adds
-              a flawless finish to your ensemble.
+              Dry cleaning is smart when you need to get rid of tough stains and
+              smells. It&apos;s also perfect for big, heavy clothes. It can make
+              old clothes look better and even keeps bugs away. At RINSEE, we go
+              the extra mile to make your clothes super fresh and look flawless
+              when you wear them.
             </span>
           </div>
           <div data-role="accordion-icon">
@@ -84,12 +81,11 @@ const FAQ3 = (props) => {
           <div className="faq3-details4">
             <span className="faq3-text16">Is dry cleaning safe?</span>
             <span data-role="accordion-content" className="faq3-text17">
-              A valid question when it comes to one-of-a-kind clothes. There are
-              several instances where dry cleaning may be the only option and
-              yes, dry cleaning does involve chemicals. Look for a name that you
-              can trust, like RINSEE, where safe dry cleaning is a norm and the
-              chemicals for dry cleaning are carefully chosen and judiciously
-              used.
+              You might wonder if it&apos;s safe for your special clothes.
+              Sometimes, dry cleaning is the only choice, and yes, it does use
+              chemicals. But pick a trusted name like RINSEE. We make sure our
+              dry cleaning is safe. We&apos;re careful about which chemicals we
+              use and how much we use them
             </span>
           </div>
           <div data-role="accordion-icon">
@@ -107,10 +103,10 @@ const FAQ3 = (props) => {
               Is ironing included in dry cleaning service?
             </span>
             <span data-role="accordion-content" className="faq3-text19">
-              Yes, the final stage of the dry cleaning process does include
-              finishing, pressing and steam ironing. At RINSEE, we spend
-              Ome on this last mile to ensure that you get a perfect end result
-              from both the dry clean and iron processes.
+              Yes, the last step of dry cleaning includes finishing, pressing,
+              and steam ironing. At RINSEE, we take our time with this final
+              touch. We want to make sure you get perfect results from both the
+              cleaning and ironing parts of the process.
             </span>
           </div>
           <div data-role="accordion-icon">
@@ -154,7 +150,6 @@ const FAQ3 = (props) => {
           }
           .faq3-text11 {
             color: rgb(204, 204, 204);
-            text-align: justify;
             font-family: 'Poppins';
             line-height: 24px;
           }
@@ -187,7 +182,6 @@ const FAQ3 = (props) => {
           }
           .faq3-text13 {
             color: rgb(204, 204, 204);
-            text-align: justify;
             font-family: 'Poppins';
             line-height: 28px;
           }
@@ -220,7 +214,6 @@ const FAQ3 = (props) => {
           }
           .faq3-text15 {
             color: rgb(204, 204, 204);
-            text-align: justify;
             font-family: 'Poppins';
             line-height: 28px;
           }

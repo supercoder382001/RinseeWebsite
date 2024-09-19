@@ -156,7 +156,7 @@ const Card3 = (props) => {
             }
             .card3-description {
               fill: #ffffff;
-              color: #ffffff;
+              color: rgb(255, 255, 255);
               width: auto;
               font-family: Poppins;
               line-height: 28px;

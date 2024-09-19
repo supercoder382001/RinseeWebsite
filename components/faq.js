@@ -15,14 +15,14 @@ const FAQ = (props) => {
               Does Rinsee provide dry clean with same day or 1 day delivery?
             </span>
             <span data-role="accordion-content" className="faq-text11">
-              We deliver your dry clean order within 3 to 4 days. We also
-              provide the option of express/fast/urgent delivery where the order
-              is delivered same day or next day, as per your need.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              We ensure that your dry clean order is delivered within a
+              convenient timeframe of 3 to 4 days. For those who need their
+              items sooner, we offer an express delivery option. This allows you
+              to receive your order on the same day or the next day, depending
+              on your specific requirements. Whether you are searching for a
+              reliable laundry service near me or looking for a wash and fold
+              laundry service near me, we are here to meet your needs with
+              efficiency and care. Your satisfaction is our priority.
             </span>
           </div>
           <div data-role="accordion-icon">
@@ -40,8 +40,10 @@ const FAQ = (props) => {
               Does Rinsee provide free home delivery?
             </span>
             <span data-role="accordion-content" className="faq-text13">
-              Yes, Rinsee provides free home pickup and delivery at all its
-              laundry &amp; dry clean orders.
+              Yes, Rinsee offers a convenient laundry service near me, providing
+              free home pickup and delivery for all its laundry and dry clean
+              orders. This includes their popular wash and fold laundry service
+              near me, ensuring customer satisfaction.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -64,9 +66,12 @@ const FAQ = (props) => {
               Do you provide online laundry &amp; dry cleaning service?
             </span>
             <span data-role="accordion-content" className="faq-text15">
-              Yes, you can place your order online through our mobile app. We
-              provide free home pickup &amp; delivery at all our shops across
-              India.
+              Yes, you can easily place your order online through our
+              user-friendly mobile app. We offer a convenient laundry service
+              near you, ensuring that you can access our wash and fold laundry
+              service near me with just a few taps. Additionally, we provide
+              free home pickup and delivery at all our shops across India for
+              your convenience.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -114,9 +119,11 @@ const FAQ = (props) => {
               />
             </span>
             <span data-role="accordion-content" className="faq-text19">
-              We provide both dry cleaning (garments are cleaned without water),
-              as well as wash and fold services (garments are machine washed and
-              machine dried).
+              We offer a comprehensive range of laundry services, including dry
+              cleaning, where garments are expertly cleaned without the use of
+              water, and wash and fold services, where items are machine washed
+              and dried, ensuring convenience for those searching for laundry
+              service near me.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -167,6 +174,7 @@ const FAQ = (props) => {
           .faq-text11 {
             color: rgb(204, 204, 204);
             width: 100%;
+            text-align: justify;
             font-family: Poppins;
             line-height: 24px;
             user-select: text;
@@ -202,6 +210,7 @@ const FAQ = (props) => {
           .faq-text13 {
             color: rgb(204, 204, 204);
             width: 100%;
+            text-align: justify;
             font-family: Poppins;
             line-height: 28px;
             user-select: text;
@@ -237,6 +246,7 @@ const FAQ = (props) => {
           .faq-text15 {
             color: rgb(204, 204, 204);
             width: 100%;
+            text-align: justify;
             font-family: Poppins;
             line-height: 28px;
             user-select: text;
@@ -350,6 +360,7 @@ const FAQ = (props) => {
             }
             .faq-text11 {
               color: rgb(204, 204, 204);
+              text-align: justify;
               font-family: Poppins;
               line-height: 24px;
             }
@@ -363,6 +374,7 @@ const FAQ = (props) => {
             }
             .faq-text13 {
               color: rgb(204, 204, 204);
+              text-align: justify;
               font-family: Poppins;
               line-height: 28px;
             }

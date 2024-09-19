@@ -19,6 +19,7 @@ const Card = (props) => {
           .card-card {
             gap: var(--dl-space-space-oneandhalfunits);
             flex: 1;
+            height: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             position: relative;
@@ -59,18 +60,19 @@ const Card = (props) => {
           }
           .card-description {
             color: #c2c6cc;
+            text-align: justify;
             font-family: Poppins;
             line-height: 28px;
           }
           .cardroot-class-name {
             flex: 1;
-            height: var(--dl-size-size-xxlarge);
+            height: 400px;
           }
           .cardroot-class-name1 {
-            height: var(--dl-size-size-xxlarge);
+            height: 100%;
           }
           .cardroot-class-name2 {
-            height: var(--dl-size-size-xxlarge);
+            height: 100%;
           }
           .cardroot-class-name3 {
             flex: 1;
@@ -126,6 +128,7 @@ const Card = (props) => {
             .cardroot-class-name {
               flex: 0 0 auto;
               width: 100%;
+              height: 100%;
             }
             .cardroot-class-name1 {
               flex: 0 0 auto;
@@ -194,6 +197,27 @@ const Card = (props) => {
             .cardroot-class-name17 {
               flex: 0 0 auto;
               width: 100%;
+            }
+          }
+          @media (max-width: 479px) {
+            .card-card {
+              padding: var(--dl-space-space-oneandhalfunits);
+            }
+            .card-header {
+              color: rgb(255, 255, 255);
+              font-size: 24px;
+              font-style: normal;
+              font-family: Poppins;
+              font-weight: 600;
+              line-height: 36px;
+            }
+            .card-description {
+              color: rgb(194, 198, 204);
+              font-family: Poppins;
+              line-height: 28px;
+            }
+            .cardroot-class-name {
+              height: 100%;
             }
           }
         `}

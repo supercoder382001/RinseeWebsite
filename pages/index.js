@@ -22,13 +22,15 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>Rinsee</title>
-          <meta property="og:title" content="Rinsee" />
+        <title>Rinsee</title>
+          <meta property="og:title" content="Rinsee - Express Laundry in Delhi | Fast, Reliable Clothes Washing & Ironing services" />
+          <meta name="description" content="Rinsee delivers fast, reliable laundry service in Delhi, specializing in clothes washing and ironing. Open 24/7 located in Delhi, Noida and Gurgaon. Our express service ensures your garments are cleaned, ironed and delivered to your doorstep. Enjoy hassle free laundry with Rinsee - where convenience and quality meet for a spotless experience."/>
+          <meta name="keywords" content="laundry near me, laundry services in noida, best laundry services in delhi, best laundry services, express laundry services, clothes washing service near me, dhobi near me, presswala, clothes washer, carpet cleaning, shoe cleaning, dry cleaners, laundromat"/>
         </Head>
         <Navbar
-          brandingLogo="/external/logo-1200w.png"
+          imageAlt="../Icons/hamburger-200h.png"
+          brandingLogo="../external/logo-1200w.png"
           rootClassName="navbarroot-class-name"
-          imageAlt="/Icons/hamburger-200h.png"
         ></Navbar>
         <section id="home" className="home-section10">
           <div className="home-hero">
@@ -36,17 +38,17 @@ const Home = (props) => {
               <main className="home-main1">
                 <header className="home-header10">
                   <h1 className="home-heading10">
-                    A Better You Start with Clean Clothes 
+                    Laundry Service  Freshen Up Your Wardrobe Today
                   </h1>
                   <span className="home-caption1">
-                    Laundry and dry cleaning picked up and delivered to your
-                    door, hassle free and affordable dry cleaning and delivered
-                    to your home or office
+                    Convenient laundry service near me: Wash and fold laundry
+                    service picked up and delivered to your doorstep.
+                    Affordable, hassle-free cleaning for home or office.
                   </span>
                 </header>
                 <div className="home-buttons1">
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-link10"
@@ -85,8 +87,8 @@ const Home = (props) => {
             </div>
             <div className="home-image13">
               <img
-                alt="pastedImage"
-                src="/external/banner-1200w.png"
+                alt="Washing machine"
+                src="/external/banner-600w.png"
                 className="home-pasted-image"
               />
             </div>
@@ -102,7 +104,7 @@ const Home = (props) => {
           <section className="home-note1">
             <div className="home-image14">
               <img
-                alt="image"
+                alt="Dry Clean"
                 src="/external/ban1-500h.png"
                 className="home-image15"
               />
@@ -115,6 +117,7 @@ const Home = (props) => {
                       <span className="home-text14">1</span>
                     </Fragment>
                   }
+                  description="Our laundry service near me provides customized cleaning, washing, and dry cleaning, plus ironing and prompt delivery for your ease."
                   rootClassName="card1root-class-name"
                 ></Card1>
                 <Card2
@@ -126,6 +129,7 @@ const Home = (props) => {
                       </span>
                     </Fragment>
                   }
+                  description="This service near me specializes in larger items needing unique cleaning methods."
                   rootClassName="card2root-class-name"
                 ></Card2>
                 <Card3
@@ -137,11 +141,12 @@ const Home = (props) => {
                       </span>
                     </Fragment>
                   }
+                  description="Enjoy exceptional freshness and radiance with every wash!"
                   rootClassName="card3root-class-name"
                 ></Card3>
               </div>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link11"
@@ -156,24 +161,28 @@ const Home = (props) => {
             <div className="home-image16">
               <Card4
                 header="Step 1"
+                imageAlt="Steam Iron"
                 imageSrc="/external/pickup-300w.png"
                 description="Pickup"
                 rootClassName="card4root-class-name"
               ></Card4>
               <Card4
                 header="Step 2"
+                imageAlt="Dry Clean"
                 imageSrc="/external/wash-300w.png"
                 description="Wash &amp; Dry"
                 rootClassName="card4root-class-name3"
               ></Card4>
               <Card4
                 header="Step 3"
+                imageAlt="Steam Iron"
                 imageSrc="/external/fold-300w.png"
                 description="Fold"
                 rootClassName="card4root-class-name2"
               ></Card4>
               <Card4
                 header="Step 4"
+                imageAlt="Wash &amp; Fold"
                 imageSrc="/external/delivery-300w.png"
                 description="Delivery"
                 rootClassName="card4root-class-name1"
@@ -201,7 +210,7 @@ const Home = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link12"
@@ -221,7 +230,7 @@ const Home = (props) => {
           <section className="home-note3">
             <div className="home-image17">
               <img
-                alt="image"
+                alt="Wash &amp; Iron"
                 src="/external/ban1-500h.png"
                 className="home-image18"
               />
@@ -237,8 +246,8 @@ const Home = (props) => {
                       </span>
                     </Fragment>
                   }
-                  header="Refer your friend"
-                  description="Share your unique code with your friend and ask them to install rinsee app"
+                  header="Refer your Friend"
+                  description="Share your unique code with your friend and encourage them to install the RINSEE App for convenient laundry service near me and wash and fold laundry service near me."
                   rootClassName="card7root-class-name"
                 ></Card7>
                 <Card7
@@ -250,8 +259,8 @@ const Home = (props) => {
                       </span>
                     </Fragment>
                   }
-                  header="You get"
-                  description="Every time they order you get 10% upto 7 rs of their order value into your wallet"
+                  header="You Get"
+                  description="Every time they order you get 10% upto 7 Rs of their order value into your wallet"
                   rootClassName="card7root-class-name2"
                 ></Card7>
                 <Card7
@@ -263,13 +272,13 @@ const Home = (props) => {
                       </span>
                     </Fragment>
                   }
-                  header="Your friend get"
-                  description="10% off on every item on their first order"
+                  header="Your Friend get"
+                  description="10% off on every item on your first order with our laundry service. Discover the best wash and fold laundry service near me!"
                   rootClassName="card7root-class-name1"
                 ></Card7>
               </div>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link13"
@@ -296,20 +305,20 @@ const Home = (props) => {
           </header>
           <main className="home-cards1">
             <Card
-              header="Certified machinery "
-              description="To prevent colour loss and shrinkage"
+              header="Advanced equipment "
+              description="Safeguards colors, preserves garment shape, and enhances quality for your laundry service needs nearby."
               rootClassName="cardroot-class-name"
             ></Card>
             <Card
               icon="/Icons/group%201314-200h.png"
-              header="Experienced team"
-              description="Team with excellent knowledge of fabrics and how to process them"
+              header="Skilled Professional"
+              description="Skilled laundry professionals providing exceptional laundry service near me, including wash and fold options. Expert care for all your clothing and fabric needs."
               rootClassName="cardroot-class-name1"
             ></Card>
             <Card
               icon="/Icons/group%201317-200h.png"
-              header="Eco friendly cleaning solutions"
-              description="Tough on stains, gentle on fabric"
+              header="Green cleaning agents"
+              description="Effectively eliminate stains while ensuring the fabric remains intact, especially when using a laundry service near me."
               rootClassName="cardroot-class-name2"
             ></Card>
           </main>
@@ -329,8 +338,8 @@ const Home = (props) => {
             <Link href="/wash-fold">
               <a className="home-link14">
                 <Card6
-                  header="Wash + fold"
-                  description="You just want spotlessly clean clothes, carefully folded and shelf-ready? well, what’s wrong with expecting that"
+                  header="Wash + Fold"
+                  description="You simply desire clothes that are impeccably clean, neatly folded, and ready to be placed on your shelf. Why shouldn’t you expect that from a laundry service near me?"
                   rootClassName="card6root-class-name"
                   className="home-component25"
                 ></Card6>
@@ -339,8 +348,8 @@ const Home = (props) => {
             <Link href="/wash-iron">
               <a className="home-link15">
                 <Card6
-                  header="Wash + iron"
-                  description="You need your clothes super clean, neatly pressed and easily stackable? sure, that’s a reasonable ask."
+                  header="Wash + Iron"
+                  description="You want your clothes to be impeccably clean, perfectly pressed, and easily stackable? Absolutely, that’s a perfectly reasonable request, especially when searching for a laundry service near me."
                   rootClassName="card6root-class-name3"
                   className="home-component26"
                 ></Card6>
@@ -349,8 +358,8 @@ const Home = (props) => {
             <Link href="/steam-iron">
               <a className="home-link16">
                 <Card6
-                  header="Steam iron"
-                  description="You need smoothly ironed, creaselessly presented clothes, ready-to-wear? of course, that’s something you should insist on."
+                  header="Steam Iron"
+                  description="You need your delicately handled, professionally dry-cleaned clothes on convenient hangers? Your premium wear truly deserves the best care from a top-notch laundry service near me."
                   rootClassName="card6root-class-name2"
                   className="home-component27"
                 ></Card6>
@@ -359,8 +368,8 @@ const Home = (props) => {
             <Link href="/dry-clean">
               <a className="home-link17">
                 <Card6
-                  header="Dry clean"
-                  description="You need delicately handled, professionally dry-cleaned clothes, on handy hangers? now, your premium wear does deserve that"
+                  header="Dry Clean"
+                  description="You need delicately handled, professionally dry-cleaned clothes, on handy hangers? Now, your premium wear does deserve that"
                   rootClassName="card6root-class-name1"
                   className="home-component28"
                 ></Card6>
@@ -372,47 +381,95 @@ const Home = (props) => {
           <div className="home-note4">
             <div className="home-image19">
               <img
-                alt="image"
-                src="/external/ban2-500h.png"
+                alt="Wash &amp; Fold"
+                src="/external/ban2-1200w.png"
                 className="home-image20"
               />
             </div>
             <div className="home-content5">
               <div className="home-caption4">
-                <span className="section-head">
-                  Experience the Magic of Clean Clothes
-                </span>
+                <span className="section-head">APPS</span>
               </div>
               <div className="home-heading15">
                 <div className="home-header16">
                   <h2 className="section-heading home-heading16">
+                    <span>SINGLE PLATFORM FOR EVERY LAUNDRY NEEDS</span>
+                    <br></br>
+                  </h2>
+                  <h4 className="home-heading17 section-heading">
+                    <span>
+                      Grab today&apos;s exclusive deal. No coupon needed for
+                      savings.
+                    </span>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                  </h4>
+                </div>
+                <div className="home-container2">
+                  <input
+                    type="number"
+                    max="10"
+                    required={true}
+                    placeholder="Enter your Mobile Number"
+                    className="home-textinput input"
+                  />
+                  <button type="button" className="home-button button">
+                    <span>
+                      <span>Send app</span>
+                      <br></br>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="WhyUs" className="home-section18">
+          <div className="home-note5">
+            <div className="home-image21">
+              <img
+                alt="Wash &amp; Fold"
+                src="/external/ban2-1200w.png"
+                className="home-image22"
+              />
+            </div>
+            <div className="home-content6">
+              <div className="home-caption5">
+                <span className="section-head">
+                  Experience the Magic of Clean Clothes
+                </span>
+              </div>
+              <div className="home-heading18">
+                <div className="home-header17">
+                  <h2 className="section-heading home-heading19">
                     We are working hard to earn your trust
                   </h2>
                 </div>
                 <Accordion
                   text="100% happiness guarantee"
-                  text1="If you are not completely satisfied with the wash or dry cleaning, we will reprocess your clothes for free"
-                  text2="High quality services"
-                  text3="We work hard to make sure that the clothes you get back are spotless and ready for action"
-                  text4="We give fast services"
-                  text5="We pickup, process and deliver in less than 24 hours"
+                  text1="If you are not entirely satisfied with our laundry service, whether it’s wash and fold or dry cleaning, we will gladly reprocess your clothes at no additional cost to you."
+                  text2="High Quality Services"
+                  text3="We put in great effort to ensure that the clothes you receive from our laundry service are not only spotless but also perfectly prepared for your next adventure. Whether you search for a laundry service near me or a wash and fold laundry service near me, we’ve got you covered!"
+                  text4="We Give Fast Services"
+                  text5="We pick up your laundry, process it, and deliver it back to you in under 24 hours."
                   text41="Affordable prices for you"
-                  text51="The amount we charge is equivalent to the cost you bear to get the laundry done at your home"
+                  text51="The fee we charge is comparable to what you would spend to have your laundry done at home. Our laundry service near you offers convenience, including a wash and fold laundry service near me."
                   rootClassName="accordionroot-class-name"
                 ></Accordion>
               </div>
             </div>
           </div>
         </section>
-        <section className="home-section18">
+        <section className="home-section20">
           <div className="home-cube1">
             <div className="home-top1 side"></div>
             <div className="home-front1 side"></div>
             <div className="home-left3 side"></div>
           </div>
           <main className="home-banner">
-            <div className="home-header17">
-              <h2 className="section-heading home-heading17">
+            <div className="home-header18">
+              <h2 className="section-heading home-heading20">
                 Rinsee makes laundry service easy
               </h2>
               <p className="home-description1 section-description">
@@ -421,29 +478,29 @@ const Home = (props) => {
             </div>
             <div className="home-buttons2">
               <a
-                href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link18"
               >
                 <div className="home-get-started6 button">
-                  <span className="home-text35">Get started</span>
+                  <span className="home-text44">Get started</span>
                 </div>
               </a>
             </div>
           </main>
         </section>
-        <section className="home-section19">
+        <section className="home-section21">
           <div className="home-cube2">
             <div className="home-top2 side"></div>
             <div className="home-front2 side"></div>
             <div className="home-left4 side"></div>
           </div>
           <main className="home-pricing1">
-            <header className="home-header18">
+            <header className="home-header19">
               <header className="home-left5">
                 <span className="section-head">Pricing</span>
-                <h2 className="section-heading home-heading18">
+                <h2 className="section-heading home-heading21">
                   Start small, think big
                 </h2>
               </header>
@@ -458,7 +515,7 @@ const Home = (props) => {
               <main className="home-plans">
                 <div className="home-plan1">
                   <div className="home-details1">
-                    <div className="home-header19">
+                    <div className="home-header20">
                       <label className="home-name1">Starter</label>
                       <div className="home-pricing2">
                         <h1 className="home-price1">₹999</h1>
@@ -466,8 +523,8 @@ const Home = (props) => {
                       </div>
                     </div>
                     <p className="home-description2">
-                      <span className="home-text36">50 Clothes per month</span>
-                      <br className="home-text37"></br>
+                      <span className="home-text45">50 Clothes per month</span>
+                      <br className="home-text46"></br>
                       <br></br>
                       <span>
                         Good for bachelors and if you want to try our service
@@ -476,20 +533,20 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details1">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                      href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link19"
                     >
                       <div className="home-buy1 button">
-                        <span className="home-text40">
+                        <span className="home-text49">
                           <span>Start Basic</span>
                           <br></br>
                         </span>
                       </div>
                     </a>
                     <div className="home-features1">
-                      <span className="home-heading19">You will get</span>
+                      <span className="home-heading22">You will get</span>
                       <div className="home-list1">
                         <Includes
                           label="Get your clothes wash and iron"
@@ -521,7 +578,7 @@ const Home = (props) => {
                 </div>
                 <div className="home-plan2">
                   <div className="home-details2">
-                    <div className="home-header20">
+                    <div className="home-header21">
                       <label className="home-name2">Professional</label>
                       <div className="home-pricing3">
                         <h1 className="home-price2">₹1499</h1>
@@ -529,8 +586,8 @@ const Home = (props) => {
                       </div>
                     </div>
                     <p className="home-description3">
-                      <span className="home-text43">75 Clothes per month</span>
-                      <br className="home-text44"></br>
+                      <span className="home-text52">75 Clothes per month</span>
+                      <br className="home-text53"></br>
                       <br></br>
                       <span>
                         Good for Couples and if you want to try our service 
@@ -539,23 +596,23 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details2">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                      href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link20"
                     >
                       <div className="home-buy2 button">
-                        <span className="home-text47">
+                        <span className="home-text56">
                           <span>Start Professional</span>
                           <br></br>
                         </span>
                       </div>
                     </a>
                     <div className="home-features2">
-                      <span className="home-heading20">You will get</span>
+                      <span className="home-heading23">You will get</span>
                       <div className="home-list2">
                         <Includes
-                          label="Set of sheet free"
+                          label="1 set of sheet Free"
                           rootClassName="includesroot-class-name23"
                         ></Includes>
                         <Includes
@@ -584,7 +641,7 @@ const Home = (props) => {
                 </div>
                 <div className="home-plan3">
                   <div className="home-details3">
-                    <div className="home-header21">
+                    <div className="home-header22">
                       <label className="home-name3">Enterprise</label>
                       <div className="home-pricing4">
                         <span className="home-price3">₹2099</span>
@@ -592,8 +649,8 @@ const Home = (props) => {
                       </div>
                     </div>
                     <p className="home-description4">
-                      <span className="home-text50">130 Clothes per month</span>
-                      <br className="home-text51"></br>
+                      <span className="home-text59">130 Clothes per month</span>
+                      <br className="home-text60"></br>
                       <br></br>
                       <span>
                         Good for family and if you want to try our service
@@ -602,23 +659,23 @@ const Home = (props) => {
                   </div>
                   <div className="home-buy-details3">
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                      href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link21"
                     >
                       <div className="home-buy3 button">
-                        <span className="home-text54">
+                        <span className="home-text63">
                           <span>Start Enterprise</span>
                           <br></br>
                         </span>
                       </div>
                     </a>
                     <div className="home-features3">
-                      <span className="home-heading21">You will get</span>
+                      <span className="home-heading24">You will get</span>
                       <div className="home-list3">
                         <Includes
-                          label="2 set of sheet free"
+                          label=" 2 set of sheet free"
                           rootClassName="includesroot-class-name"
                         ></Includes>
                         <Includes
@@ -649,19 +706,19 @@ const Home = (props) => {
             </div>
           </main>
           <div className="home-help">
-            <span className="home-text57">
+            <span className="home-text66">
               <span>Need any help?</span>
               <br></br>
             </span>
             <div className="home-contact-support">
-              <p className="home-text60">Contact support -&gt;</p>
+              <p className="home-text69">Contact support -&gt;</p>
             </div>
           </div>
         </section>
-        <section id="Faq" className="home-section21">
-          <header className="home-header22">
+        <section id="Faq" className="home-section23">
+          <header className="home-header23">
             <span className="section-head">FAQ</span>
-            <h2 className="home-heading22 section-heading">
+            <h2 className="home-heading25 section-heading">
               Frequently asked questions
             </h2>
           </header>
@@ -669,9 +726,9 @@ const Home = (props) => {
             <FAQ rootClassName="fa-qroot-class-name"></FAQ>
           </main>
         </section>
-        <section className="home-section23">
-          <main className="home-content6">
-            <header className="home-header23">
+        <section className="home-section25">
+          <main className="home-content7">
+            <header className="home-header24">
               <h2 className="section-heading">
                 Stop searching online for Laundry and use Rinsee app!
               </h2>
@@ -682,10 +739,10 @@ const Home = (props) => {
                     src="/Icons/apple-200w.png"
                     className="home-icon1"
                   />
-                  <span className="home-text61">Download for iOS</span>
+                  <span className="home-text70">Download for iOS</span>
                 </div>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU"
+                  href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link22"
@@ -696,30 +753,30 @@ const Home = (props) => {
                       src="/Icons/android-200h.png"
                       className="home-icon2"
                     />
-                    <span className="home-text62">Download for Android</span>
+                    <span className="home-text71">Download for Android</span>
                   </div>
                 </a>
               </div>
             </header>
             <img
-              alt="image"
+              alt="Dry Clean"
               src="/external/logo-1200w.png"
-              className="home-image21"
+              className="home-image23"
             />
           </main>
         </section>
         <footer className="home-footer">
-          <div className="home-content7">
+          <div className="home-content8">
             <main className="home-main-content">
-              <div className="home-content8">
+              <div className="home-content9">
                 <header className="home-main5">
-                  <div className="home-header24">
+                  <div className="home-header25">
                     <img
-                      alt="image"
+                      alt="Dry Clean"
                       src="/external/logo-1200w.png"
                       className="home-branding"
                     />
-                    <span className="home-text63">
+                    <span className="home-text72">
                       Make your everyday laundry easy
                     </span>
                   </div>
@@ -763,21 +820,83 @@ const Home = (props) => {
                   </div>
                 </header>
                 <header className="home-categories">
-                  <div className="home-category">
-                    <div className="home-header25">
+                  <div className="home-category1">
+                    <div className="home-header26">
                       <span className="footer-header">Company</span>
                     </div>
-                    <div className="home-links">
+                    <div className="home-links1">
                       <span className="footer-link">About</span>
-                      <a href="#home" className="home-text66 footer-link">
+                      <a href="#home" className="home-text75 footer-link">
                         Home
                       </a>
-                      <a href="#Faq" className="home-text67 footer-link">
+                      <a href="#Faq" className="home-text76 footer-link">
                         FAQs
                       </a>
                       <Link href="/termsand-conditions">
                         <a className="home-link26 footer-link">
                           <span>Terms</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="home-category2">
+                    <div className="home-header27">
+                      <span className="footer-header">Services</span>
+                    </div>
+                    <div className="home-links2">
+                      <Link href="/wash-fold">
+                        <a className="home-link27 footer-link">
+                          Wash &amp; Fold
+                        </a>
+                      </Link>
+                      <Link href="/wash-iron">
+                        <a className="home-link28 footer-link">
+                          Wash &amp; Iron
+                        </a>
+                      </Link>
+                      <Link href="/steam-iron">
+                        <a className="home-link29 footer-link">Steam Iron</a>
+                      </Link>
+                      <Link href="/dry-clean">
+                        <a className="home-link30 footer-link">
+                          <span>Dry Clean</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="home-category3">
+                    <div className="home-header28">
+                      <span className="footer-header">Get in touch</span>
+                    </div>
+                    <div className="home-links3">
+                      <span className="footer-link">
+                        <span>Email : jatindua2001@gmail.com</span>
+                        <br></br>
+                        <span>Contact: 7428160047</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="home-category4">
+                    <div className="home-header29">
+                      <span className="footer-header">About Us</span>
+                    </div>
+                    <div className="home-links4">
+                      <Link href="/aboutus">
+                        <a className="home-link31 footer-link">
+                          <span>
+                            We at RINSEE are dedicated to saving time, effort,
+                            and precious resources for all our delighted
+                            customers who seek the best laundry service. With
+                            exciting ideas that have been spinning in our heads,
+                            we are thrilled to introduce you to our compelling
+                            and innovative services, including the convenient
+                            wash and fold laundry service near me, designed to
+                            meet your needs effortlessly.    
+                          </span>
+                          <span>Read more.......</span>
                           <br></br>
                         </a>
                       </Link>
@@ -792,7 +911,7 @@ const Home = (props) => {
           </div>
         </footer>
         <div>
-          <div className="home-container3">
+          <div className="home-container4">
             <Script
               html={`<script>
     /*
@@ -883,9 +1002,9 @@ Here's what the above is doing:
           }
           .home-section10 {
             width: 100%;
-            height: 105%;
+            height: 100%;
             display: flex;
-            margin-top: var(--dl-space-space-oneandhalfunits);
+            margin-top: 57px;
             align-items: center;
             border-color: #51515a;
             padding-left: var(--dl-space-space-oneandhalfunits);
@@ -925,7 +1044,7 @@ Here's what the above is doing:
           }
           .home-heading10 {
             color: rgb(255, 255, 255);
-            font-size: 60px;
+            font-size: 65px;
             font-style: normal;
             font-family: 'Poppins';
             font-weight: 600;
@@ -933,6 +1052,7 @@ Here's what the above is doing:
           .home-caption1 {
             color: rgb(255, 255, 255);
             font-size: 20px;
+            text-align: justify;
             font-family: Poppins;
             line-height: 30px;
           }
@@ -1498,7 +1618,105 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
+          .home-heading17 {
+            height: 134px;
+            font-size: 35px;
+          }
+          .home-container2 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .home-textinput {
+            width: 400px;
+            height: var(--dl-size-size-small);
+            border-radius: var(--dl-radius-radius-radius8);
+          }
+          .home-button {
+            fill: var(--dl-color-gray-black);
+            color: rgb(255, 255, 255);
+            width: var(--dl-size-size-large);
+            height: var(--dl-size-size-small);
+            align-items: center;
+            padding-top: 0px;
+            border-color: #ffffff;
+            border-width: 3px;
+            padding-left: 0px;
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: 0px;
+            padding-bottom: 0px;
+            justify-content: center;
+          }
           .home-section18 {
+            gap: var(--dl-space-space-sixunits);
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: var(--dl-space-space-fourunits);
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-note5 {
+            width: 100%;
+            display: flex;
+            max-width: 1200px;
+            align-items: center;
+            flex-direction: row-reverse;
+            padding-bottom: 52px;
+            justify-content: center;
+          }
+          .home-image21 {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .home-image22 {
+            width: 435px;
+            height: 436px;
+            object-fit: contain;
+            border-radius: var(--dl-radius-radius-buttonradius);
+          }
+          .home-content6 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
+            display: flex;
+            max-width: 600px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-caption5 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-heading18 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            width: 100%;
+            display: flex;
+            max-width: 600px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-header17 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-section20 {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
             width: 100%;
@@ -1563,7 +1781,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #292929;
           }
-          .home-header17 {
+          .home-header18 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1590,7 +1808,7 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: #80ff44;
           }
-          .home-text35 {
+          .home-text44 {
             color: #0c100c;
             font-size: 16px;
             font-style: normal;
@@ -1599,7 +1817,7 @@ Here's what the above is doing:
             line-height: 24px;
             white-space: nowrap;
           }
-          .home-section19 {
+          .home-section21 {
             gap: var(--dl-space-space-threeunits);
             flex: 1;
             width: 100%;
@@ -1665,7 +1883,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-header18 {
+          .home-header19 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1738,7 +1956,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-header19 {
+          .home-header20 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1776,7 +1994,7 @@ Here's what the above is doing:
             font-family: Poppins;
             line-height: 22px;
           }
-          .home-text36 {
+          .home-text45 {
             font-weight: 700;
           }
           .home-buy-details1 {
@@ -1796,7 +2014,7 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: #80ff44;
           }
-          .home-text40 {
+          .home-text49 {
             color: rgb(12, 16, 12);
             font-size: 16px;
             font-style: normal;
@@ -1811,7 +2029,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-heading19 {
+          .home-heading22 {
             color: rgb(255, 255, 255);
             font-style: normal;
             font-family: Poppins;
@@ -1846,7 +2064,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-header20 {
+          .home-header21 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1884,10 +2102,10 @@ Here's what the above is doing:
             font-family: Poppins;
             line-height: 22px;
           }
-          .home-text43 {
+          .home-text52 {
             font-weight: 700;
           }
-          .home-text44 {
+          .home-text53 {
             font-weight: 700;
           }
           .home-buy-details2 {
@@ -1907,7 +2125,7 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: #80ff44;
           }
-          .home-text47 {
+          .home-text56 {
             color: rgb(12, 16, 12);
             font-size: 16px;
             font-style: normal;
@@ -1922,7 +2140,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-heading20 {
+          .home-heading23 {
             color: rgb(255, 255, 255);
             font-style: normal;
             font-family: Poppins;
@@ -1957,7 +2175,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-header21 {
+          .home-header22 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1995,10 +2213,10 @@ Here's what the above is doing:
             font-family: 'Poppins';
             line-height: 22px;
           }
-          .home-text50 {
+          .home-text59 {
             font-weight: 700;
           }
-          .home-text51 {
+          .home-text60 {
             font-weight: 700;
           }
           .home-buy-details3 {
@@ -2018,7 +2236,7 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: #80ff44;
           }
-          .home-text54 {
+          .home-text63 {
             color: rgb(12, 16, 12);
             font-size: 16px;
             font-style: normal;
@@ -2033,7 +2251,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-heading21 {
+          .home-heading24 {
             color: rgb(255, 255, 255);
             font-style: normal;
             font-family: Poppins;
@@ -2054,7 +2272,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-text57 {
+          .home-text66 {
             color: #ffffff;
             font-family: Poppins;
             line-height: 24px;
@@ -2074,13 +2292,13 @@ Here's what the above is doing:
           .home-contact-support:hover {
             opacity: 0.5;
           }
-          .home-text60 {
+          .home-text69 {
             color: rgb(128, 255, 68);
             font-style: normal;
             font-weight: 500;
             line-height: 24px;
           }
-          .home-section21 {
+          .home-section23 {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
             width: 100%;
@@ -2095,7 +2313,7 @@ Here's what the above is doing:
             justify-content: center;
             border-top-width: 1px;
           }
-          .home-header22 {
+          .home-header23 {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -2104,7 +2322,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading22 {
+          .home-heading25 {
             text-align: center;
           }
           .home-accordion {
@@ -2116,7 +2334,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-section23 {
+          .home-section25 {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
             width: 100%;
@@ -2129,7 +2347,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #292929;
           }
-          .home-content6 {
+          .home-content7 {
             width: 100%;
             display: flex;
             position: relative;
@@ -2138,7 +2356,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-header23 {
+          .home-header24 {
             gap: var(--dl-space-space-threeunits);
             width: 100%;
             display: flex;
@@ -2165,7 +2383,7 @@ Here's what the above is doing:
             width: 16px;
             object-fit: cover;
           }
-          .home-text61 {
+          .home-text70 {
             color: #ffffff;
             font-size: 16px;
             font-style: normal;
@@ -2187,7 +2405,7 @@ Here's what the above is doing:
             width: 16px;
             object-fit: cover;
           }
-          .home-text62 {
+          .home-text71 {
             color: rgb(255, 255, 255);
             font-size: 16px;
             font-style: normal;
@@ -2195,7 +2413,7 @@ Here's what the above is doing:
             font-weight: 500;
             line-height: 24px;
           }
-          .home-image21 {
+          .home-image23 {
             right: 0px;
             width: 406px;
             bottom: 0px;
@@ -2216,7 +2434,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .home-content7 {
+          .home-content8 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -2233,7 +2451,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-content8 {
+          .home-content9 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -2248,7 +2466,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-header24 {
+          .home-header25 {
             gap: var(--dl-space-space-unit);
             width: 255px;
             display: flex;
@@ -2260,7 +2478,7 @@ Here's what the above is doing:
             width: 120px;
             object-fit: cover;
           }
-          .home-text63 {
+          .home-text72 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -2287,15 +2505,13 @@ Here's what the above is doing:
           }
           .home-categories {
             gap: var(--dl-space-space-fourunits);
-            flex: 0;
-            width: var(--dl-size-size-xxlarge);
             height: auto;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .home-category {
+          .home-category1 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -2304,27 +2520,114 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-header25 {
+          .home-header26 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: center;
           }
-          .home-links {
+          .home-links1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text66 {
+          .home-text75 {
             text-decoration: none;
           }
-          .home-text67 {
+          .home-text76 {
             text-decoration: none;
           }
           .home-link26 {
+            text-decoration: none;
+          }
+          .home-category2 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: 175px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-header27 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-links2 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-link27 {
+            text-decoration: none;
+          }
+          .home-link28 {
+            text-decoration: none;
+          }
+          .home-link29 {
+            text-decoration: none;
+          }
+          .home-link30 {
+            text-decoration: none;
+          }
+          .home-category3 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: auto;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-header28 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-links3 {
+            gap: var(--dl-space-space-unit);
+            width: 240px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-category4 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            max-width: 350px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-header29 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-link31 {
+            text-align: justify;
             text-decoration: none;
           }
           .home-copyright1 {
@@ -2356,7 +2659,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-container3 {
+          .home-container4 {
             display: contents;
           }
           @media (max-width: 991px) {
@@ -2383,6 +2686,7 @@ Here's what the above is doing:
               align-items: center;
             }
             .home-heading10 {
+              font-size: 60px;
               text-align: left;
             }
             .home-caption1 {
@@ -2429,7 +2733,7 @@ Here's what the above is doing:
             }
             .home-header14 {
               gap: var(--dl-space-space-unit);
-              align-items: flex-start;
+              align-items: center;
               flex-direction: column;
               justify-content: flex-start;
             }
@@ -2456,6 +2760,19 @@ Here's what the above is doing:
               padding-top: 0px;
             }
             .home-note4 {
+              gap: var(--dl-space-space-oneandhalfunits);
+              flex-direction: column-reverse;
+            }
+            .home-content5 {
+              align-items: center;
+            }
+            .home-heading15 {
+              align-items: center;
+            }
+            .home-section18 {
+              padding-top: 0px;
+            }
+            .home-note5 {
               flex-direction: column-reverse;
             }
             .home-banner {
@@ -2473,7 +2790,7 @@ Here's what the above is doing:
             .home-plans {
               flex-direction: column;
             }
-            .home-content6 {
+            .home-content7 {
               align-items: center;
               flex-direction: column;
             }
@@ -2488,14 +2805,28 @@ Here's what the above is doing:
               flex: 1;
               justify-content: center;
             }
-            .home-image21 {
+            .home-image23 {
               position: static;
             }
-            .home-content7 {
+            .home-content8 {
               gap: var(--dl-space-space-threeunits);
               align-items: flex-start;
               flex-direction: column;
               justify-content: flex-start;
+            }
+            .home-categories {
+              gap: 10px;
+              flex: 1;
+              width: 100%;
+              grid-gap: var(--dl-space-space-twounits);
+              flex-wrap: wrap;
+            }
+            .home-category3 {
+              width: auto;
+            }
+            .home-category4 {
+              width: 100%;
+              max-width: 1200px;
             }
             .home-copyright1 {
               display: none;
@@ -2512,7 +2843,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
             .home-heading10 {
-              font-size: 40px;
+              font-size: 55px;
             }
             .home-caption1 {
               color: rgb(255, 255, 255);
@@ -2569,13 +2900,14 @@ Here's what the above is doing:
               text-align: center;
             }
             .home-note3 {
+              height: 100%;
               max-width: 1200px;
               align-items: center;
               flex-direction: column-reverse;
             }
             .home-content4 {
               width: 100%;
-              max-width: 600px;
+              max-width: 700px;
               align-items: center;
             }
             .home-main4 {
@@ -2604,6 +2936,27 @@ Here's what the above is doing:
             }
             .home-content5 {
               width: 100%;
+              flex-basis: auto;
+            }
+            .home-heading15 {
+              align-items: center;
+            }
+            .home-heading17 {
+              height: 127px;
+            }
+            .home-container2 {
+              width: 100%;
+              align-items: center;
+              flex-direction: column;
+            }
+            .home-textinput {
+              width: 100%;
+            }
+            .home-note5 {
+              gap: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-content6 {
+              width: 100%;
             }
             .home-banner {
               padding-top: var(--dl-space-space-threeunits);
@@ -2611,10 +2964,10 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-header17 {
+            .home-header18 {
               align-items: center;
             }
-            .home-heading17 {
+            .home-heading20 {
               text-align: center;
             }
             .home-description1 {
@@ -2646,10 +2999,10 @@ Here's what the above is doing:
               flex-direction: column;
               justify-content: center;
             }
-            .home-section23 {
+            .home-section25 {
               padding-top: var(--dl-space-space-fourunits);
             }
-            .home-header23 {
+            .home-header24 {
               padding-bottom: var(--dl-space-space-fiveunits);
             }
             .home-buttons3 {
@@ -2663,7 +3016,7 @@ Here's what the above is doing:
               flex: 0 0 auto;
               width: 100%;
             }
-            .home-content8 {
+            .home-content9 {
               gap: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
@@ -2671,35 +3024,41 @@ Here's what the above is doing:
               gap: var(--dl-space-space-twounits);
             }
             .home-categories {
-              gap: var(--dl-space-space-twounits);
+              gap: var(--dl-space-space-threeunits);
+              flex-wrap: wrap;
               flex-direction: column;
             }
           }
           @media (max-width: 479px) {
             .home-section10 {
+              height: 100%;
               padding-top: var(--dl-space-space-oneandhalfunits);
             }
             .home-header10 {
-              align-items: flex-start;
+              align-items: center;
             }
             .home-heading10 {
               color: rgb(255, 255, 255);
               width: auto;
-              font-size: 50px;
+              font-size: 42px;
               max-width: 100%;
               font-style: normal;
+              text-align: center;
               font-family: Poppins;
               font-weight: 600;
             }
             .home-caption1 {
               color: rgb(255, 255, 255);
               font-size: 16px;
+              text-align: justify;
               font-family: Poppins;
               line-height: 24px;
+              margin-left: var(--dl-space-space-halfunit);
+              margin-right: var(--dl-space-space-halfunit);
             }
             .home-image13 {
-              width: 100%;
-              height: 627px;
+              width: auto;
+              height: auto;
               align-items: center;
               padding-top: var(--dl-space-space-halfunit);
               padding-left: var(--dl-space-space-halfunit);
@@ -2708,21 +3067,30 @@ Here's what the above is doing:
             }
             .home-pasted-image {
               width: 100%;
-              height: 506px;
+              height: auto;
             }
             .home-header11 {
               align-items: flex-start;
             }
             .home-text12 {
+              color: rgb(255, 255, 255);
+              font-size: 32px;
+              font-style: normal;
               text-align: center;
+              font-family: Poppins;
+              font-weight: 600;
+            }
+            .home-note1 {
+              height: 100%;
             }
             .home-image14 {
-              width: 450px;
-              height: 430px;
+              flex: 0 0 auto;
+              width: 100%;
+              height: auto;
             }
             .home-image15 {
-              width: 364px;
-              height: 384px;
+              width: 100%;
+              height: 100%;
             }
             .home-content2 {
               align-items: center;
@@ -2746,16 +3114,19 @@ Here's what the above is doing:
             .home-text23 {
               text-align: left;
             }
+            .home-text24 {
+              text-align: center;
+            }
             .home-note3 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
             .home-image17 {
-              width: 450px;
+              width: auto;
               height: 430px;
             }
             .home-image18 {
-              width: 364px;
-              height: 384px;
+              width: 100%;
+              height: 100%;
             }
             .home-content4 {
               align-items: center;
@@ -2782,10 +3153,35 @@ Here's what the above is doing:
               text-align: center;
             }
             .home-image20 {
-              width: 375px;
+              width: 100%;
               height: 399px;
             }
+            .home-content5 {
+              align-items: center;
+            }
+            .home-heading15 {
+              align-items: center;
+            }
             .home-heading16 {
+              text-align: center;
+            }
+            .home-heading17 {
+              height: 207px;
+              text-align: center;
+            }
+            .home-container2 {
+              width: 100%;
+              align-items: center;
+              flex-direction: column;
+            }
+            .home-textinput {
+              width: 100%;
+            }
+            .home-image22 {
+              width: 100%;
+              height: 399px;
+            }
+            .home-heading19 {
               text-align: center;
             }
             .home-description1 {
@@ -2795,7 +3191,7 @@ Here's what the above is doing:
             .home-pricing1 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-heading18 {
+            .home-heading21 {
               font-size: 32px;
               text-align: center;
             }
@@ -2821,13 +3217,13 @@ Here's what the above is doing:
               font-family: Poppins;
               line-height: 22px;
             }
-            .home-text36 {
+            .home-text45 {
               font-size: 30px;
               font-weight: 700;
               line-height: 28px;
               text-transform: capitalize;
             }
-            .home-text37 {
+            .home-text46 {
               font-weight: 700;
               line-height: 28px;
               text-transform: capitalize;
@@ -2850,11 +3246,11 @@ Here's what the above is doing:
               font-family: Poppins;
               line-height: 22px;
             }
-            .home-text43 {
+            .home-text52 {
               font-size: 25px;
               font-weight: 700;
             }
-            .home-text44 {
+            .home-text53 {
               font-size: 25px;
               font-weight: 700;
             }
@@ -2863,18 +3259,25 @@ Here's what the above is doing:
               font-family: Poppins;
               line-height: 22px;
             }
-            .home-text50 {
+            .home-text59 {
               font-size: 25px;
               font-weight: 700;
             }
-            .home-image21 {
+            .home-image23 {
               width: 100%;
+              height: auto;
             }
-            .home-text63 {
+            .home-text72 {
               color: rgb(255, 255, 255);
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
+            }
+            .home-categories {
+              flex-direction: column;
+            }
+            .home-link31 {
+              text-align: justify;
             }
           }
         `}

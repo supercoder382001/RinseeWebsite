@@ -80,8 +80,10 @@ const Card7 = (props) => {
           }
           .card7-description {
             color: rgb(194, 198, 204);
+            text-align: justify;
             font-family: 'Poppins';
             line-height: 28px;
+            margin-bottom: var(--dl-space-space-halfunit);
           }
           .card7-text2 {
             display: inline-block;
@@ -178,10 +180,11 @@ const Card7 = (props) => {
             }
             .card7-description {
               fill: #ffffff;
-              color: #ffffff;
+              color: rgb(255, 255, 255);
               width: auto;
               font-family: Poppins;
               line-height: 28px;
+              margin-bottom: var(--dl-space-space-halfunit);
             }
           }
         `}

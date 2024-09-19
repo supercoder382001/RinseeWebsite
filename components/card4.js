@@ -31,7 +31,6 @@ const Card4 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
             background-color: #292929;
-            height:100%;
           }
           .card4-content {
             gap: var(--dl-space-space-halfunit);
@@ -291,6 +290,9 @@ const Card4 = (props) => {
             height: 100%;
           }
           @media (max-width: 767px) {
+            .card4-card {
+              height: 100%;
+            }
             .card4-description {
               text-align: center;
             }
@@ -470,8 +472,8 @@ const Card4 = (props) => {
               background-color: transparent;
             }
             .card4-image {
-              width: 291px;
-              height: 278px;
+              width: 100%;
+              height: 100%;
               border-color: var(--dl-color-gray-black);
               border-width: 1px;
               border-radius: var(--dl-radius-radius-buttonradius);

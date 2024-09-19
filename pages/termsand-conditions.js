@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
 
-import Navbar from '../components/navbar'
+import NavbarP from '../components/navbar-p'
 
 const TermsandConditions = (props) => {
   return (
@@ -14,10 +14,10 @@ const TermsandConditions = (props) => {
           <title>TermsandConditions - Rinsee</title>
           <meta property="og:title" content="TermsandConditions - Rinsee" />
         </Head>
-        <Navbar
+        <NavbarP
           brandingLogo="/external/logo-1200w.png"
-          rootClassName="navbarroot-class-name9"
-        ></Navbar>
+          rootClassName="navbar-proot-class-name2"
+        ></NavbarP>
         <section id="Terms" className="termsand-conditions-section1">
           <header className="termsand-conditions-header1">
             <span className="section-head">T&amp;C</span>
@@ -122,102 +122,107 @@ const TermsandConditions = (props) => {
               <br className="termsand-conditions-text123"></br>
               <br className="termsand-conditions-text124"></br>
               <span className="termsand-conditions-text125">
-                • Laundry deliveries will be made within 72 Hours.
+                GENERAL CONDITIONS
               </span>
               <br className="termsand-conditions-text126"></br>
               <br className="termsand-conditions-text127"></br>
               <span className="termsand-conditions-text128">
-                • The DryCleaning garments will be delivered within 120 Hours.
+                • Laundry deliveries will be made within 72 Hours.
               </span>
               <br className="termsand-conditions-text129"></br>
               <br className="termsand-conditions-text130"></br>
               <span className="termsand-conditions-text131">
-                • Urgent delivery of garments will be charged at flat rate.
+                • The DryCleaning garments will be delivered within 120 Hours.
               </span>
               <br className="termsand-conditions-text132"></br>
               <br className="termsand-conditions-text133"></br>
               <span className="termsand-conditions-text134">
-                • For Free Pick up &amp; Delivery, laundry orders should be of
-                ₹300 or more.
+                • Urgent delivery of garments will be charged at flat rate.
               </span>
               <br className="termsand-conditions-text135"></br>
               <br className="termsand-conditions-text136"></br>
               <span className="termsand-conditions-text137">
-                • Every effort is made to deliver clothes on time, however due
-                to certain unforeseen circumstances, if the delivery is delayed,
-                we will keep you updated about the delivery times.
+                • For Free Pick up &amp; Delivery, laundry orders should be of
+                ₹300 or more.
               </span>
               <br className="termsand-conditions-text138"></br>
               <br className="termsand-conditions-text139"></br>
               <span className="termsand-conditions-text140">
-                • Customers are requested to examine garments at the time of
-                delivery.
+                • Every effort is made to deliver clothes on time, however due
+                to certain unforeseen circumstances, if the delivery is delayed,
+                we will keep you updated about the delivery times.
               </span>
               <br className="termsand-conditions-text141"></br>
               <br className="termsand-conditions-text142"></br>
               <span className="termsand-conditions-text143">
-                • We are not responsible for fastness / running of colour /
-                shrinkage / damage to embellishments / embroidery work on the
-                garments during process.
+                • Customers are requested to examine garments at the time of
+                delivery.
               </span>
               <br className="termsand-conditions-text144"></br>
               <br className="termsand-conditions-text145"></br>
               <span className="termsand-conditions-text146">
-                • Every effort is made to remove stains, but Rinsee, will not be
-                responsible for stubborn and un-removable stains
+                • We are not responsible for fastness / running of colour /
+                shrinkage / damage to embellishments / embroidery work on the
+                garments during process.
               </span>
               <br className="termsand-conditions-text147"></br>
               <br className="termsand-conditions-text148"></br>
               <span className="termsand-conditions-text149">
-                • All articles are accepted at customers’ risk.
+                • Every effort is made to remove stains, but Rinsee, will not be
+                responsible for stubborn and un-removable stains
               </span>
               <br className="termsand-conditions-text150"></br>
               <br className="termsand-conditions-text151"></br>
               <span className="termsand-conditions-text152">
-                • We accept no liability for any loss or damage of the clothes
-                arising due to fire, burglary etc.
+                • All articles are accepted at customers’ risk.
               </span>
               <br className="termsand-conditions-text153"></br>
               <br className="termsand-conditions-text154"></br>
               <span className="termsand-conditions-text155">
-                • The tariff of garments will be decided on a case to case basis
-                depending on the complexity of the garments. The rates mentioned
-                in the price list are indicative and minimal.
+                • We accept no liability for any loss or damage of the clothes
+                arising due to fire, burglary etc.
               </span>
               <br className="termsand-conditions-text156"></br>
               <br className="termsand-conditions-text157"></br>
               <span className="termsand-conditions-text158">
+                • The tariff of garments will be decided on a case to case basis
+                depending on the complexity of the garments. The rates mentioned
+                in the price list are indicative and minimal.
+              </span>
+              <br className="termsand-conditions-text159"></br>
+              <br className="termsand-conditions-text160"></br>
+              <span className="termsand-conditions-text161">
                 • We will undertake the cleaning of the garments, in the best
                 possible manner that our technicians deem fit. The various
                 cleaning methods deployed by us will vary from Wash in
                 Emulsifier, Detergent and Softeners, Soft wash for delicate
                 garments, Technologies like Perchloroethylene, Hydro Carbon.
               </span>
-              <br className="termsand-conditions-text159"></br>
-              <br className="termsand-conditions-text160"></br>
-              <span className="termsand-conditions-text161">
-                • We are digitally active on all the social media platforms.
-              </span>
               <br className="termsand-conditions-text162"></br>
               <br className="termsand-conditions-text163"></br>
               <span className="termsand-conditions-text164">
-                • All disputes are subject to the jurisdiction of Courts in
-                Delhi only.
+                • We are digitally active on all the social media platforms.
               </span>
               <br className="termsand-conditions-text165"></br>
               <br className="termsand-conditions-text166"></br>
               <span className="termsand-conditions-text167">
-                • We may use the images of your clothes for promotional
-                purposes.
+                • All disputes are subject to the jurisdiction of Courts in
+                Delhi only.
               </span>
               <br className="termsand-conditions-text168"></br>
               <br className="termsand-conditions-text169"></br>
               <span className="termsand-conditions-text170">
-                • Our prices may vary from store to store and city to city
+                • We may use the images of your clothes for promotional
+                purposes.
               </span>
               <br className="termsand-conditions-text171"></br>
               <br className="termsand-conditions-text172"></br>
               <span className="termsand-conditions-text173">
+                • Our prices may vary from store to store and city to city
+              </span>
+              <br className="termsand-conditions-text174"></br>
+              <br className="termsand-conditions-text175"></br>
+              <span className="termsand-conditions-text176">
                 • After the pickup is done the consumer app will show the
                 quantity picked up by the delivery person and is the final
                 quantity we acknowledge as given by the customer. Any difference
@@ -225,9 +230,9 @@ const TermsandConditions = (props) => {
                 delivered, we are responsible for it and customer is eligible
                 for compensation.
               </span>
-              <br className="termsand-conditions-text174"></br>
-              <br className="termsand-conditions-text175"></br>
-              <span className="termsand-conditions-text176">
+              <br className="termsand-conditions-text177"></br>
+              <br className="termsand-conditions-text178"></br>
+              <span className="termsand-conditions-text179">
                 • All garments received by us are photographed and inspected to
                 check for stains and damages. We will share the details with the
                 customer and process the garment only with the customer’s
@@ -236,9 +241,9 @@ const TermsandConditions = (props) => {
                 damage or stain caused by our processing the above limit of
                 maximum compensation will apply.
               </span>
-              <br className="termsand-conditions-text177"></br>
-              <br className="termsand-conditions-text178"></br>
-              <span className="termsand-conditions-text179">
+              <br className="termsand-conditions-text180"></br>
+              <br className="termsand-conditions-text181"></br>
+              <span className="termsand-conditions-text182">
                 • In spite of the simple professional control carried out at the
                 time of the reception of the articles, we cannot be held
                 responsible for the damage due to non-identifiable properties or
@@ -262,9 +267,9 @@ const TermsandConditions = (props) => {
                 and/or the indication of the care on the label of maintenance
                 are determining for the cleaning of the textiles.
               </span>
-              <br className="termsand-conditions-text180"></br>
-              <br className="termsand-conditions-text181"></br>
-              <span className="termsand-conditions-text182">
+              <br className="termsand-conditions-text183"></br>
+              <br className="termsand-conditions-text184"></br>
+              <span className="termsand-conditions-text185">
                 • We commit ourselves to clean and provide additional services
                 according to the professional methods. Your entrusted articles
                 will be treated with the greatest care and respect for the
@@ -272,9 +277,9 @@ const TermsandConditions = (props) => {
                 ensure it is incorporated into our system for continuous
                 improvement when possible.
               </span>
-              <br className="termsand-conditions-text183"></br>
-              <br className="termsand-conditions-text184"></br>
-              <span className="termsand-conditions-text185">
+              <br className="termsand-conditions-text186"></br>
+              <br className="termsand-conditions-text187"></br>
+              <span className="termsand-conditions-text188">
                 • The article(s) will be delivered as per the chosen delivery
                 slot by the customer. Rinsee will make 3 attempts to deliver the
                 order as per customer request. Upon failure of delivery due to
@@ -282,16 +287,16 @@ const TermsandConditions = (props) => {
                 Rinsee cannot be held liable for loss of article(s) if customer
                 fails to take delivery of the articles even after 3 attempts.
               </span>
-              <br className="termsand-conditions-text186"></br>
-              <br className="termsand-conditions-text187"></br>
-              <span className="termsand-conditions-text188">
+              <br className="termsand-conditions-text189"></br>
+              <br className="termsand-conditions-text190"></br>
+              <span className="termsand-conditions-text191">
                 • We are not liable for any articles such as pen drive, keys,
                 wallets, or other such items left in the clothes given. We will
                 try our best to return them, however we do not guarantee them.
               </span>
-              <br className="termsand-conditions-text189"></br>
-              <br className="termsand-conditions-text190"></br>
-              <span className="termsand-conditions-text191">
+              <br className="termsand-conditions-text192"></br>
+              <br className="termsand-conditions-text193"></br>
+              <span className="termsand-conditions-text194">
                 • We are not responsible if information made available on this
                 site is not accurate, complete or current. The material on this
                 site is provided for general information only and should not be
@@ -300,9 +305,9 @@ const TermsandConditions = (props) => {
                 timelier sources of information. Any reliance on the material on
                 this site is at your own risk.
               </span>
-              <br className="termsand-conditions-text192"></br>
-              <br className="termsand-conditions-text193"></br>
-              <span className="termsand-conditions-text194">
+              <br className="termsand-conditions-text195"></br>
+              <br className="termsand-conditions-text196"></br>
+              <span className="termsand-conditions-text197">
                 • Prices for our products are subject to change without notice.
                 We reserve the right at any time to modify or discontinue the
                 Service (or any part or content thereof) without notice at any
@@ -310,9 +315,9 @@ const TermsandConditions = (props) => {
                 any modification, price change, suspension or discontinuance of
                 the Service.
               </span>
-              <br className="termsand-conditions-text195"></br>
-              <br className="termsand-conditions-text196"></br>
-              <span className="termsand-conditions-text197">
+              <br className="termsand-conditions-text198"></br>
+              <br className="termsand-conditions-text199"></br>
+              <span className="termsand-conditions-text200">
                 • In addition to other prohibitions as set forth in the Terms of
                 Service, you are prohibited from using the site or its content:
                 (a) for any unlawful purpose; (b) to solicit others to perform
@@ -336,29 +341,29 @@ const TermsandConditions = (props) => {
                 your use of the Service or any related website for violating any
                 of the prohibited uses.
               </span>
-              <br className="termsand-conditions-text198"></br>
-              <br className="termsand-conditions-text199"></br>
-              <span className="termsand-conditions-text200">
-                Cancellation and Refunds
-              </span>
               <br className="termsand-conditions-text201"></br>
               <br className="termsand-conditions-text202"></br>
               <span className="termsand-conditions-text203">
-                • Clothes need to be counted at the time of delivery in front of
-                the delivery guy and any discrepancy be notified at that time
-                only.
+                Cancellation and Refunds
               </span>
               <br className="termsand-conditions-text204"></br>
               <br className="termsand-conditions-text205"></br>
               <span className="termsand-conditions-text206">
+                • Clothes need to be counted at the time of delivery in front of
+                the delivery guy and any discrepancy be notified at that time
+                only.
+              </span>
+              <br className="termsand-conditions-text207"></br>
+              <br className="termsand-conditions-text208"></br>
+              <span className="termsand-conditions-text209">
                 • Clothes will be handed over to security or friend or neighbour
                 in case of customer not being available only when a written
                 confirmation is provided from the customer in the form of a mail
                 or text message.
               </span>
-              <br className="termsand-conditions-text207"></br>
-              <br className="termsand-conditions-text208"></br>
-              <span className="termsand-conditions-text209">
+              <br className="termsand-conditions-text210"></br>
+              <br className="termsand-conditions-text211"></br>
+              <span className="termsand-conditions-text212">
                 •
                 <span
                   dangerouslySetInnerHTML={{
@@ -366,161 +371,161 @@ const TermsandConditions = (props) => {
                   }}
                 />
               </span>
-              <span className="termsand-conditions-text210">
+              <span className="termsand-conditions-text213">
                 In the event of damage caused in an article or loss for which we
                 take the responsibility. The maximum compensation is limited to
                 5 times the service price, subject to a maximum of Rs 1000 per
                 garment. The garment for which the compensation is made shall be
                 retained by the company.
               </span>
-              <br className="termsand-conditions-text211"></br>
-              <br className="termsand-conditions-text212"></br>
-              <span className="termsand-conditions-text213">
-                • The company will need minimum 1 day after the day of complaint
-                to give an update on the issues raised.
-              </span>
               <br className="termsand-conditions-text214"></br>
               <br className="termsand-conditions-text215"></br>
               <span className="termsand-conditions-text216">
-                • The company tries to deliver clothes on time but sometimes due
-                to unforeseeable circumstances there might be a delay in
-                delivery.
+                • The company will need minimum 1 day after the day of complaint
+                to give an update on the issues raised.
               </span>
               <br className="termsand-conditions-text217"></br>
               <br className="termsand-conditions-text218"></br>
               <span className="termsand-conditions-text219">
-                • Some stains are very tough and not covered under this service
-                agreement. So, if the stains don’t go, we will not be held
-                responsible.
+                • The company tries to deliver clothes on time but sometimes due
+                to unforeseeable circumstances there might be a delay in
+                delivery.
               </span>
               <br className="termsand-conditions-text220"></br>
               <br className="termsand-conditions-text221"></br>
               <span className="termsand-conditions-text222">
-                • In case of damage to a cloth, the damage should be reported to
-                the company within 72 hours of delivery.
+                • Some stains are very tough and not covered under this service
+                agreement. So, if the stains don’t go, we will not be held
+                responsible.
               </span>
               <br className="termsand-conditions-text223"></br>
               <br className="termsand-conditions-text224"></br>
               <span className="termsand-conditions-text225">
+                • In case of damage to a cloth, the damage should be reported to
+                the company within 72 hours of delivery.
+              </span>
+              <br className="termsand-conditions-text226"></br>
+              <br className="termsand-conditions-text227"></br>
+              <span className="termsand-conditions-text228">
                 • In case of damage to a cloth, the company will try to rectify
                 the damage. In case of failure in doing that, 5 times the amount
                 of the service availed for, will be reimbursed. Please refer
                 general conditions for more details.
               </span>
-              <br className="termsand-conditions-text226"></br>
-              <br className="termsand-conditions-text227"></br>
-              <span className="termsand-conditions-text228">
+              <br className="termsand-conditions-text229"></br>
+              <br className="termsand-conditions-text230"></br>
+              <span className="termsand-conditions-text231">
                 • We take special care in handling all types of cloths. But, due
                 to the basic property of some clothes, they will bleed colours
                 on their own. In such cases, company won’t be liable for any
                 loss. The company is not responsible if the customer forgets
                 something in the clothes and it gets damaged and/or misplaced.
               </span>
-              <br className="termsand-conditions-text229"></br>
-              <br className="termsand-conditions-text230"></br>
-              <span className="termsand-conditions-text231">
+              <br className="termsand-conditions-text232"></br>
+              <br className="termsand-conditions-text233"></br>
+              <span className="termsand-conditions-text234">
                 • It is a strict policy of the company to not process damaged,
                 torn, or stained clothes. It will be done only on special
                 request and written approval (Either by mail or SMS) by the
                 customer.
               </span>
-              <br className="termsand-conditions-text232"></br>
-              <br className="termsand-conditions-text233"></br>
-              <span className="termsand-conditions-text234">
-                • We may also provide a complimentary rewash in some cases. The
-                final decision for the same rests with Rinsee.
-              </span>
               <br className="termsand-conditions-text235"></br>
               <br className="termsand-conditions-text236"></br>
               <span className="termsand-conditions-text237">
-                • Customers can cancel at any time before actual pickup of their
-                order(s). We charge a flat fee for canceling an order pickup, if
-                it is being done after the pickup cut off timing.
+                • We may also provide a complimentary rewash in some cases. The
+                final decision for the same rests with Rinsee.
               </span>
               <br className="termsand-conditions-text238"></br>
               <br className="termsand-conditions-text239"></br>
               <span className="termsand-conditions-text240">
+                • Customers can cancel at any time before actual pickup of their
+                order(s). We charge a flat fee for canceling an order pickup, if
+                it is being done after the pickup cut off timing.
+              </span>
+              <br className="termsand-conditions-text241"></br>
+              <br className="termsand-conditions-text242"></br>
+              <span className="termsand-conditions-text243">
                 • Rinsee, uses and protects all private information that it
                 collects for its customers, through sources such as Customer
                 registration at store, Mobile application, or through its Call
                 center.
               </span>
-              <br className="termsand-conditions-text241"></br>
-              <br className="termsand-conditions-text242"></br>
-              <span className="termsand-conditions-text243">
+              <br className="termsand-conditions-text244"></br>
+              <br className="termsand-conditions-text245"></br>
+              <span className="termsand-conditions-text246">
                 • Any information shared by users is used with consent for the
                 fixed purpose. By submitting the personal information about
                 yourself, you expressly consent in unequivocal terms that the
                 same can be used in the manner deemed fit and proper in the
                 given facts and circumstances.
               </span>
-              <br className="termsand-conditions-text244"></br>
-              <br className="termsand-conditions-text245"></br>
-              <span className="termsand-conditions-text246">
-                We use this information to give you customised services like:
-              </span>
               <br className="termsand-conditions-text247"></br>
               <br className="termsand-conditions-text248"></br>
               <span className="termsand-conditions-text249">
-                • Inform you about the status of your order.
+                We use this information to give you customised services like:
               </span>
               <br className="termsand-conditions-text250"></br>
               <br className="termsand-conditions-text251"></br>
               <span className="termsand-conditions-text252">
-                • Share new and attractive services that we introduce
+                • Inform you about the status of your order.
               </span>
               <br className="termsand-conditions-text253"></br>
               <br className="termsand-conditions-text254"></br>
               <span className="termsand-conditions-text255">
-                • Share offers and packages.
+                • Share new and attractive services that we introduce
               </span>
               <br className="termsand-conditions-text256"></br>
               <br className="termsand-conditions-text257"></br>
               <span className="termsand-conditions-text258">
-                • Research to get feedback from you on our services.
+                • Share offers and packages.
               </span>
               <br className="termsand-conditions-text259"></br>
               <br className="termsand-conditions-text260"></br>
               <span className="termsand-conditions-text261">
-                Our means of reaching out to you would be any of the following:
+                • Research to get feedback from you on our services.
               </span>
               <br className="termsand-conditions-text262"></br>
               <br className="termsand-conditions-text263"></br>
               <span className="termsand-conditions-text264">
-                • Telephone call
+                Our means of reaching out to you would be any of the following:
               </span>
               <br className="termsand-conditions-text265"></br>
               <br className="termsand-conditions-text266"></br>
               <span className="termsand-conditions-text267">
-                • Whats app message
+                • Telephone call
               </span>
               <br className="termsand-conditions-text268"></br>
               <br className="termsand-conditions-text269"></br>
               <span className="termsand-conditions-text270">
-                • Text message
+                • Whatsapp message
               </span>
               <br className="termsand-conditions-text271"></br>
               <br className="termsand-conditions-text272"></br>
-              <span className="termsand-conditions-text273">• Email</span>
+              <span className="termsand-conditions-text273">
+                • Text message
+              </span>
               <br className="termsand-conditions-text274"></br>
               <br className="termsand-conditions-text275"></br>
-              <span className="termsand-conditions-text276">
+              <span className="termsand-conditions-text276">• Email</span>
+              <br className="termsand-conditions-text277"></br>
+              <br className="termsand-conditions-text278"></br>
+              <span className="termsand-conditions-text279">
                 • Direct Mailer.
               </span>
-              <br className="termsand-conditions-text277"></br>
+              <br className="termsand-conditions-text280"></br>
               <br></br>
               <br></br>
-              <span className="termsand-conditions-text280">Contact Us</span>
-              <br className="termsand-conditions-text281"></br>
-              <br className="termsand-conditions-text282"></br>
-              <span className="termsand-conditions-text283">
+              <span className="termsand-conditions-text283">Contact Us</span>
+              <br className="termsand-conditions-text284"></br>
+              <br className="termsand-conditions-text285"></br>
+              <span className="termsand-conditions-text286">
                 Email:- jatindua2001@gmail.com
               </span>
-              <br className="termsand-conditions-text284"></br>
-              <span className="termsand-conditions-text285">
-                Phone:- 8800677646
+              <br className="termsand-conditions-text287"></br>
+              <span className="termsand-conditions-text288">
+                Phone:- 7428160047
               </span>
-              <br className="termsand-conditions-text286"></br>
+              <br className="termsand-conditions-text289"></br>
               <br></br>
             </span>
           </main>
@@ -538,7 +543,7 @@ const TermsandConditions = (props) => {
                     src="/Icons/apple-200w.png"
                     className="termsand-conditions-icon1"
                   />
-                  <span className="termsand-conditions-text288">
+                  <span className="termsand-conditions-text291">
                     Download for iOS
                   </span>
                 </div>
@@ -554,7 +559,7 @@ const TermsandConditions = (props) => {
                       src="/Icons/android-200h.png"
                       className="termsand-conditions-icon2"
                     />
-                    <span className="termsand-conditions-text289">
+                    <span className="termsand-conditions-text292">
                       Download for Android
                     </span>
                   </div>
@@ -575,11 +580,11 @@ const TermsandConditions = (props) => {
                 <header className="termsand-conditions-main">
                   <div className="termsand-conditions-header3">
                     <img
-                      alt="image"
+                      alt="Dry Clean"
                       src="/external/logo-1200w.png"
                       className="termsand-conditions-branding"
                     />
-                    <span className="termsand-conditions-text290">
+                    <span className="termsand-conditions-text293">
                       Make your everyday laundry easy
                     </span>
                   </div>
@@ -623,26 +628,92 @@ const TermsandConditions = (props) => {
                   </div>
                 </header>
                 <header className="termsand-conditions-categories">
-                  <div className="termsand-conditions-category">
+                  <div className="termsand-conditions-category1">
                     <div className="termsand-conditions-header4">
                       <span className="footer-header">Company</span>
                     </div>
-                    <div className="termsand-conditions-links">
+                    <div className="termsand-conditions-links1">
                       <span className="footer-link">About</span>
-                      <span className="termsand-conditions-text293 footer-link">
+                      <a
+                        href="#home"
+                        className="termsand-conditions-text296 footer-link"
+                      >
                         Home
-                      </span>
-                      <Link href="/">
+                      </a>
+                      <a
+                        href="#Faq"
+                        className="termsand-conditions-text297 footer-link"
+                      >
+                        FAQs
+                      </a>
+                      <Link href="/termsand-conditions">
                         <a className="termsand-conditions-link5 footer-link">
-                          FAQs
+                          <span>Terms</span>
+                          <br></br>
                         </a>
                       </Link>
-                      <a
-                        href="#Terms"
-                        className="termsand-conditions-text295 footer-link"
-                      >
-                        Terms
-                      </a>
+                    </div>
+                  </div>
+                  <div className="termsand-conditions-category2">
+                    <div className="termsand-conditions-header5">
+                      <span className="footer-header">Services</span>
+                    </div>
+                    <div className="termsand-conditions-links2">
+                      <Link href="/wash-fold">
+                        <a className="termsand-conditions-link6 footer-link">
+                          Wash &amp; Fold
+                        </a>
+                      </Link>
+                      <Link href="/wash-iron">
+                        <a className="termsand-conditions-link7 footer-link">
+                          Wash &amp; Iron
+                        </a>
+                      </Link>
+                      <Link href="/steam-iron">
+                        <a className="termsand-conditions-link8 footer-link">
+                          Steam Iron
+                        </a>
+                      </Link>
+                      <Link href="/dry-clean">
+                        <a className="termsand-conditions-link9 footer-link">
+                          <span>Dry Clean</span>
+                          <br></br>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="termsand-conditions-category3">
+                    <div className="termsand-conditions-header6">
+                      <span className="footer-header">Get in touch</span>
+                    </div>
+                    <div className="termsand-conditions-links3">
+                      <span className="footer-link">
+                        <span>Email : jatindua2001@gmail.com</span>
+                        <br></br>
+                        <span>Contact: 7428160047</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="termsand-conditions-category4">
+                    <div className="termsand-conditions-header7">
+                      <span className="footer-header">About Us</span>
+                    </div>
+                    <div className="termsand-conditions-links4">
+                      <span className="termsand-conditions-text315 footer-link">
+                        <span>
+                          We at Rinsee are dedicated to saving time, effort, and
+                          precious resources for all our delighted customers who
+                          seek the best laundry service. With exciting ideas
+                          that have been spinning in our heads, we are thrilled
+                          to introduce you to our compelling and innovative
+                          services, including the convenient wash and fold
+                          laundry service near me, designed to meet your needs
+                          effortlessly.
+                        </span>
+                        <span>Readmore</span>
+                        <br></br>
+                      </span>
                     </div>
                   </div>
                 </header>
@@ -784,7 +855,10 @@ Here's what the above is doing:
             text-align: justify;
           }
           .termsand-conditions-text101 {
+            font-size: 34px;
+            font-weight: 700;
             line-height: 2;
+            text-transform: uppercase;
           }
           .termsand-conditions-text103 {
             line-height: 2;
@@ -811,7 +885,9 @@ Here's what the above is doing:
             line-height: 2;
           }
           .termsand-conditions-text125 {
-            line-height: 2;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
           }
           .termsand-conditions-text128 {
             line-height: 2;
@@ -885,14 +961,22 @@ Here's what the above is doing:
           .termsand-conditions-text197 {
             line-height: 2;
           }
-          .termsand-conditions-text203 {
+          .termsand-conditions-text200 {
             line-height: 2;
+          }
+          .termsand-conditions-text203 {
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 800;
           }
           .termsand-conditions-text206 {
             line-height: 2;
           }
-          .termsand-conditions-text213 {
+          .termsand-conditions-text209 {
             line-height: 2;
+          }
+          .termsand-conditions-text213 {
+            line-height: 1.5;
           }
           .termsand-conditions-text216 {
             line-height: 2;
@@ -943,6 +1027,7 @@ Here's what the above is doing:
             line-height: 2;
           }
           .termsand-conditions-text264 {
+            font-weight: 700;
             line-height: 2;
           }
           .termsand-conditions-text267 {
@@ -956,6 +1041,14 @@ Here's what the above is doing:
           }
           .termsand-conditions-text276 {
             line-height: 2;
+          }
+          .termsand-conditions-text279 {
+            line-height: 2;
+          }
+          .termsand-conditions-text283 {
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 800;
           }
           .termsand-conditions-section3 {
             gap: var(--dl-space-space-fiveunits);
@@ -1006,7 +1099,7 @@ Here's what the above is doing:
             width: 16px;
             object-fit: cover;
           }
-          .termsand-conditions-text288 {
+          .termsand-conditions-text291 {
             color: #ffffff;
             font-size: 16px;
             font-style: normal;
@@ -1028,7 +1121,7 @@ Here's what the above is doing:
             width: 16px;
             object-fit: cover;
           }
-          .termsand-conditions-text289 {
+          .termsand-conditions-text292 {
             color: rgb(255, 255, 255);
             font-size: 16px;
             font-style: normal;
@@ -1101,7 +1194,7 @@ Here's what the above is doing:
             width: 120px;
             object-fit: cover;
           }
-          .termsand-conditions-text290 {
+          .termsand-conditions-text293 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -1128,15 +1221,13 @@ Here's what the above is doing:
           }
           .termsand-conditions-categories {
             gap: var(--dl-space-space-fourunits);
-            flex: 0;
-            width: var(--dl-size-size-xxlarge);
             height: auto;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
           }
-          .termsand-conditions-category {
+          .termsand-conditions-category1 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1152,21 +1243,106 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .termsand-conditions-links {
+          .termsand-conditions-links1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .termsand-conditions-text293 {
+          .termsand-conditions-text296 {
+            text-decoration: none;
+          }
+          .termsand-conditions-text297 {
             text-decoration: none;
           }
           .termsand-conditions-link5 {
             text-decoration: none;
           }
-          .termsand-conditions-text295 {
+          .termsand-conditions-category2 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: 175px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .termsand-conditions-header5 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .termsand-conditions-links2 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .termsand-conditions-link6 {
             text-decoration: none;
+          }
+          .termsand-conditions-link7 {
+            text-decoration: none;
+          }
+          .termsand-conditions-link8 {
+            text-decoration: none;
+          }
+          .termsand-conditions-link9 {
+            text-decoration: none;
+          }
+          .termsand-conditions-category3 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            display: flex;
+            max-width: auto;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .termsand-conditions-header6 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .termsand-conditions-links3 {
+            gap: var(--dl-space-space-unit);
+            width: 240px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .termsand-conditions-category4 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            max-width: 350px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .termsand-conditions-header7 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .termsand-conditions-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .termsand-conditions-text315 {
+            text-align: justify;
           }
           .termsand-conditions-copyright1 {
             gap: var(--dl-space-space-fiveunits);
@@ -1226,9 +1402,6 @@ Here's what the above is doing:
               line-height: 2;
             }
             .termsand-conditions-text122 {
-              line-height: 2;
-            }
-            .termsand-conditions-text125 {
               line-height: 2;
             }
             .termsand-conditions-text128 {
@@ -1304,28 +1477,28 @@ Here's what the above is doing:
               line-height: 2;
             }
             .termsand-conditions-text200 {
-              font-size: 25px;
-              font-weight: 700;
+              line-height: 2;
             }
             .termsand-conditions-text203 {
-              line-height: 2;
+              font-size: 25px;
+              font-weight: 700;
             }
             .termsand-conditions-text206 {
               line-height: 2;
             }
             .termsand-conditions-text209 {
-              line-height: 1.15;
-            }
-            .termsand-conditions-text210 {
-              line-height: 2;
-            }
-            .termsand-conditions-text211 {
               line-height: 2;
             }
             .termsand-conditions-text212 {
-              line-height: 2;
+              line-height: 1.15;
             }
             .termsand-conditions-text213 {
+              line-height: 2;
+            }
+            .termsand-conditions-text214 {
+              line-height: 2;
+            }
+            .termsand-conditions-text215 {
               line-height: 2;
             }
             .termsand-conditions-text216 {
@@ -1391,20 +1564,8 @@ Here's what the above is doing:
             .termsand-conditions-text276 {
               line-height: 2;
             }
-            .termsand-conditions-text280 {
-              font-size: 25px;
-              font-style: normal;
-              font-weight: 700;
-            }
-            .termsand-conditions-text281 {
-              font-size: 25px;
-              font-style: normal;
-              font-weight: 700;
-            }
-            .termsand-conditions-text282 {
-              font-size: 25px;
-              font-style: normal;
-              font-weight: 700;
+            .termsand-conditions-text279 {
+              line-height: 2;
             }
             .termsand-conditions-text283 {
               font-size: 25px;
@@ -1422,6 +1583,21 @@ Here's what the above is doing:
               font-weight: 700;
             }
             .termsand-conditions-text286 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text287 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text288 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text289 {
               font-size: 25px;
               font-style: normal;
               font-weight: 700;
@@ -1449,6 +1625,20 @@ Here's what the above is doing:
               align-items: flex-start;
               flex-direction: column;
               justify-content: flex-start;
+            }
+            .termsand-conditions-categories {
+              gap: 10px;
+              flex: 1;
+              width: 100%;
+              grid-gap: var(--dl-space-space-twounits);
+              flex-wrap: wrap;
+            }
+            .termsand-conditions-category3 {
+              width: auto;
+            }
+            .termsand-conditions-category4 {
+              width: 100%;
+              max-width: 1200px;
             }
             .termsand-conditions-copyright1 {
               display: none;
@@ -1992,6 +2182,15 @@ Here's what the above is doing:
             .termsand-conditions-text277 {
               line-height: 2;
             }
+            .termsand-conditions-text278 {
+              line-height: 2;
+            }
+            .termsand-conditions-text279 {
+              line-height: 2;
+            }
+            .termsand-conditions-text280 {
+              line-height: 2;
+            }
             .termsand-conditions-section3 {
               padding-top: var(--dl-space-space-fourunits);
             }
@@ -2017,7 +2216,8 @@ Here's what the above is doing:
               gap: var(--dl-space-space-twounits);
             }
             .termsand-conditions-categories {
-              gap: var(--dl-space-space-twounits);
+              gap: var(--dl-space-space-threeunits);
+              flex-wrap: wrap;
               flex-direction: column;
             }
           }
@@ -2025,164 +2225,613 @@ Here's what the above is doing:
             .termsand-conditions-text100 {
               color: rgb(255, 255, 255);
             }
+            .termsand-conditions-text101 {
+              font-size: 50px;
+              font-weight: 700;
+              line-height: 2;
+              text-transform: uppercase;
+            }
+            .termsand-conditions-text102 {
+              font-weight: 700;
+              line-height: 2;
+              text-transform: uppercase;
+            }
+            .termsand-conditions-text103 {
+              line-height: 2;
+            }
+            .termsand-conditions-text104 {
+              line-height: 2;
+            }
+            .termsand-conditions-text105 {
+              line-height: 2;
+            }
+            .termsand-conditions-text106 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text107 {
+              line-height: 2;
+            }
+            .termsand-conditions-text108 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text109 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text110 {
+              line-height: 2;
+            }
+            .termsand-conditions-text111 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text112 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text113 {
+              line-height: 2;
+            }
+            .termsand-conditions-text114 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text115 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text116 {
+              line-height: 2;
+            }
+            .termsand-conditions-text117 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text118 {
+              line-height: 1.15;
+            }
+            .termsand-conditions-text119 {
+              line-height: 2;
+            }
             .termsand-conditions-text120 {
               color: #ffffff;
             }
+            .termsand-conditions-text121 {
+              line-height: 2;
+            }
+            .termsand-conditions-text122 {
+              line-height: 2;
+            }
+            .termsand-conditions-text123 {
+              line-height: 2;
+            }
+            .termsand-conditions-text124 {
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 2;
+            }
+            .termsand-conditions-text125 {
+              font-size: 35px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 2;
+            }
             .termsand-conditions-text126 {
-              color: #ffffff;
+              font-size: 35px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 2;
+            }
+            .termsand-conditions-text127 {
+              line-height: 2;
+            }
+            .termsand-conditions-text128 {
+              line-height: 2;
             }
             .termsand-conditions-text129 {
               color: #ffffff;
             }
+            .termsand-conditions-text130 {
+              line-height: 2;
+            }
+            .termsand-conditions-text131 {
+              line-height: 2;
+            }
             .termsand-conditions-text132 {
               color: #ffffff;
+            }
+            .termsand-conditions-text133 {
+              line-height: 2;
+            }
+            .termsand-conditions-text134 {
+              line-height: 2;
             }
             .termsand-conditions-text135 {
               color: #ffffff;
             }
+            .termsand-conditions-text136 {
+              line-height: 2;
+            }
+            .termsand-conditions-text137 {
+              line-height: 2;
+            }
             .termsand-conditions-text138 {
               color: #ffffff;
+            }
+            .termsand-conditions-text139 {
+              line-height: 2;
+            }
+            .termsand-conditions-text140 {
+              line-height: 2;
             }
             .termsand-conditions-text141 {
               color: #ffffff;
             }
+            .termsand-conditions-text142 {
+              line-height: 2;
+            }
+            .termsand-conditions-text143 {
+              line-height: 2;
+            }
             .termsand-conditions-text144 {
               color: #ffffff;
+            }
+            .termsand-conditions-text145 {
+              line-height: 2;
+            }
+            .termsand-conditions-text146 {
+              line-height: 2;
             }
             .termsand-conditions-text147 {
               color: #ffffff;
             }
+            .termsand-conditions-text148 {
+              line-height: 2;
+            }
+            .termsand-conditions-text149 {
+              line-height: 2;
+            }
             .termsand-conditions-text150 {
               color: #ffffff;
+            }
+            .termsand-conditions-text151 {
+              line-height: 2;
+            }
+            .termsand-conditions-text152 {
+              line-height: 2;
             }
             .termsand-conditions-text153 {
               color: #ffffff;
             }
+            .termsand-conditions-text154 {
+              line-height: 2;
+            }
+            .termsand-conditions-text155 {
+              line-height: 2;
+            }
             .termsand-conditions-text156 {
               color: #ffffff;
+            }
+            .termsand-conditions-text157 {
+              line-height: 2;
+            }
+            .termsand-conditions-text158 {
+              line-height: 2;
             }
             .termsand-conditions-text159 {
               color: #ffffff;
             }
+            .termsand-conditions-text160 {
+              line-height: 2;
+            }
+            .termsand-conditions-text161 {
+              line-height: 2;
+            }
             .termsand-conditions-text162 {
               color: #ffffff;
+            }
+            .termsand-conditions-text163 {
+              line-height: 2;
+            }
+            .termsand-conditions-text164 {
+              line-height: 2;
             }
             .termsand-conditions-text165 {
               color: #ffffff;
             }
+            .termsand-conditions-text166 {
+              line-height: 2;
+            }
+            .termsand-conditions-text167 {
+              line-height: 2;
+            }
             .termsand-conditions-text168 {
               color: #ffffff;
             }
-            .termsand-conditions-text174 {
+            .termsand-conditions-text169 {
+              line-height: 2;
+            }
+            .termsand-conditions-text170 {
+              line-height: 2;
+            }
+            .termsand-conditions-text171 {
               color: #ffffff;
+            }
+            .termsand-conditions-text172 {
+              line-height: 2;
+            }
+            .termsand-conditions-text173 {
+              line-height: 2;
+            }
+            .termsand-conditions-text174 {
+              line-height: 2;
+            }
+            .termsand-conditions-text175 {
+              line-height: 2;
+            }
+            .termsand-conditions-text176 {
+              line-height: 2;
             }
             .termsand-conditions-text177 {
               color: #ffffff;
             }
+            .termsand-conditions-text178 {
+              line-height: 2;
+            }
+            .termsand-conditions-text179 {
+              line-height: 2;
+            }
             .termsand-conditions-text180 {
               color: #ffffff;
+            }
+            .termsand-conditions-text181 {
+              line-height: 2;
+            }
+            .termsand-conditions-text182 {
+              line-height: 2;
             }
             .termsand-conditions-text183 {
               color: #ffffff;
             }
+            .termsand-conditions-text184 {
+              line-height: 2;
+            }
+            .termsand-conditions-text185 {
+              line-height: 2;
+            }
             .termsand-conditions-text186 {
               color: #ffffff;
+            }
+            .termsand-conditions-text187 {
+              line-height: 2;
+            }
+            .termsand-conditions-text188 {
+              line-height: 2;
             }
             .termsand-conditions-text189 {
               color: #ffffff;
             }
+            .termsand-conditions-text190 {
+              line-height: 2;
+            }
+            .termsand-conditions-text191 {
+              line-height: 2;
+            }
             .termsand-conditions-text192 {
               color: #ffffff;
+            }
+            .termsand-conditions-text193 {
+              line-height: 2;
+            }
+            .termsand-conditions-text194 {
+              line-height: 2;
             }
             .termsand-conditions-text195 {
               color: #ffffff;
             }
+            .termsand-conditions-text196 {
+              line-height: 2;
+            }
+            .termsand-conditions-text197 {
+              line-height: 2;
+            }
             .termsand-conditions-text198 {
               color: #ffffff;
             }
-            .termsand-conditions-text204 {
+            .termsand-conditions-text199 {
+              line-height: 2;
+            }
+            .termsand-conditions-text200 {
+              line-height: 2;
+            }
+            .termsand-conditions-text201 {
               color: #ffffff;
+            }
+            .termsand-conditions-text202 {
+              line-height: 2;
+            }
+            .termsand-conditions-text203 {
+              font-size: 35px;
+              font-style: normal;
+              font-weight: 800;
+              line-height: 2;
+            }
+            .termsand-conditions-text204 {
+              line-height: 2;
+            }
+            .termsand-conditions-text205 {
+              line-height: 2;
+            }
+            .termsand-conditions-text206 {
+              line-height: 2;
             }
             .termsand-conditions-text207 {
               color: #ffffff;
             }
-            .termsand-conditions-text214 {
+            .termsand-conditions-text208 {
+              line-height: 2;
+            }
+            .termsand-conditions-text209 {
+              line-height: 2;
+            }
+            .termsand-conditions-text210 {
               color: #ffffff;
+            }
+            .termsand-conditions-text211 {
+              line-height: 2;
+            }
+            .termsand-conditions-text212 {
+              line-height: 2;
+            }
+            .termsand-conditions-text213 {
+              line-height: 2;
+            }
+            .termsand-conditions-text214 {
+              line-height: 2;
+            }
+            .termsand-conditions-text215 {
+              line-height: 2;
+            }
+            .termsand-conditions-text216 {
+              line-height: 2;
             }
             .termsand-conditions-text217 {
               color: #ffffff;
             }
+            .termsand-conditions-text218 {
+              line-height: 2;
+            }
+            .termsand-conditions-text219 {
+              line-height: 2;
+            }
             .termsand-conditions-text220 {
               color: #ffffff;
+            }
+            .termsand-conditions-text221 {
+              line-height: 2;
+            }
+            .termsand-conditions-text222 {
+              line-height: 2;
             }
             .termsand-conditions-text223 {
               color: #ffffff;
             }
+            .termsand-conditions-text224 {
+              line-height: 2;
+            }
+            .termsand-conditions-text225 {
+              line-height: 2;
+            }
             .termsand-conditions-text226 {
               color: #ffffff;
+            }
+            .termsand-conditions-text227 {
+              line-height: 2;
+            }
+            .termsand-conditions-text228 {
+              line-height: 2;
             }
             .termsand-conditions-text229 {
               color: #ffffff;
             }
+            .termsand-conditions-text230 {
+              line-height: 2;
+            }
+            .termsand-conditions-text231 {
+              line-height: 2;
+            }
             .termsand-conditions-text232 {
               color: #ffffff;
+            }
+            .termsand-conditions-text233 {
+              line-height: 2;
+            }
+            .termsand-conditions-text234 {
+              line-height: 2;
             }
             .termsand-conditions-text235 {
               color: #ffffff;
             }
+            .termsand-conditions-text236 {
+              line-height: 2;
+            }
+            .termsand-conditions-text237 {
+              line-height: 2;
+            }
             .termsand-conditions-text238 {
               color: #ffffff;
+            }
+            .termsand-conditions-text239 {
+              line-height: 2;
+            }
+            .termsand-conditions-text240 {
+              line-height: 2;
             }
             .termsand-conditions-text241 {
               color: #ffffff;
             }
+            .termsand-conditions-text242 {
+              line-height: 2;
+            }
+            .termsand-conditions-text243 {
+              line-height: 2;
+            }
             .termsand-conditions-text244 {
               color: #ffffff;
+            }
+            .termsand-conditions-text245 {
+              line-height: 2;
+            }
+            .termsand-conditions-text246 {
+              line-height: 2;
             }
             .termsand-conditions-text247 {
               color: #ffffff;
             }
+            .termsand-conditions-text248 {
+              line-height: 2;
+            }
+            .termsand-conditions-text249 {
+              line-height: 2;
+            }
             .termsand-conditions-text250 {
               color: #ffffff;
+            }
+            .termsand-conditions-text251 {
+              line-height: 2;
+            }
+            .termsand-conditions-text252 {
+              line-height: 2;
             }
             .termsand-conditions-text253 {
               color: #ffffff;
             }
+            .termsand-conditions-text254 {
+              line-height: 2;
+            }
+            .termsand-conditions-text255 {
+              line-height: 2;
+            }
             .termsand-conditions-text256 {
               color: #ffffff;
+            }
+            .termsand-conditions-text257 {
+              line-height: 2;
+            }
+            .termsand-conditions-text258 {
+              line-height: 2;
             }
             .termsand-conditions-text259 {
               color: #ffffff;
             }
+            .termsand-conditions-text260 {
+              line-height: 2;
+            }
+            .termsand-conditions-text261 {
+              line-height: 2;
+            }
             .termsand-conditions-text262 {
               color: #ffffff;
+            }
+            .termsand-conditions-text263 {
+              line-height: 2;
+            }
+            .termsand-conditions-text264 {
+              font-weight: 700;
+              line-height: 2;
             }
             .termsand-conditions-text265 {
               color: #ffffff;
             }
+            .termsand-conditions-text266 {
+              line-height: 2;
+            }
+            .termsand-conditions-text267 {
+              line-height: 2;
+            }
             .termsand-conditions-text268 {
               color: #ffffff;
+            }
+            .termsand-conditions-text269 {
+              line-height: 2;
+            }
+            .termsand-conditions-text270 {
+              line-height: 2;
             }
             .termsand-conditions-text271 {
               color: #ffffff;
             }
+            .termsand-conditions-text272 {
+              line-height: 2;
+            }
+            .termsand-conditions-text273 {
+              line-height: 2;
+            }
             .termsand-conditions-text274 {
               color: #ffffff;
+            }
+            .termsand-conditions-text275 {
+              line-height: 2;
+            }
+            .termsand-conditions-text276 {
+              line-height: 2;
             }
             .termsand-conditions-text277 {
               color: #ffffff;
             }
+            .termsand-conditions-text278 {
+              line-height: 2;
+            }
+            .termsand-conditions-text279 {
+              line-height: 2;
+            }
+            .termsand-conditions-text280 {
+              color: #ffffff;
+            }
+            .termsand-conditions-text283 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text284 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text285 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text286 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text287 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text288 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .termsand-conditions-text289 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
             .termsand-conditions-image {
               width: 100%;
             }
-            .termsand-conditions-text290 {
+            .termsand-conditions-text293 {
               color: rgb(255, 255, 255);
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;
             }
-            .termsand-conditions-text295 {
-              text-decoration: none;
+            .termsand-conditions-categories {
+              flex-direction: column;
+            }
+            .termsand-conditions-text315 {
+              text-align: justify;
             }
           }
         `}
