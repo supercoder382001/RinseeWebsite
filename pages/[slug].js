@@ -13,7 +13,7 @@ const ServicePage = () => {
     "delhi-dry-cleaning-service": <DryClean />,
     "wash-fold-laundry-delhi": <WashFold />,
     "wash-iron-laundry-service-delhi": <WashIron />,
-    "/steam-iron-service-delhi": <SteamIron />,
+    "steam-iron-service-delhi": <SteamIron />,
   };
 
   // Render the appropriate content based on the slug
