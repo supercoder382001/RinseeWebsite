@@ -691,6 +691,8 @@ const TermsandConditions = (props) => {
                     </div>
                     <div className="termsand-conditions-links3">
                       <span className="footer-link">
+                      <span>Address : Rinsee , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
+                      <br></br>
                         <span>Email : jatindua2001@gmail.com</span>
                         <br></br>
                         <span>Contact: 7428160047</span>

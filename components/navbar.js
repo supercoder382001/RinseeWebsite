@@ -149,7 +149,6 @@ const Navbar = (props) => {
             <Link href="/prices">
               <a className="navbar-link22 nav-link">Prices</a>
             </Link>
-            <span className="nav-link">Contact</span>
             <div
               data-thq="thq-dropdown"
               className="navbar-thq-dropdown2 list-item"
@@ -237,6 +236,10 @@ const Navbar = (props) => {
                 </li>
               </ul>
             </div>
+            <Link href="/aboutus">
+              <a className="navbar-link22 nav-link">Contact</a>
+          </Link>
+
           </div>
           <div className="get-started">
             <span className="navbar-text25">Get started</span>

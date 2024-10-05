@@ -826,7 +826,9 @@ const Home = (props) => {
                       <span className="footer-header">Company</span>
                     </div>
                     <div className="home-links1">
-                      <span className="footer-link">About</span>
+                      <Link href="/aboutus">
+                      <a className="footer-link">About</a>
+                      </Link>
                       <a href="#home" className="home-text75 footer-link">
                         Home
                       </a>
@@ -873,6 +875,8 @@ const Home = (props) => {
                     </div>
                     <div className="home-links3">
                       <span className="footer-link">
+                      <span>Address : Rinsee , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
+                      <br></br>
                         <span>Email : jatindua2001@gmail.com</span>
                         <br></br>
                         <span>Contact: 7428160047</span>

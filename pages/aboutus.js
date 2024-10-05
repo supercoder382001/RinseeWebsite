@@ -118,6 +118,10 @@ const Aboutus = (props) => {
               <span className="aboutus-text49">Phone:- 7428160047</span>
               <br className="aboutus-text50"></br>
               <br></br>
+              <br className="aboutus-text48"></br>
+              <span className="aboutus-text49">Address:- Rinsee , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
+              <br className="aboutus-text50"></br>
+              <br></br>
             </span>
           </main>
         </section>
@@ -221,12 +225,11 @@ const Aboutus = (props) => {
                     </div>
                     <div className="aboutus-links1">
                       <span className="footer-link">About</span>
-                      <a href="#home" className="aboutus-text57 footer-link">
+                      <Link href="/">
+                      <a className="aboutus-text57 footer-link">
                         Home
                       </a>
-                      <a href="#Faq" className="aboutus-text58 footer-link">
-                        FAQs
-                      </a>
+                      </Link>
                       <Link href="/termsand-conditions">
                         <a className="aboutus-link5 footer-link">
                           <span>Terms</span>
@@ -267,6 +270,8 @@ const Aboutus = (props) => {
                     </div>
                     <div className="aboutus-links3">
                       <span className="footer-link">
+                        <span>Address : Rinsee , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
+                        <br></br>
                         <span>Email : jatindua2001@gmail.com</span>
                         <br></br>
                         <span>Contact: 7428160047</span>
@@ -859,6 +864,21 @@ Here's what the above is doing:
               font-style: normal;
               font-weight: 700;
             }
+            .aboutus-text51 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .aboutus-text52 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .aboutus-text53 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
             .aboutus-content1 {
               align-items: center;
               flex-direction: column;
@@ -1145,6 +1165,22 @@ Here's what the above is doing:
               font-style: normal;
               font-weight: 700;
             }
+            .aboutus-text51 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .aboutus-text52 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .aboutus-text53 {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 700;
+            }
+
             .aboutus-image {
               width: 100%;
             }
