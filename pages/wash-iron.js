@@ -34,7 +34,7 @@ const WashIron = (props) => {
                 </header>
                 <div className="wash-iron-buttons">
                   <a
-                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                    href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="wash-iron-link10"
@@ -126,7 +126,7 @@ const WashIron = (props) => {
                 </main>
               </main>
               <a
-                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="wash-iron-link11"
@@ -1205,7 +1205,7 @@ const WashIron = (props) => {
                 </header>
               </main>
               <a
-                href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="wash-iron-link12"

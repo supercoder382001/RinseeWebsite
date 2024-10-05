@@ -26,7 +26,7 @@ function submit() {
         })
       });
       if (!response.ok) {
-          window.location.href = 'https://drive.google.com/uc?export=download&id=1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU';
+          window.location.href = 'https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc';
       } else {
         console.error('Error:', response);
       }  } 
@@ -119,7 +119,7 @@ const Form = (props) => {
                 </header>
                 <div className="form-buttons1">
                   <a
-                    href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                    href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="form-link10"
@@ -209,7 +209,7 @@ const Form = (props) => {
                   <span className="form-text11">Download for iOS</span>
                 </div>
                 <a
-                  href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                  href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="form-link11"

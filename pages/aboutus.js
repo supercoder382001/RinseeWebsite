@@ -141,7 +141,7 @@ const Aboutus = (props) => {
                   <span className="aboutus-text52">Download for iOS</span>
                 </div>
                 <a
-                  href="https://drive.google.com/file/d/1ihTuvA8i7Ppk5QFui8PeEzdZsoLxJYWU/view?usp=drive_link"
+                  href="https://drive.google.com/uc?export=download&id=1P9223aocYRuS_xNc6LUhOL3agtRNbevc"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="aboutus-link1"
