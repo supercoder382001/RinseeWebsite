@@ -1357,12 +1357,13 @@ const SteamIron = (props) => {
                     </div>
                     <div className="steam-iron-links3">
                       <span className="footer-link">
-                      <span>Address : Rinsee , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
+                      <span>Address : TRICKERR FINOO PRIVATE LIMITED , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
                       <br></br>
                         <span>Email : jatindua2001@gmail.com</span>
                         <br></br>
-                        <span>Contact: 7428160047</span>
+                        <span>Contact: 7428160047 | 8527064439</span>
                         <br></br>
+                        <span>TRICKERR FINOO PRIVATE LIMITED</span>
                       </span>
                     </div>
                   </div>
