@@ -527,13 +527,14 @@ const Prices = (props) => {
                       <span className="footer-header">Company</span>
                     </div>
                     <div className="prices-links1">
+                      <Link href="/aboutus">
                       <span className="footer-link">About</span>
-                      <a href="#home" className="prices-text16 footer-link">
+                      </Link>
+                      <Link href="/">
+                      <a className="prices-text16 footer-link">
                         Home
                       </a>
-                      <a href="#Faq" className="prices-text17 footer-link">
-                        FAQs
-                      </a>
+                      </Link>
                       <Link href="/termsand-conditions">
                         <a className="prices-link16 footer-link">
                           <span>Terms</span>
@@ -1052,7 +1053,7 @@ const Prices = (props) => {
             display: contents;
           }
           .prices-categories {
-            gap: var(--dl-space-space-unit);
+            gap: 34px;
             width: 100%;
             height: auto;
             display: flex;
@@ -1063,7 +1064,7 @@ const Prices = (props) => {
           }
           .prices-category1 {
             gap: var(--dl-space-space-unit);
-            width: 100%;
+            width: fit-content;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -1094,7 +1095,7 @@ const Prices = (props) => {
           }
           .prices-category2 {
             gap: var(--dl-space-space-unit);
-            width: 100%;
+            width: fit-content;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -1128,7 +1129,7 @@ const Prices = (props) => {
           }
           .prices-category3 {
             gap: var(--dl-space-space-unit);
-            width: 100%;
+            width: fit-content;
             display: flex;
             max-width: auto;
             align-items: flex-start;
@@ -1157,6 +1158,7 @@ const Prices = (props) => {
             align-items: flex-start;
             flex-direction: column;
             justify-content: center;
+            max-width: 350px;
           }
           .prices-header8 {
             gap: var(--dl-space-space-unit);
