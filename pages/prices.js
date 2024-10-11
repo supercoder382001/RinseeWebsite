@@ -116,1692 +116,466 @@ const Prices = (props) => {
             <div className="prices-container2">
               <div className="prices-container3">
                 <Script
-                  html={`<style>
-  .tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-    text-align: center;
-  }
-
-  .tablink:hover {
-    background-color: #c6ff4b;
-  }
-
-  /* Tab content styles */
-  .tabcontent {
-    display: none;
-
-    height: calc(
-      100% - 56px
-    ); /* Adjust height considering the tab buttons height */
-    box-sizing: border-box; /* Include padding in height calculation */
-    background-color: inherit;
-  }
-
-  /* Specific styles for tab content backgrounds */
-  #Home {
-    background-color: inherit;
-  }
-  #News {
-    background-color: inherit;
-  }
-  #Contact {
-    background-color: inherit;
-  }
-  #About {
-    background-color: inherit;
-  }
-
-  /* Container for scrollable table */
-  .table-container {
-    height: 400px; /* Adjust height as needed */
-    overflow-y: auto; /* Enables vertical scrolling */
-    margin-top: 20px; /* Space between the table and tabs */
-    /* Optional: Adds a border around the scrollable area */
-    padding: 10px; /* Optional: Adds padding inside the scrollable area */
-    background-color: inherit; /* Optional: Ensures the background color is white for better visibility */
-  }
-
-  /* Table styling */
-  table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 10px; /* Space between rows */
-    height: 100%;
-  }
-
-  td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    border-radius: 25px; /* Optional: Adds a white background for a cleaner look */
-  }
-
-  /* Container for item with image, name, and price */
-  .item-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-
-  /* Left section containing image and name */
-  .left-section {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
-
-  /* Circle container to display images in a circular shape */
-  .circle-container {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .circle-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  /* Styling for the price section */
-  .price {
-    font-size: 14px;
-    color: #555;
-    margin-left: auto;
-    white-space: nowrap;
-    margin-right: 10px;
-  }
-  .container {
-    display: flex;
-    border: 1px solid inherit;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    background-color: inherit;
-  }
-
-  .main-tabs {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    border-right: 1px solid inherit;
-    gap: 10px;
-    background: inherit;
-  }
-
-  .main-tab {
-    padding: 10px;
-    border: none;
-    background: #e0e0e0;
-    cursor: pointer;
-    text-align: left;
-    width: 100%;
-    border-bottom: 1px solid #ccc;
-    border-radius: 25px;
-  }
-
-  .main-tab.active {
-    background-color: #d0d0d0;
-    font-weight: bold;
-  }
-
-  .sub-container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-  }
-
-  .sub-tabs {
-    display: flex;
-    padding: 10px;
-    gap: 20px;
-  }
-
-  .sub-tab-content {
-    display: none;
-  }
-
-  .sub-tab-content.active {
-    display: flex;
-  }
-
-  .sub-tab {
-    padding: 8px;
-    border: none;
-    background: #f1f1f1;
-    cursor: pointer;
-    margin-right: 5px;
-    border-radius: 24px;
-  }
-
-  .sub-tab.active {
-    background-color: #0074bc;
-  }
-
-  .content {
-    display: flex;
-    padding: 10px;
-    flex: 1;
-  }
-
-  .content-item {
-    display: none;
-  }
-
-  .content-item.active {
-    display: block;
-    flex: 1;
-  }
-
-  .content-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 0;
-  }
-
-  .content-table th,
-  .content-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-
-  .content-table th {
-    background-color: inherit;
-  }
-  .main-tab.tab1 {
-    background-color: #f2a0a1; /* Light red */
-  }
-  .main-tab.tab2 {
-    background-color: #a0d2f2; /* Light blue */
-  }
-  .main-tab.tab3 {
-    background-color: #a0f2a0; /* Light blue */
-  }
-  .main-tab.tab2 {
-    background-color: #a0d2f2; /* Light blue */
-  }
-</style>
-
-<!-- Tab buttons -->
-<div class="container">
-  <div class="main-tabs">
-    <button class="main-tab tab1 active" onclick="showSubTab('tab1')">
-      Wash + Fold
-    </button>
-    <button class="main-tab tab2" onclick="showSubTab('tab2')">
-      Wash + Iron
-    </button>
-    <button class="main-tab tab3" onclick="showSubTab('tab3')">
-      Steam Iron
-    </button>
-    <button class="main-tab tab4" onclick="showSubTab('tab4')">
-      Dry Clean
-    </button>
-  </div>
-  <div class="sub-container">
-    <div class="sub-tabs">
-      <div id="tab1" class="sub-tab-content active">
-        <button class="sub-tab active" onclick="showContent('content1')">
-          Men
-        </button>
-        <button class="sub-tab" onclick="showContent('content2')">Women</button>
-        <button class="sub-tab" onclick="showContent('content3')">Kids</button>
-        <button class="sub-tab" onclick="showContent('content4')">
-          Household
-        </button>
-      </div>
-      <div id="tab2" class="sub-tab-content">
-        <button class="sub-tab active" onclick="showContent('content5')">
-          Men
-        </button>
-        <button class="sub-tab" onclick="showContent('content6')">Women</button>
-        <button class="sub-tab" onclick="showContent('content7')">Kids</button>
-        <button class="sub-tab" onclick="showContent('content8')">
-          Household
-        </button>
-      </div>
-      <div id="tab3" class="sub-tab-content">
-        <button class="sub-tab active" onclick="showContent('content9')">
-          Men
-        </button>
-        <button class="sub-tab" onclick="showContent('content10')">
-          Women
-        </button>
-        <button class="sub-tab" onclick="showContent('content11')">Kids</button>
-        <button class="sub-tab" onclick="showContent('content12')">
-          Household
-        </button>
-      </div>
-      <div id="tab4" class="sub-tab-content">
-        <button class="sub-tab active" onclick="showContent('content13')">
-          Men
-        </button>
-        <button class="sub-tab" onclick="showContent('content14')">
-          Women
-        </button>
-        <button class="sub-tab" onclick="showContent('content15')">Kids</button>
-        <button class="sub-tab" onclick="showContent('content16')">
-          Household
-        </button>
-      </div>
-    </div>
-    <div class="content">
-      <div id="content1" class="content-item active">
-        <!-- Content for Sub Tab 1-1 with Product Table -->
-        <div class="table-container">
-          <table>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <!-- Left section with image and name -->
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shirt Half Standard Pack</div>
-                  </div>
-                  <!-- Right section with price -->
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <!-- Example rows with image, name, and price -->
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">T-Shirt Half Standard Pack</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Trousers Standard Pack</div>
-                  </div>
-                  <div class="price">₹40</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Jeans Standard Pack</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shorts Standard Pack</div>
-                  </div>
-                  <div class="price">₹30</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Jacket Hanger Pack</div>
-                  </div>
-                  <div class="price">₹150</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Half Jacket Standard Pack</div>
-                  </div>
-                  <div class="price">₹100</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Sweater Premium Pack</div>
-                  </div>
-                  <div class="price">₹75</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Kurta Standard Pack</div>
-                  </div>
-                  <div class="price">₹40</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Churidar/Pyjama Standard Pk</div>
-                  </div>
-                  <div class="price">₹40</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Sweatshirt Standard Pack</div>
-                  </div>
-                  <div class="price">₹75</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Trackpant Standard Pack</div>
-                  </div>
-                  <div class="price">₹40</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Muffler</div>
-                  </div>
-                  <div class="price">₹30</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bathrobe Standard Pack</div>
-                  </div>
-                  <div class="price">₹100</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Dhoti Standard Pack</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">T-Shirt Full Standard Pack</div>
-                  </div>
-                  <div class="price">₹35</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shirt Full Standard Pack</div>
-                  </div>
-                  <div class="price">₹30</div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div id="content2" class="content-item">
-        <div class="table-container">
-          <table>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <!-- Left section with image and name -->
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shirt Half Standard Pack</div>
-                  </div>
-                  <!-- Right section with price -->
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <!-- Example rows with image, name, and price -->
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">T-Shirt/Top Half Standard Pack</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Trousers/Pant Standard Pack</div>
-                  </div>
-                  <div class="price">₹40</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Jeggings Standard Pack</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shorts/Capris Standard Pack</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Jacket Hanger Pack</div>
-                  </div>
-                  <div class="price">₹150</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Cardigan Standard Pack</div>
-                  </div>
-                  <div class="price">₹60</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Jumpsuit Standard Pack</div>
-                  </div>
-                  <div class="price">₹75</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Sweatshirt Standard Pack</div>
-                  </div>
-                  <div class="price">₹60</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Salwar(bottom) Standard Pk</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Dupatta Standard Pack</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Scarf Standard Pack</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Muffler</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bathrobe Standard Pack</div>
-                  </div>
-                  <div class="price">₹100</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Saree Plain Standard Pack</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Saree - Zaree Standard Pack</div>
-                  </div>
-                  <div class="price">₹75</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blouse Standard Pack</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Peticoat Standard Pack</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shawl/Stole Plain Standard Pack</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Night Gown Standard Pack</div>
-                  </div>
-                  <div class="price">₹30</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bathrobe Standard Pack</div>
-                  </div>
-                  <div class="price">₹75</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Kurta Standard Pack</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Leggings Standard Pack</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shirt Full Standard Pack</div>
-                  </div>
-                  <div class="price">₹30</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">TShirt Full Standard Pack</div>
-                  </div>
-                  <div class="price">₹30</div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div id="content3" class="content-item">
-        <div class="table-container">
-          <table>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <!-- Left section with image and name -->
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shirt</div>
-                  </div>
-                  <!-- Right section with price -->
-                  <div class="price">₹15</div>
-                </div>
-              </td>
-            </tr>
-            <!-- Example rows with image, name, and price -->
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">T-Shirt</div>
-                  </div>
-                  <div class="price">₹15</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Trousers</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Dress/Frock</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Kurta</div>
-                  </div>
-                  <div class="price">₹15</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Jumpsuit</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Sweater</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Shorts</div>
-                  </div>
-                  <div class="price">₹15</div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div id="content4" class="content-item">
-        <div class="table-container">
-          <table>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <!-- Left section with image and name -->
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Apron</div>
-                  </div>
-                  <!-- Right section with price -->
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <!-- Example rows with image, name, and price -->
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Sheet Single</div>
-                  </div>
-                  <div class="price">₹35</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Sheet Double</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Cover Single</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Cover Double</div>
-                  </div>
-                  <div class="price">₹70</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Pillow Cover Single</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blanket Single</div>
-                  </div>
-                  <div class="price">₹100</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blanket Double</div>
-                  </div>
-                  <div class="price">₹125</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blanket Cover Single</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blanket Cover Double</div>
-                  </div>
-                  <div class="price">₹75</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Quilt Single</div>
-                  </div>
-                  <div class="price">₹100</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Quilt Double</div>
-                  </div>
-                  <div class="price">₹125</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Table Cloth (Small)</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Sheet Single Fitted</div>
-                  </div>
-                  <div class="price">₹45</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Sheet Double Fitted</div>
-                  </div>
-                  <div class="price">₹60</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Table Cloth (Large)</div>
-                  </div>
-                  <div class="price">₹30</div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div id="content5" class="content-item">
-        <div class="table-container">
-          <table>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <!-- Left section with image and name -->
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Apron</div>
-                  </div>
-                  <!-- Right section with price -->
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <!-- Example rows with image, name, and price -->
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Sheet Single</div>
-                  </div>
-                  <div class="price">₹35</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Sheet Double</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Cover Single</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Cover Double</div>
-                  </div>
-                  <div class="price">₹70</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Pillow Cover Single</div>
-                  </div>
-                  <div class="price">₹20</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blanket Single</div>
-                  </div>
-                  <div class="price">₹100</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blanket Double</div>
-                  </div>
-                  <div class="price">₹125</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blanket Cover Single</div>
-                  </div>
-                  <div class="price">₹50</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Blanket Cover Double</div>
-                  </div>
-                  <div class="price">₹75</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Quilt Single</div>
-                  </div>
-                  <div class="price">₹100</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Quilt Double</div>
-                  </div>
-                  <div class="price">₹125</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Table Cloth (Small)</div>
-                  </div>
-                  <div class="price">₹25</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Sheet Single Fitted</div>
-                  </div>
-                  <div class="price">₹45</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Bed Sheet Double Fitted</div>
-                  </div>
-                  <div class="price">₹60</div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="item-container">
-                  <div class="left-section">
-                    <div class="circle-container">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Product Image"
-                      />
-                    </div>
-                    <div class="name">Table Cloth (Large)</div>
-                  </div>
-                  <div class="price">₹30</div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    showSubTab("tab1"); // Set default main tab
-    showContent("content1"); // Set default sub-tab for the default main tab
-  });
-
-  function showSubTab(tabId) {
-    const mainTabs = document.querySelectorAll(".main-tab");
-    const subTabContents = document.querySelectorAll(".sub-tab-content");
-
-    mainTabs.forEach((tab) => tab.classList.remove("active"));
-    subTabContents.forEach((content) => content.classList.remove("active"));
-
-    const selectedMainTab = document.querySelector(
-      \`.main-tab[onclick="showSubTab('\${tabId}')"]\`
-    );
-    selectedMainTab.classList.add("active");
-    const selectedSubTabContent = document.getElementById(tabId);
-    selectedSubTabContent.classList.add("active");
-
-    // Automatically select the first sub-tab of the selected main tab
-    const firstSubTab = selectedSubTabContent.querySelector(".sub-tab");
-    if (firstSubTab) {
-      showContent(firstSubTab.getAttribute("onclick").split("'")[1]);
+                  html={`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabbed Table Example</title>
+  <style>
+    body, html {
+      height: 1000px;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color:inherit;
     }
+
+    /* Tab button styles */
+    .tablink {
+      background-color: #555;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 25%;
+      text-align: center;
+    }
+
+    .tablink:hover {
+      background-color: #c6ff4b;
+    }
+
+    /* Tab content styles */
+    .tabcontent {
+      display: none;
+
+      height: calc(
+        100% - 56px
+      ); /* Adjust height considering the tab buttons height */
+      box-sizing: border-box; /* Include padding in height calculation */
+      background-color: #ffffff;
+    }
+
+    /* Specific styles for tab content backgrounds */
+    #Home {
+      background-color: inherit;
+    }
+    #News {
+      background-color: inherit;
+    }
+    #Contact {
+      background-color: inherit;
+    }
+    #About {
+      background-color: inherit;
+    }
+
+    /* Container for scrollable table */
+    .table-container {
+      height: 400px; /* Adjust height as needed */
+      overflow-y: auto; /* Enables vertical scrolling */
+      margin-top: 20px; /* Space between the table and tabs */
+      /* Optional: Adds a border around the scrollable area */
+      padding: 10px; /* Optional: Adds padding inside the scrollable area */
+      background-color: #000000; /* Optional: Ensures the background color is white for better visibility */
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0 10px; /* Space between rows */
+      height: 100%;
+    }
+
+    td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      background: #fff;
+      border-radius: 25px; /* Optional: Adds a white background for a cleaner look */
+    }
+
+    /* Container for item with image, name, and price */
+    .item-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    /* Left section containing image and name */
+    .left-section {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    /* Circle container to display images in a circular shape */
+    .circle-container {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .circle-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Styling for the price section */
+    .price {
+      font-size: 14px;
+      color: #555;
+      margin-left: auto;
+      white-space: nowrap;
+      margin-right: 10px;
+    }
+    .container {
+      display: flex;
+      border: 1px solid inherit;
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      background-color: inherit;
+    }
+
+    .main-tabs {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      border-right: 1px solid inherit;
+      gap: 10px;
+      background: inherit;
+    }
+
+    .main-tab {
+      padding: 10px;
+      border: none;
+      background: #e0e0e0;
+      cursor: pointer;
+      text-align: left;
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      border-radius: 25px;
+    }
+
+    .main-tab.active {
+      background-color: #d0d0d0;
+      font-weight: bold;
+    }
+
+    .sub-container {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .sub-tabs {
+      display: flex;
+      padding: 10px;
+      gap:  20px;
+    }
+
+    .sub-tab-content {
+      display: none;
+    }
+
+    .sub-tab-content.active {
+      display: flex;
+    }
+
+    .sub-tab {
+      padding: 8px;
+      border: none;
+      background: #f1f1 f1;
+      cursor: pointer;
+      margin-right: 5px;
+      border-radius: 24px;
+    }
+
+    .sub-tab.active {
+      background-color: #0074bc;
+    }
+
+    .content {
+      display: flex;
+      padding: 10px;
+      flex: 1;
+    }
+
+    .content-item {
+      display: none;
+    }
+
+    .content-item.active {
+      display: block;
+      flex: 1;
+    }
+
+    .content-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0;
+    }
+
+    .content-table th,
+    .content-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .content-table th {
+      background-color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <!-- Tab buttons -->
+  <div class="container">
+    <div class="main-tabs">
+      <button class="main-tab tab1 active" onclick="showSubTab('tab1')">
+        Wash + Fold
+      </button>
+      <button class="main-tab tab2" onclick="showSubTab('tab2')">
+        Wash + Iron
+      </button>
+      <button class="main-tab tab3" onclick="showSubTab('tab3')">
+        Steam Iron
+      </button>
+      <button class="main-tab tab4" onclick="showSubTab('tab4')">
+        Dry Clean
+      </button>
+    </div>
+    <div class="sub-container">
+      <div class="sub-tabs">
+        <div id="tab1" class="sub-tab-content active">
+          <button class="sub-tab active" onclick="showContent('content1')">
+            Men
+          </button>
+          <button class="sub-tab" onclick="showContent('content2')">Women</button>
+          <button class="sub-tab" onclick="showContent('content3')">Kids</button>
+          <button class="sub-tab" onclick="showContent('content4')">
+            Household
+          </button>
+        </div>
+        <div id="tab2" class="sub-tab-content">
+          <button class="sub-tab active" onclick="showContent('content5')">
+            Men
+          </button>
+          <button class="sub-tab" onclick="showContent('content6')">Women</button>
+          <button class="sub-tab" onclick="showContent('content7')">Kids</button>
+          <button class="sub-tab" onclick="showContent('content8')">
+            Household
+          </button>
+        </div>
+        <div id="tab3" class="sub-tab-content">
+          <button class="sub-tab active" onclick="showContent('content9')">
+            Men
+          </button>
+          <button class="sub-tab" onclick="showContent('content10')">
+            Women
+          </button>
+          <button class="sub-tab" onclick="showContent('content11')">Kids</button>
+          <button class="sub-tab" onclick="showContent('content12')">
+            Household
+          </button>
+        </div>
+        <div id="tab4" class="sub-tab-content">
+          <button class="sub-tab active" onclick="showContent('content13')">
+            Men
+          </button>
+          <button class="sub-tab" onclick="showContent('content14')">
+            Women
+          </button>
+          <button class="sub-tab" onclick="showContent('content15')">Kids</button>
+          <button class="sub-tab" onclick="showContent('content16')">
+            Household
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <div id="content1" class="content-item active">
+          <div class="table-container">
+            <table id="table1"></table>
+          </div>
+        </div>
+        <div id="content2" class="content-item">
+          <div class="table-container">
+            <table id="table2"></table>
+          </div>
+        </div>
+        <div id="content3" class="content-item">
+          <div class="table-container">
+            <table id="table3"></table>
+          </div>
+        </div>
+        <div id="content4" class="content-item">
+          <div class="table-container">
+            <table id="table4"></table>
+          </div>
+        </div>
+        <div id="content5" class="content-item">
+          <div class="table-container">
+            <table id="table5 "></table>
+          </div>
+        </div>
+        <div id="content6" class="content-item">
+          <div class="table-container">
+            <table id="table6"></table>
+          </div>
+        </div>
+        <div id="content7 " class="content-item">
+          <div class="table-container">
+            <table id="table7"></table>
+          </div>
+        </div>
+        <div id="content8" class="content-item">
+          <div class="table-container">
+            <table id="table8"></table>
+          </div>
+        </div>
+        <div id="content9" class="content-item">
+          <div class="table-container">
+            <table id="table9"></table>
+          </div>
+        </div>
+        <div id="content10" class="content-item">
+          <div class="table-container">
+            <table id="table10"></table>
+          </div>
+        </div>
+        <div id="content11" class="content-item">
+          <div class="table-container">
+            <table id="table11"></table>
+          </div>
+        </div>
+        <div id="content12" class="content-item">
+          <div class="table-container">
+            <table id="table12"></table>
+          </div>
+        </div>
+        <div id="content13" class="content-item">
+          <div class="table-container">
+            <table id="table13"></table>
+          </div>
+        </div>
+        <div id="content14" class="content-item">
+          <div class="table-container">
+            <table id="table14"></table>
+          </div>
+        </div>
+        <div id="content15" class="content-item">
+          <div class="table-container">
+            <table id="table15"></table>
+          </div>
+        </div>
+        <div id="content16" class="content-item">
+          <div class="table-container">
+            <table id="table16"></table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  showSubTab("tab1"); // Set default main tab
+  showContent("content1"); // Set default sub-tab for the default main tab
+  fetchData();
+});
+
+function showSubTab(tabId) {
+  const mainTabs = document.querySelectorAll(".main-tab");
+  const subTabContents = document.querySelectorAll(".sub-tab-content");
+
+  mainTabs.forEach((tab) => tab.classList.remove("active"));
+  subTabContents.forEach((content) => content.classList.remove("active"));
+
+  const selectedMainTab = document.querySelector(
+    `.main-tab[onclick="showSubTab('${tabId}')"]`
+  );
+  selectedMainTab.classList.add("active");
+  const selectedSubTabContent = document.getElementById(tabId);
+  selectedSubTabContent.classList.add("active");
+
+  // Automatically select the first sub-tab of the selected main tab
+  const firstSubTab = selectedSubTabContent.querySelector(".sub-tab");
+  if (firstSubTab) {
+    showContent(firstSubTab.getAttribute("onclick").split("'")[1]);
   }
+}
 
-  function showContent(contentId) {
-    const subTabs = document.querySelectorAll(".sub-tab");
-    const contentItems = document.querySelectorAll(".content-item");
+function showContent(contentId) {
+  const subTabs = document.querySelectorAll(".sub-tab");
+  const contentItems = document.querySelectorAll(".content-item");
 
-    subTabs.forEach((tab) => tab.classList.remove("active"));
-    contentItems.forEach((content) => content.classList.remove("active"));
+  subTabs.forEach((tab) => tab.classList.remove("active"));
+  contentItems.forEach((content) => content.classList.remove("active"));
 
-    document
-      .querySelector(\`.sub-tab[onclick="showContent('\${contentId}')"]\`)
-      .classList.add("active");
-    document.getElementById(contentId).classList.add("active");
-  }
-</script>
-`}
+  document
+    .querySelector(`.sub-tab[onclick="showContent('${contentId}')"]`)
+    .classList.add("active");
+  document.getElementById(contentId).classList.add("active");
+}
+
+function fetchData() {
+  fetch("https://zmvjylvafmgqpxqtrblc.supabase.co/storage/v1/object/public/AppImages/all.json?t=2024-10-11T14%3A31%3A29.685Z")
+    .then((response) => response.json())
+    .then((data) => {
+      const tables = document.querySelectorAll("table");
+      const categories = ["Men", "Women", "Kids", "Household"];
+      const types = ["Wash & Fold", "Wash & Iron", "Steam Iron", "Dry Cleaning"];
+
+      tables.forEach((table, index) => {
+        const typeIndex = Math.floor(index / 4);
+        const categoryIndex = index % 4;    
+        const filteredData = data.filter(
+          (item) => item.category === categories[categoryIndex] && item.type === types[typeIndex]
+        );
+        const tbody = document.createElement("tbody");
+        filteredData.forEach((item) => {
+          const row = document.createElement("tr");
+          const td1 = document.createElement("td");
+          const itemContainer = document.createElement("div");
+          itemContainer.className = "item-container";
+          const leftSection = document.createElement("div");
+          leftSection.className = "left-section";
+          const circleContainer = document.createElement("div");
+          circleContainer.className = "circle-container";
+          const img = document.createElement("img");
+          img.src = item.image;
+          circleContainer.appendChild(img);
+          leftSection.appendChild(circleContainer);
+          const name = document.createElement("div");
+          name.className = "name";
+          name.textContent = item.name;
+          leftSection.appendChild(name);
+          itemContainer.appendChild(leftSection);
+          const price = document.createElement("div");
+          price.className = "price";
+          price.textContent = \`₹\${item.price}\`;
+          itemContainer.appendChild(price);
+          td1.appendChild(itemContainer);
+          row.appendChild(td1);
+          tbody.appendChild(row);
+        });
+        table.appendChild(tbody);
+      });
+    })
+    .catch((error) => console.error("Error fetching data:", error));
+}
+  </script>
+  </body>
+</html>`}
                 ></Script>
               </div>
             </div>
@@ -1955,7 +729,7 @@ const Prices = (props) => {
                       <span className="footer-link">
                       <span>Address : TRICKERR FINOO PRIVATE LIMITED , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
                       <br></br>
-                        <span>Email : jatindua2001@gmail.com</span>
+                        <span>Email : jatindua2001@gmail.com | deepanshu4kumar@gmail.com</span>
                         <br></br>
                         <span>Contact: 7428160047 | 8527064439</span>
                         <br></br>

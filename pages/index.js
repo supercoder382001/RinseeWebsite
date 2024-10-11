@@ -42,9 +42,7 @@ const Home = (props) => {
                     Laundry Service  Freshen Up Your Wardrobe Today
                   </h1>
                   <span className="home-caption1">
-                    Convenient laundry service near me: Wash and fold laundry
-                    service picked up and delivered to your doorstep.
-                    Affordable, hassle-free cleaning for home or office.
+                  Click 'Get Started' to Make Laundry Easy – Download the App!
                   </span>
                 </header>
                 <div className="home-buttons1">
@@ -877,7 +875,7 @@ const Home = (props) => {
                       <span className="footer-link">
                       <span>Address : TRICKERR FINOO PRIVATE LIMITED , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
                       <br></br>
-                        <span>Email : jatindua2001@gmail.com</span>
+                        <span>Email : jatindua2001@gmail.com | deepanshu4kumar@gmail.com </span>
                         <br></br>
                         <span>Contact: 7428160047 | 8527064439</span>
                         <br></br>

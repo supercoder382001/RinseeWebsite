@@ -347,7 +347,7 @@ const Form = (props) => {
                       <span className="footer-link">
                       <span>Address : TRICKERR FINOO PRIVATE LIMITED , 60, Chandu Park, East Delhi, Krishna Nagar, Delhi, India, 110051</span>
                       <br></br>
-                        <span>Email : jatindua2001@gmail.com</span>
+                        <span>Email : jatindua2001@gmail.com | deepanshu4kumar@gmail.com</span>
                         <br></br>
                         <span>Contact: 7428160047 | 8527064439</span>
                         <br></br>
