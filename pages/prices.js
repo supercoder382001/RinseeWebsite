@@ -119,463 +119,310 @@ const Prices = (props) => {
                   html={`<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabbed Table Example</title>
-  <style>
-    body, html {
-      height: 1000px;
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color:inherit;
-    }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Tabs with Product Table</title>
+    <style>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Tabs with Product Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-    /* Tab button styles */
-    .tablink {
-      background-color: #555;
-      color: white;
-      float: left;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 14px 16px;
-      font-size: 17px;
-      width: 25%;
-      text-align: center;
-    }
+        .container {
+          display: flex;
+          max-height: 90vh; /* Limit the height of the background */
+          overflow: hidden; /* Prevent overflow */
+          background-color: inherit; /* Background color */
+      }
 
-    .tablink:hover {
-      background-color: #c6ff4b;
-    }
+      .main-tabs {
+          flex-direction: column;
+          width: 20%;
+          border-right: 1px solid #ddd;
+          padding: 10px;
+      }
 
-    /* Tab content styles */
-    .tabcontent {
-      display: none;
+      .main-tab {
+          background-color: white; /* Default tab color */
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+          text-align: left;
+          width: 100%;
+          color: black; /* Default text color */
+      }
 
-      height: calc(
-        100% - 56px
-      ); /* Adjust height considering the tab buttons height */
-      box-sizing: border-box; /* Include padding in height calculation */
-      background-color: #ffffff;
-    }
+      .main-tab.active {
+          background-color: green; /* Active tab color */
+          color: white; /* Active text color */
+      }
 
-    /* Specific styles for tab content backgrounds */
-    #Home {
-      background-color: inherit;
-    }
-    #News {
-      background-color: inherit;
-    }
-    #Contact {
-      background-color: inherit;
-    }
-    #About {
-      background-color: inherit;
-    }
+      .sub-container {
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+      }
 
-    /* Container for scrollable table */
-    .table-container {
-      height: 400px; /* Adjust height as needed */
-      overflow-y: auto; /* Enables vertical scrolling */
-      margin-top: 20px; /* Space between the table and tabs */
-      /* Optional: Adds a border around the scrollable area */
-      padding: 10px; /* Optional: Adds padding inside the scrollable area */
-      background-color: #000000; /* Optional: Ensures the background color is white for better visibility */
-    }
+      .sub-tabs {
+          display: flex;
+          background-color: #f4f4f4; /* Sub tab background color */
+          border-bottom: 1px solid #ddd;
+          padding: 5px 0;
+      }
 
-    /* Table styling */
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0 10px; /* Space between rows */
-      height: 100%;
-    }
+      .sub-tab {
+          background-color: white; /* Default sub-tab color */
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+          margin-right: 10px;
+          color: black; /* Default text color */
+      }
 
-    td {
-      padding: 10px;
-      border: 1px solid #ccc;
-      background: #fff;
-      border-radius: 25px; /* Optional: Adds a white background for a cleaner look */
-    }
+      .sub-tab.active {
+          background-color: green; /* Sub tab active color */
+          color: white; /* Active text color */
+      }
 
-    /* Container for item with image, name, and price */
-    .item-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-    }
+      .content {
+          padding: 10px;
+          border: 1px solid #ddd;
+          flex-grow: 1; /* Allow content to grow */
+          background-color: white; /* Content background color */
+      }
 
-    /* Left section containing image and name */
-    .left-section {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-    }
+      .content-item {
+          display: none;
+      }
 
-    /* Circle container to display images in a circular shape */
-    .circle-container {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+      .content-item.active {
+          display: block; /* Show active content item */
+      }
 
-    .circle-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+      .table-container {
+          margin-top: 10px;
+          max-height: 300px; /* Set the maximum height for the table */
+          overflow-y: auto; /* Enable vertical scrolling */
+          border: 1px solid #ddd; /* Optional border for table container */
+      }
 
-    /* Styling for the price section */
-    .price {
-      font-size: 14px;
-      color: #555;
-      margin-left: auto;
-      white-space: nowrap;
-      margin-right: 10px;
-    }
-    .container {
-      display: flex;
-      border: 1px solid inherit;
-      background-color: #fff;
-      width: 100%;
-      height: 100%;
-      background-color: inherit;
-    }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          background-color: white; /* Table background color */
+      }
 
-    .main-tabs {
-      display: flex;
-      flex-direction: column;
-      width: 20%;
-      border-right: 1px solid inherit;
-      gap: 10px;
-      background: inherit;
-    }
+      th, td {
+          padding: 10px;
+          border: 1px solid #ddd;
+          text-align: left;
+      }
 
-    .main-tab {
-      padding: 10px;
-      border: none;
-      background: #e0e0e0;
-      cursor: pointer;
-      text-align: left;
-      width: 100%;
-      border-bottom: 1px solid #ccc;
-      border-radius: 25px;
-    }
+      th {
+          background-color: #f4f4f4; /* Header background color */
+      }
 
-    .main-tab.active {
-      background-color: #d0d0d0;
-      font-weight: bold;
-    }
-
-    .sub-container {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-    }
-
-    .sub-tabs {
-      display: flex;
-      padding: 10px;
-      gap:  20px;
-    }
-
-    .sub-tab-content {
-      display: none;
-    }
-
-    .sub-tab-content.active {
-      display: flex;
-    }
-
-    .sub-tab {
-      padding: 8px;
-      border: none;
-      background: #f1f1 f1;
-      cursor: pointer;
-      margin-right: 5px;
-      border-radius: 24px;
-    }
-
-    .sub-tab.active {
-      background-color: #0074bc;
-    }
-
-    .content {
-      display: flex;
-      padding: 10px;
-      flex: 1;
-    }
-
-    .content-item {
-      display: none;
-    }
-
-    .content-item.active {
-      display: block;
-      flex: 1;
-    }
-
-    .content-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 0;
-    }
-
-    .content-table th,
-    .content-table td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
-
-    .content-table th {
-      background-color: inherit;
-    }
-  </style>
+      img {
+          width: 50px; /* Set a fixed width for images */
+          height: auto; /* Maintain aspect ratio */
+      }    
+    </style>
 </head>
 <body>
-  <!-- Tab buttons -->
-  <div class="container">
-    <div class="main-tabs">
-      <button class="main-tab tab1 active" onclick="showSubTab('tab1')">
-        Wash + Fold
-      </button>
-      <button class="main-tab tab2" onclick="showSubTab('tab2')">
-        Wash + Iron
-      </button>
-      <button class="main-tab tab3" onclick="showSubTab('tab3')">
-        Steam Iron
-      </button>
-      <button class="main-tab tab4" onclick="showSubTab('tab4')">
-        Dry Clean
-      </button>
+    <div class="container">
+        <div class="main-tabs">
+            <button class="main-tab active" onclick="showMainSection('Wash & Fold')">Wash & Fold</button>
+            <button class="main-tab" onclick="showMainSection('Wash & Iron')">Wash & Iron</button>
+            <button class="main-tab" onclick="showMainSection('Steam Iron')">Steam Iron</button>
+            <button class="main-tab" onclick="showMainSection('Dry Cleaning')">Dry Cleaning</button>
+        </div>
+        <div class="sub-container">
+            <div class="sub-tabs">
+                <button class="sub-tab active" onclick="showSubContent('Men')">Men</button>
+                <button class="sub-tab" onclick="showSubContent('Women')">Women</button>
+                <button class="sub-tab" onclick="showSubContent('Kids')">Kids</button>
+                <button class="sub-tab" onclick="showSubContent('Household')">Household</button>
+            </div>
+            <div class="content">
+                <div id="Men" class="content-item active">
+                    <h3>Men's Products</h3>
+                    <div class="table-container">
+                        <table id="itemTableMen">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Dynamic content will be inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="Women" class="content-item">
+                    <h3>Women's Products</h3>
+                    <div class="table-container">
+                        <table id="itemTableWomen">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Dynamic content will be inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="Kids" class="content-item">
+                    <h3>Kids' Products</h3>
+                    <div class="table-container">
+                        <table id="itemTableKids">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Dynamic content will be inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="Household" class="content-item">
+                    <h3>Household Products</h3>
+                    <div class="table-container">
+                        <table id="itemTableHousehold">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Dynamic content will be inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="sub-container">
-      <div class="sub-tabs">
-        <div id="tab1" class="sub-tab-content active">
-          <button class="sub-tab active" onclick="showContent('content1')">
-            Men
-          </button>
-          <button class="sub-tab" onclick="showContent('content2')">Women</button>
-          <button class="sub-tab" onclick="showContent('content3')">Kids</button>
-          <button class="sub-tab" onclick="showContent('content4')">
-            Household
-          </button>
-        </div>
-        <div id="tab2" class="sub-tab-content">
-          <button class="sub-tab active" onclick="showContent('content5')">
-            Men
-          </button>
-          <button class="sub-tab" onclick="showContent('content6')">Women</button>
-          <button class="sub-tab" onclick="showContent('content7')">Kids</button>
-          <button class="sub-tab" onclick="showContent('content8')">
-            Household
-          </button>
-        </div>
-        <div id="tab3" class="sub-tab-content">
-          <button class="sub-tab active" onclick="showContent('content9')">
-            Men
-          </button>
-          <button class="sub-tab" onclick="showContent('content10')">
-            Women
-          </button>
-          <button class="sub-tab" onclick="showContent('content11')">Kids</button>
-          <button class="sub-tab" onclick="showContent('content12')">
-            Household
-          </button>
-        </div>
-        <div id="tab4" class="sub-tab-content">
-          <button class="sub-tab active" onclick="showContent('content13')">
-            Men
-          </button>
-          <button class="sub-tab" onclick="showContent('content14')">
-            Women
-          </button>
-          <button class="sub-tab" onclick="showContent('content15')">Kids</button>
-          <button class="sub-tab" onclick="showContent('content16')">
-            Household
-          </button>
-        </div>
-      </div>
-      <div class="content">
-        <div id="content1" class="content-item active">
-          <div class="table-container">
-            <table id="table1"></table>
-          </div>
-        </div>
-        <div id="content2" class="content-item">
-          <div class="table-container">
-            <table id="table2"></table>
-          </div>
-        </div>
-        <div id="content3" class="content-item">
-          <div class="table-container">
-            <table id="table3"></table>
-          </div>
-        </div>
-        <div id="content4" class="content-item">
-          <div class="table-container">
-            <table id="table4"></table>
-          </div>
-        </div>
-        <div id="content5" class="content-item">
-          <div class="table-container">
-            <table id="table5 "></table>
-          </div>
-        </div>
-        <div id="content6" class="content-item">
-          <div class="table-container">
-            <table id="table6"></table>
-          </div>
-        </div>
-        <div id="content7 " class="content-item">
-          <div class="table-container">
-            <table id="table7"></table>
-          </div>
-        </div>
-        <div id="content8" class="content-item">
-          <div class="table-container">
-            <table id="table8"></table>
-          </div>
-        </div>
-        <div id="content9" class="content-item">
-          <div class="table-container">
-            <table id="table9"></table>
-          </div>
-        </div>
-        <div id="content10" class="content-item">
-          <div class="table-container">
-            <table id="table10"></table>
-          </div>
-        </div>
-        <div id="content11" class="content-item">
-          <div class="table-container">
-            <table id="table11"></table>
-          </div>
-        </div>
-        <div id="content12" class="content-item">
-          <div class="table-container">
-            <table id="table12"></table>
-          </div>
-        </div>
-        <div id="content13" class="content-item">
-          <div class="table-container">
-            <table id="table13"></table>
-          </div>
-        </div>
-        <div id="content14" class="content-item">
-          <div class="table-container">
-            <table id="table14"></table>
-          </div>
-        </div>
-        <div id="content15" class="content-item">
-          <div class="table-container">
-            <table id="table15"></table>
-          </div>
-        </div>
-        <div id="content16" class="content-item">
-          <div class="table-container">
-            <table id="table16"></table>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script>
-document.addEventListener("DOMContentLoaded", () => {
-  showSubTab("tab1"); // Set default main tab
-  showContent("content1"); // Set default sub-tab for the default main tab
-  fetchData();
-});
 
-function showSubTab(tabId) {
-  const mainTabs = document.querySelectorAll(".main-tab");
-  const subTabContents = document.querySelectorAll(".sub-tab-content");
+    <script>
+        const categories = ["Men", "Women", "Kids", "Household"];
+        const types = ["Wash & Fold", "Wash & Iron", "Steam Iron", "Dry Cleaning"];
 
-  mainTabs.forEach((tab) => tab.classList.remove("active"));
-  subTabContents.forEach((content) => content.classList.remove("active"));
+        let currentMainSection = 'Wash & Fold'; // Variable to track current main section
 
-  const selectedMainTab = document.querySelector(
-    `.main-tab[onclick="showSubTab('${tabId}')"]`
-  );
-  selectedMainTab.classList.add("active");
-  const selectedSubTabContent = document.getElementById(tabId);
-  selectedSubTabContent.classList.add("active");
+        // Function to show the selected main section
+        function showMainSection(section) {
+            currentMainSection = section; // Update current main section
+            const mainTabs = document.querySelectorAll('.main-tab');
+            mainTabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active'); // Set clicked tab as active
 
-  // Automatically select the first sub-tab of the selected main tab
-  const firstSubTab = selectedSubTabContent.querySelector(".sub-tab");
-  if (firstSubTab) {
-    showContent(firstSubTab.getAttribute("onclick").split("'")[1]);
-  }
-}
+            // Automatically show the first sub-content (Men)
+            showSubContent('Men');
+        }
 
-function showContent(contentId) {
-  const subTabs = document.querySelectorAll(".sub-tab");
-  const contentItems = document.querySelectorAll(".content-item");
+        // Function to show the selected sub-section content
+        function showSubContent(subSection) {
+            const contentItems = document.querySelectorAll('.content-item');
+            contentItems.forEach(item => {
+                item.classList.remove('active');
+            });
+            document.getElementById(subSection).classList.add('active');
 
-  subTabs.forEach((tab) => tab.classList.remove("active"));
-  contentItems.forEach((content) => content.classList.remove("active"));
+            // Set the active sub-tab
+            const subTabs = document.querySelectorAll('.sub-tab');
+            subTabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+            const activeTab = Array.from(subTabs).find(tab => tab.textContent === subSection);
+            if (activeTab) {
+                activeTab.classList.add('active');
+            }
 
-  document
-    .querySelector(`.sub-tab[onclick="showContent('${contentId}')"]`)
-    .classList.add("active");
-  document.getElementById(contentId).classList.add("active");
-}
+            // Populate the corresponding table based on the main section and sub-section
+            populateTable(currentMainSection, subSection);
+        }
 
-function fetchData() {
-  fetch("https://zmvjylvafmgqpxqtrblc.supabase.co/storage/v1/object/public/AppImages/all.json?t=2024-10-11T14%3A31%3A29.685Z")
-    .then((response) => response.json())
-    .then((data) => {
-      const tables = document.querySelectorAll("table");
-      const categories = ["Men", "Women", "Kids", "Household"];
-      const types = ["Wash & Fold", "Wash & Iron", "Steam Iron", "Dry Cleaning"];
+        function populateTable(mainSection, subSection) {
+            const tables = {
+                Men: document.querySelector('#itemTableMen tbody'),
+                Women: document.querySelector('#itemTableWomen tbody'),
+                Kids: document.querySelector('#itemTableKids tbody'),
+                Household: document.querySelector('#itemTableHousehold tbody')
+            };
 
-      tables.forEach((table, index) => {
-        const typeIndex = Math.floor(index / 4);
-        const categoryIndex = index % 4;    
-        const filteredData = data.filter(
-          (item) => item.category === categories[categoryIndex] && item.type === types[typeIndex]
-        );
-        const tbody = document.createElement("tbody");
-        filteredData.forEach((item) => {
-          const row = document.createElement("tr");
-          const td1 = document.createElement("td");
-          const itemContainer = document.createElement("div");
-          itemContainer.className = "item-container";
-          const leftSection = document.createElement("div");
-          leftSection.className = "left-section";
-          const circleContainer = document.createElement("div");
-          circleContainer.className = "circle-container";
-          const img = document.createElement("img");
-          img.src = item.image;
-          circleContainer.appendChild(img);
-          leftSection.appendChild(circleContainer);
-          const name = document.createElement("div");
-          name.className = "name";
-          name.textContent = item.name;
-          leftSection.appendChild(name);
-          itemContainer.appendChild(leftSection);
-          const price = document.createElement("div");
-          price.className = "price";
-          price.textContent = \`₹\${item.price}\`;
-          itemContainer.appendChild(price);
-          td1.appendChild(itemContainer);
-          row.appendChild(td1);
-          tbody.appendChild(row);
+            // Clear previous table data
+            Object.values(tables).forEach(tbody => {
+                tbody.innerHTML = '';
+            });
+
+            // Fetch data from JSON link (replace with your actual JSON URL)
+            const jsonUrl = 'https://zmvjylvafmgqpxqtrblc.supabase.co/storage/v1/object/public/profileimage/all.json?t=2024-10-11T17%3A01%3A45.565Z'; // Replace with your actual JSON URL
+
+            fetch(jsonUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Fetched data:', data); // Debugging line
+                    data.forEach(item => {
+                        // Check if item type and category match
+                        if (types.includes(item.type) && categories.includes(item.category)) {
+                            // If the item's type and category match the current selections, add it to the table
+                            if (item.type === mainSection && item.category === subSection) {
+                                const tbody = tables[subSection];
+                                // Create a new row for the item
+                                const row = document.createElement('tr');
+                                row.innerHTML = \`
+                                    <td><img src="\${item.image}" alt="\${item.name}"></td>
+                                    <td>\${item.name}</td>
+                                    <td>\${item.price}</td>
+                                \`;
+                                tbody.appendChild(row);
+                            }
+                        }
+                    });
+                })
+                .catch(error => console.error('Error fetching JSON data:', error));
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Show Men's Products in Wash & Fold by default
+            showMainSection('Wash & Fold');
+            showSubContent('Men');
         });
-        table.appendChild(tbody);
-      });
-    })
-    .catch((error) => console.error("Error fetching data:", error));
-}
-  </script>
-  </body>
-</html>`}
+    </script>
+</body>
+</html>
+`}
                 ></Script>
               </div>
             </div>
