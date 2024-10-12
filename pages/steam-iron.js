@@ -448,7 +448,7 @@ const SteamIron = (props) => {
                   </div>
                   <div className="steam-iron-socials">
                     <a
-                      href="https://example.com"
+                      href="https://www.linkedin.com/company/rinsee"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="steam-iron-link13"
@@ -460,7 +460,7 @@ const SteamIron = (props) => {
                       />
                     </a>
                     <a
-                      href="https://example.com"
+                      href="https://www.instagram.com/rinsee.in/"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="steam-iron-link14"
@@ -472,14 +472,14 @@ const SteamIron = (props) => {
                       />
                     </a>
                     <a
-                      href="https://example.com"
+                      href="https://www.facebook.com/profile.php?id=61567156468003"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="steam-iron-link15"
                     >
                       <img
                         alt="image"
-                        src="/Icons/twitter-200h.png"
+                        src="/Icons/facebook.png"
                         className="social"
                       />
                     </a>
