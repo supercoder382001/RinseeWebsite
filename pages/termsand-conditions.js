@@ -104,12 +104,10 @@ const TermsandConditions = (props) => {
               <br className="termsand-conditions-text117"></br>
               <br className="termsand-conditions-text118"></br>
               <span className="termsand-conditions-text119">
-                These Terms and Conditions, along with privacy policy or other
-                terms (“Terms”) constitute a binding agreement by and between
-                JATIN DUA, ( “Website Owner” or “we” or “us” or “our”) and you
-                (“you” or “your”) and relate to your use of our website, goods
-                (as applicable) or services (as applicable) (collectively,
-                “Services”).
+              Trickerr Finoo Private Limited (hereinafter "Company") services are provided subject to your ("Customer") compliance and acceptance with the terms and conditions set forth below.
+              Please read the following agreement carefully. "Customer" use of any of Company's services indicates an agreement to be bound by the terms and conditions set forth below.
+              Items which are given to "Company" for cleaning / repairing will be termed as article(s) in this agreement.
+              This agreement is strictly between Company and the Customer and does not in any way constitute or imply any relationship with any other parties. As a condition to using any of Company's services, and for the mutual benefit of both Company and the Customer, the undersigned ("Customer") agrees to the following terms and conditions
               </span>
               <br className="termsand-conditions-text120"></br>
               <br className="termsand-conditions-text121"></br>
@@ -156,13 +154,12 @@ const TermsandConditions = (props) => {
               <br className="termsand-conditions-text141"></br>
               <br className="termsand-conditions-text142"></br>
               <span className="termsand-conditions-text143">
-                • Customers are requested to examine garments at the time of
-                delivery.
+                • Customers are requested to count the articles at the time of delivery and inform the delivery man in case of missing articles. Company will not be responsible for any such claims after the article’s delivery has been accepted and signed by the customer.
               </span>
               <br className="termsand-conditions-text144"></br>
               <br className="termsand-conditions-text145"></br>
               <span className="termsand-conditions-text146">
-                • We are not responsible for fastness / running of colour /
+                • Removal of stain is a part of the process but, complete removal of stains cannot be guaranteed and will be processed at customer's risk. We are not responsible for fastness / running of colour /
                 shrinkage / damage to embellishments / embroidery work on the
                 garments during process.
               </span>
@@ -188,7 +185,7 @@ const TermsandConditions = (props) => {
               <span className="termsand-conditions-text158">
                 • The tariff of garments will be decided on a case to case basis
                 depending on the complexity of the garments. The rates mentioned
-                in the price list are indicative and minimal.
+                in the price list are indicative and minimal. 20.	Tariff for designer wear will be decided on a case to case to case basis depending on the complexity of garment, the same shall be communicated to customer after it is examined by the expert at the processing centre.
               </span>
               <br className="termsand-conditions-text159"></br>
               <br className="termsand-conditions-text160"></br>
@@ -287,6 +284,7 @@ const TermsandConditions = (props) => {
                 non-availability of the customer at the pre-designated address,
                 Rinsee cannot be held liable for loss of article(s) if customer
                 fails to take delivery of the articles even after 3 attempts.
+                Company is not responsible for any article which is left beyond 30 days. After this period, if any discount was given on this order at the time of pickup shall be removed and a storage fees shall be charged @12% per month on the total invoice amount. Article not claimed within three months shall be handled appropriately by Company and be sold to recover the billed charges.
               </span>
               <br className="termsand-conditions-text189"></br>
               <br className="termsand-conditions-text190"></br>
@@ -375,7 +373,7 @@ const TermsandConditions = (props) => {
               <span className="termsand-conditions-text213">
                 In the event of damage caused in an article or loss for which we
                 take the responsibility. The maximum compensation is limited to
-                5 times the service price, subject to a maximum of Rs 1000 per
+                5 times upto 1000 Rs the service price, subject to a maximum of Rs 1000 per
                 garment. The garment for which the compensation is made shall be
                 retained by the company.
               </span>
@@ -524,7 +522,7 @@ const TermsandConditions = (props) => {
               </span>
               <br className="termsand-conditions-text287"></br>
               <span className="termsand-conditions-text288">
-                Phone:- 7428160047
+                Phone:- +91-7428160047
               </span>
               <br className="termsand-conditions-text289"></br>
               <br></br>
