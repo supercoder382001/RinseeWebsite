@@ -34,7 +34,38 @@ const TermsandConditions = (props) => {
               <br className="termsand-conditions-text102"></br>
               <span className="termsand-conditions-text103">• </span>
               <span className="termsand-conditions-text104">
-                RINSEE respects your privacy. This Privacy Policy provides
+                This document is an electronic record in terms of Information Technology Act, 2000 and rules
+                there under as applicable and the amended provisions pertaining to electronic records in various
+                statutes as amended by the Information Technology Act, 2000. This electronic record is generated
+                by a computer system and does not require any physical or digital signatures.
+                <br></br>
+                <br></br>
+                • This document is an electronic record in terms of Information Technology Act, 2000 and rules
+                there under as applicable and the amended provisions pertaining to electronic records in various
+                statutes as amended by the Information Technology Act, 2000. This electronic record is generated
+                by a computer system and does not require any physical or digital signatures.
+                <br></br>
+                <br></br>
+                • The Platform is owned by TRICKERR FINOO PRIVATE LIMITED, a company incorporated
+                under the Companies Act, 1956 with its registered office at Delhi ,India (hereinafter referred to as ‘Platform Owner’, 'we', 'us', 'our')..
+                <br></br>
+                <br></br>
+                • Your use of the Platform and services and tools are governed by the following terms and
+                  conditions (“Terms of Use”) as applicable to the Platform including the applicable policies which
+                  are incorporated herein by way of reference. If You transact on the Platform, You shall be subject
+                  to the policies that are applicable to the Platform for such transaction. By mere use of the Platform,
+                  You shall be contracting with the Platform Owner and these terms and conditions including the
+                  policies constitute Your binding obligations, with Platform Owner. These Terms of Use relate to
+                  your use of our website, goods (as applicable) or services (as applicable) (collectively, 'Services').
+                  Any terms and conditions proposed by You which are in addition to or which conflict with these
+                  Terms of Use are expressly rejected by the Platform Owner and shall be of no force or effect.
+                  These Terms of Use can be modified at any time without assigning any reason. It is your
+                  responsibility to periodically review these Terms of Use to stay informed of updates..
+                  For the purpose of these Terms of Use, wherever the context so requires ‘you’, 'your' or ‘user’ shall
+                  mean any natural or legal person who has agreed to become a user/buyer on the Platform.
+                  <br></br>
+                  <br></br>
+                • RINSEE respects your privacy. This Privacy Policy provides
                 succinctly the manner your data is collected and used by RINSEE
                 on the Site. As a visitor to the Site/ Customer you are advised
                 to please read the Privacy Policy carefully. By accessing the
@@ -433,6 +464,9 @@ const TermsandConditions = (props) => {
               <span className="termsand-conditions-text237">
                 • We may also provide a complimentary rewash in some cases. The
                 final decision for the same rests with Rinsee.
+                <br></br>
+                <br></br>
+                • In case of Refund, it will be issued in 72 hours after refund approval.
               </span>
               <br className="termsand-conditions-text238"></br>
               <br className="termsand-conditions-text239"></br>
