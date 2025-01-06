@@ -28,9 +28,7 @@ const TermsandConditions = (props) => {
           </header>
           <main className="termsand-conditions-accordion">
             <span className="termsand-conditions-text100">
-              <span className="termsand-conditions-text101">
-                Privacy Policy
-              </span>
+              
               <br className="termsand-conditions-text102"></br>
               <span className="termsand-conditions-text103">• </span>
               <span className="termsand-conditions-text104">
@@ -65,6 +63,10 @@ const TermsandConditions = (props) => {
                   mean any natural or legal person who has agreed to become a user/buyer on the Platform.
                   <br></br>
                   <br></br>
+                  <span className="termsand-conditions-text101">
+                Privacy Policy
+              </span>
+              <br></br>
                 • RINSEE respects your privacy. This Privacy Policy provides
                 succinctly the manner your data is collected and used by RINSEE
                 on the Site. As a visitor to the Site/ Customer you are advised
@@ -466,7 +468,7 @@ const TermsandConditions = (props) => {
                 final decision for the same rests with Rinsee.
                 <br></br>
                 <br></br>
-                • In case of Refund, it will be issued in 3days after refund approval.
+                • In case of Refund, it will be issued in 3 days after refund approval.
                 <br></br>
                 <br></br>
                 • Once the refund is approved the amount will be  credited on the original mode of payment within 7-8 business days
