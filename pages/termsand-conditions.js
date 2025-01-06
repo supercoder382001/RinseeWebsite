@@ -466,7 +466,10 @@ const TermsandConditions = (props) => {
                 final decision for the same rests with Rinsee.
                 <br></br>
                 <br></br>
-                • In case of Refund, it will be issued in 72 hours after refund approval.
+                • In case of Refund, it will be issued in 3days after refund approval.
+                <br></br>
+                <br></br>
+                • Once the refund is approved the amount will be  credited on the original mode of payment within 7-8 business days
               </span>
               <br className="termsand-conditions-text238"></br>
               <br className="termsand-conditions-text239"></br>
