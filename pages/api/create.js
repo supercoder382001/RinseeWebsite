@@ -12,7 +12,7 @@ export default async function POST(req,res ) {
       amount: data.amount,
       redirectUrl: `http://localhost:3000/api/paystatus`,
       redirectMode: "POST",
-      callbackUrl: "https://b5af-35-196-231-166.ngrok-free.app/webhooks/new",
+      callbackUrl: "http://rinsee.in/api/hello",
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
         type: "PAY_PAGE",
