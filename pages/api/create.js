@@ -16,7 +16,7 @@ export default async function POST(req,res ) {
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
         type: "UPI_COLLECT",
-        vpa:"8800677646@ptsbi",
+        vpa:data.vpa,
       },
     };
     const data2 = JSON.stringify(apidata);
