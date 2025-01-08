@@ -10,9 +10,9 @@ export default async function POST(req,res ) {
       merchantTransactionId: data.merchantTransactionId,
       merchantUserId: data.merchantUserId,
       amount: data.amount,
-      redirectUrl: `http://localhost:3000/api/paystatus`,
+      redirectUrl: `https://google.com`,
       redirectMode: "POST",
-      callbackUrl: "http://rinsee.in/api/hello",
+      callbackUrl: "https://rinsee.in/api/hello",
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
         type: "PAY_PAGE",
