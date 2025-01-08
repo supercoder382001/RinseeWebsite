@@ -10,7 +10,7 @@ export default async function POST(req,res ) {
       merchantTransactionId: data.merchantTransactionId,
       merchantUserId: data.merchantUserId,
       amount: data.amount,
-      redirectUrl: `https://google.com`,
+      redirectUrl: "https://google.com",
       redirectMode: "POST",
       callbackUrl: "https://b5af-35-196-231-166.ngrok-free.app/webhooks/new",
       mobileNumber: data.mobileNumber,
