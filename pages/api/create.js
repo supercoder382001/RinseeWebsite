@@ -15,8 +15,7 @@ export default async function POST(req,res ) {
       callbackUrl: "https://b5af-35-196-231-166.ngrok-free.app/webhooks/new",
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
-        type: "UPI_COLLECT",
-        vpa:data.vpa,
+        type: "PAY_PAGE",
       },
     };
     const data2 = JSON.stringify(apidata);

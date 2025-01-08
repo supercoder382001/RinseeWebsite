@@ -1,55 +1,49 @@
-"use server";
+// pages/api/webhooks/newSubscription.js
 
-import { NextResponse } from "next/server";
-import crypto from "crypto-js";
-import axios from "axios";
+import { NextApiRequest, NextApiResponse } from 'next';
 
-export default async function POST(req) {
-  try {
-    const data = await req.json();
-    const apidata = {
-      merchantId: "M22MBWAR64N6EUAT",
-      merchantTransactionId: data.merchantTransactionId,
-      merchantUserId: data.merchantUserId,
-      amount: data.amount,
-      redirectUrl: `http://localhost:3000/api/paystatus`,
-      redirectMode: "POST",
-      callbackUrl: "http://localhost:3000/api/paystatus",
-      mobileNumber: data.mobileNumber,
-      paymentInstrument: {
-        type: "PAY_PAGE",
-      },
-    };
-    const data2 = JSON.stringify(apidata);
-    const base64data = Buffer.from(data2).toString("base64");
+const SUPABASE_URL = "https://zmvjylvafmgqpxqtrblc.supabase.co/rest/v1/testphonepe";
+const SUPABASE_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inptdmp5bHZhZm1ncXB4cXRyYmxjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM0ODk4MTIsImV4cCI6MjAzOTA2NTgxMn0.-qK5cu9zPoVtcpGAf14-XuJ55SMYXpfpXXgp6lz-Z4M";
 
-    const hash = crypto
-      .SHA256(base64data + "/pg/v1/pay" + "6b6e606a-9f60-4d29-9a2b-728c37e9f645")
-      .toString(crypto.enc.Hex);
-    const verify = hash + "###" + "1";
+const handler = async (req, res) => {
+  // Check for POST method
+  if (req.method === 'POST') {
+    try {
+      const { response } = req.body;
 
-    const response = await axios.post(
-      "https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/pay",
-      { request: base64data },
-      {
-        headers: {
-          accept: "application/json",
-          "Content-Type": "application/json",
-          "X-VERIFY": verify,
-        },
+      // Prepare headers for the request
+      const headers = {
+        'apikey': SUPABASE_API_KEY,
+        'Authorization': `Bearer ${SUPABASE_API_KEY}`,
+        'Content-Type': 'application/json',
+        'Prefer': 'return=minimal',
+      };
+
+      // Data to be sent to Supabase
+      const data = {
+        response: response,
+      };
+
+      // Send the POST request to Supabase
+      const responsea = await fetch(SUPABASE_URL, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(data),
+      });
+
+      // Check if the request was successful
+      if (responsea.ok) {
+        return res.status(200).json({ success: true });
+      } else {
+        return res.status(responsea.status).json({ success: false, message: await responsea.text() });
       }
-    );
-    res.status(200).json({ message: 'Hello, Next.js API!' });
-    // return new NextResponse(
-    //   JSON.stringify({ success: true, data: response.data.data }),
-    //   { status: 200, headers: { 'Content-Type': 'application/json' } }
-    // );
-  } catch (error) {
-    console.error("Error in POST handler:", error);
-    res.status(200).json({ message: 'Hello, Next.js API!' });
-    // return new NextResponse(
-    //   JSON.stringify({ success: false, message: "Authentication failed" }),
-    //   { status: 401, headers: { 'Content-Type': 'application/json' } }
-    // );
+    } catch (error) {
+      return res.status(500).json({ success: false, message: error.message });
+    }
+  } else {
+    // If method is not POST, respond with method not allowed
+    return res.status(405).json({ success: false, message: 'Method Not Allowed' });
   }
-}
+};
+
+export default handler;
