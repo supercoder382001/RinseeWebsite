@@ -6,7 +6,7 @@ export default async function POST(req,res ) {
   try {
     const data =  req.body;
     const apidata = {
-      merchantId: "M22MBWAR64N6EUAT",
+      merchantId: "M226CLAX56BUS",
       merchantTransactionId: data.merchantTransactionId,
       merchantUserId: data.merchantUserId,
       amount: data.amount,
@@ -22,12 +22,12 @@ export default async function POST(req,res ) {
     const base64data = Buffer.from(data2).toString("base64");
 
     const hash = crypto
-      .SHA256(base64data + "/pg/v1/pay" + "6b6e606a-9f60-4d29-9a2b-728c37e9f645")
+      .SHA256(base64data + "/pg/v1/pay" + "e4b612bb-6f2e-4c23-8f4c-7019cc233bda")
       .toString(crypto.enc.Hex);
     const verify = hash + "###" + "1";
 
     const response = await axios.post(
-      "https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/pay",
+      "https://api.phonepe.com/apis/hermes/pg/v1/pay",
       { request: base64data },
       {
         headers: {
