@@ -46,9 +46,6 @@ export default async function POST(req,res ) {
   } catch (error) {
     console.error("Error in POST handler:", error);
     // res.status(200).json({ message: 'Hello, Next.js API!' });
-    return new NextResponse(
-      JSON.stringify({ success: false, message: "Authentication failed" }),
-      { status: 401, headers: { 'Content-Type': 'application/json' } }
-    );
+    res.status(401).json({ message: 'Data received successfully' });
   }
 }
