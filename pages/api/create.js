@@ -46,6 +46,6 @@ export default async function POST(req,res ) {
   } catch (error) {
     console.error("Error in POST handler:", error);
     // res.status(200).json({ message: 'Hello, Next.js API!' });
-    res.status(401).json({ message: 'Data received successfully' });
+    res.status(401).json({ message: error });
   }
 }
