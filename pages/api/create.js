@@ -15,7 +15,8 @@ export default async function POST(req,res ) {
       callbackUrl: "https://rinsee.in/api/hello",
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
-        type: "PAY_PAGE",
+        type: "UPI_COLLECT",
+        vpa: "8800677646@ptsbi"
       },
     };
     const data2 = JSON.stringify(apidata);
