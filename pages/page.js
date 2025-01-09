@@ -39,7 +39,12 @@ export default function Page() {
   // return <div>Redirecting...</div>;
   return (
     <div>
-      <button onClick={handleClick}>Click me</button>
+      <body onLoad={handleClick()}>
+      <p> 
+        The script has been executed. Check 
+        the console for the output. 
+      </p> 
+      </body>
     </div>
   );
 }
