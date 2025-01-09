@@ -11,7 +11,7 @@ export default async function POST(req,res ) {
       merchantUserId: data.merchantUserId,
       amount: data.amount,
       redirectUrl: `https://rinsee.in`,
-      redirectMode: "REDIRECT",
+      redirectMode: "POST",
       callbackUrl: "https://rinsee.in/api/hello",
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
