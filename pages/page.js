@@ -10,7 +10,6 @@ export default function Page() {
     const amount = queryParams.get('amount'); 
     const handleClick = async () => {
     try {
-        
         const response = await axios.post("/api/create", {
         merchantTransactionId: mid,
         merchantUserId: muid,
@@ -39,12 +38,24 @@ export default function Page() {
   // return <div>Redirecting...</div>;
   return (
     <div>
-      <body onLoad={handleClick()}>
-      <p> 
-        The script has been executed. Check 
-        the console for the output. 
-      </p> 
-      </body>
+      <button id="myButton" onClick={handleClick}>Click me</button>
+      <div>
+        <Script html={`<script>
+          
+          const button = document.getElementById('myButton');
+
+          function autoClick() {
+              button.click(); // Triggers the button's click event
+          }
+
+          button.addEventListener('click', function() {
+          console.log('Button was clicked automatically!');
+          });
+
+          setTimeout(autoClick, 1000)
+          
+          </script>`}></Script>
+      </div>
     </div>
   );
 }
