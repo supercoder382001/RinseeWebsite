@@ -24,7 +24,8 @@ export default function Page() {
       // }  
       
       window.open(
-        response.data.data.instrumentResponse.redirectInfo.url
+        response.data.data.instrumentResponse.redirectInfo.url,
+        "_parent"
       );
     } catch (error) {
       console.error("Error making API request:", error);
