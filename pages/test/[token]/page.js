@@ -2,26 +2,33 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { useSearchParams } from 'next/navigation';
 import Script from 'dangerous-html/react';
+
 export default function Page() {
-    const queryParams = useSearchParams();
-    const mid = queryParams.get('mid');
-    const muid = queryParams.get('muid');
-    const mno = queryParams.get('mno');
-    const amount = queryParams.get('amount'); 
-    const handleClick = async () => {
+  const queryParams = useSearchParams();
+  const encodedToken = queryParams.get('token'); // Assuming the Base64 token is passed as 'token'
+  let decodedData = {};
+
+  // Decode Base64 JSON token
+  if (encodedToken) {
     try {
-        const response = await axios.post("/api/create", {
+      const jsonString = decodeURIComponent(escape(atob(encodedToken))); // Decode Base64 to string
+      decodedData = JSON.parse(jsonString); // Parse string to JSON
+    } catch (error) {
+      console.error("Error decoding Base64 token:", error);
+    }
+  }
+
+  const { mid, muid, mno, amount } = decodedData; // Extract values from decoded JSON
+
+  const handleClick = async () => {
+    try {
+      const response = await axios.post("/api/create", {
         merchantTransactionId: mid,
         merchantUserId: muid,
         mobileNumber: mno,
         amount: amount,
       });
-      // if (!response.ok) {
-      //   window.location.href = response.data.data.instrumentResponse.redirectInfo.url;
-      // } else {
-      // console.error('Error:', response);
-      // }  
-      
+
       window.open(
         response.data.data.instrumentResponse.redirectInfo.url,
         "_parent"
@@ -30,31 +37,21 @@ export default function Page() {
       console.error("Error making API request:", error);
     }
   };
-  // useEffect(() => {
-  //   // Automatically call the redirect function when the page loads
-  //   handleClick();
-  // }, []); // Empty dependency array ensures it runs only once on page load
 
-  // return <div>Redirecting...</div>;
   return (
     <div>
       <button id="myButton" onClick={handleClick}>Click me</button>
       <div>
         <Script html={`<script>
-          
           const button = document.getElementById('myButton');
-
           function autoClick() {
               button.click(); // Triggers the button's click event
           }
-
           button.addEventListener('click', function() {
           console.log('Button was clicked automatically!');
           });
-
-          setTimeout(autoClick, 1000)
-          
-          </script>`}></Script>
+          setTimeout(autoClick, 1000);
+        </script>`}></Script>
       </div>
     </div>
   );
