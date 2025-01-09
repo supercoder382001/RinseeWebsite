@@ -37,7 +37,7 @@ export default async function POST(req,res ) {
         },
       }
     );
-    res.status(200).json({ message: 'Data received successfully', data: response.data.data }).setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+    res.status(200).json({ message: 'Data received successfully', data: response.data.data });
     // return NextResponse.json({ message: "Success", data: response.data });
     // return new NextResponse(
     //   JSON.stringify({ success: true, data: response.data.data }),
@@ -46,6 +46,6 @@ export default async function POST(req,res ) {
   } catch (error) {
     console.error("Error in POST handler:", error);
     // res.status(200).json({ message: 'Hello, Next.js API!' });
-    res.status(401).json({ message: error }).setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+    res.status(401).json({ message: error });
   }
 }
