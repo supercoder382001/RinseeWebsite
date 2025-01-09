@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import axios from "axios";
 import { useSearchParams } from 'next/navigation';
+import Script from 'dangerous-html/react';
 
 export default function Page() {
     const queryParams = useSearchParams();
