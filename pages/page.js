@@ -31,10 +31,15 @@ export default function Page() {
       console.error("Error making API request:", error);
     }
   };
-  useEffect(() => {
-    // Automatically call the redirect function when the page loads
-    handleClick();
-  }, []); // Empty dependency array ensures it runs only once on page load
+  // useEffect(() => {
+  //   // Automatically call the redirect function when the page loads
+  //   handleClick();
+  // }, []); // Empty dependency array ensures it runs only once on page load
 
-  return <div>Redirecting...</div>;
+  // return <div>Redirecting...</div>;
+  return (
+    <div>
+      <button onClick={handleClick}>Click me</button>
+    </div>
+  );
 }
