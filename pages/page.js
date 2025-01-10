@@ -5,6 +5,8 @@ import Script from 'dangerous-html/react';
 export default function Page() {
     const queryParams = useSearchParams();
     const mid = queryParams.get('mid');
+    const linked = atob(mid)
+    console.log(linked);
     // const muid = queryParams.get('muid');
     // const mno = queryParams.get('mno');
     // const amount = queryParams.get('amount'); 
@@ -18,7 +20,7 @@ export default function Page() {
       // });      
       window.open(
         // response.data.data.instrumentResponse.redirectInfo.url,
-        mid,
+        linked,
         "_parent"
       );
     } catch (error) {
