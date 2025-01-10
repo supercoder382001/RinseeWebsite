@@ -5,37 +5,26 @@ import Script from 'dangerous-html/react';
 export default function Page() {
     const queryParams = useSearchParams();
     const mid = queryParams.get('mid');
-    const muid = queryParams.get('muid');
-    const mno = queryParams.get('mno');
-    const amount = queryParams.get('amount'); 
+    // const muid = queryParams.get('muid');
+    // const mno = queryParams.get('mno');
+    // const amount = queryParams.get('amount'); 
     const handleClick = async () => {
     try {
-        const response = await axios.post("/api/create", {
-        merchantTransactionId: mid,
-        merchantUserId: muid,
-        mobileNumber: mno,
-        amount: amount,
-      });
-      // if (!response.ok) {
-      //   window.location.href = response.data.data.instrumentResponse.redirectInfo.url;
-      // } else {
-      // console.error('Error:', response);
-      // }  
-      
+      //   const response = await axios.post("/api/create", {
+      //   merchantTransactionId: mid,
+      //   merchantUserId: muid,
+      //   mobileNumber: mno,
+      //   amount: amount,
+      // });      
       window.open(
-        response.data.data.instrumentResponse.redirectInfo.url,
+        // response.data.data.instrumentResponse.redirectInfo.url,
+        mid,
         "_parent"
       );
     } catch (error) {
       console.error("Error making API request:", error);
     }
   };
-  // useEffect(() => {
-  //   // Automatically call the redirect function when the page loads
-  //   handleClick();
-  // }, []); // Empty dependency array ensures it runs only once on page load
-
-  // return <div>Redirecting...</div>;
   return (
     <div>
       <button id="myButton" onClick={handleClick}>Click me</button>
