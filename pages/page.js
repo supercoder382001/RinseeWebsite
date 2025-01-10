@@ -7,7 +7,7 @@ export default function Page() {
     const mid = queryParams.get('mid');
     let jsonObject={};
     const jsonString=atob(mid);
-    jsonObject=JSON.parse(jsonString)
+    jsonObject=JSON.parse(jsonString);
     console.log(jsonObject);
     // const muid = queryParams.get('muid');
     // const mno = queryParams.get('mno');
