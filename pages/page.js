@@ -5,7 +5,7 @@ import Script from 'dangerous-html/react';
 export default function Page() {
     const queryParams = useSearchParams();
     const mid = queryParams.get('mid');
-    const linked = atob(mid)
+    const linked = btoa(mid)
     console.log(linked);
     // const muid = queryParams.get('muid');
     // const mno = queryParams.get('mno');
