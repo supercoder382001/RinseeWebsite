@@ -5,8 +5,10 @@ import Script from 'dangerous-html/react';
 export default function Page() {
     const queryParams = useSearchParams();
     const mid = queryParams.get('mid');
-    const linked = btoa(mid)
-    console.log(linked);
+    let jsonObject={};
+    const jsonString=atob(mid);
+    jsonObject=JSON.parse(jsonString)
+    console.log(jsonObject);
     // const muid = queryParams.get('muid');
     // const mno = queryParams.get('mno');
     // const amount = queryParams.get('amount'); 
@@ -18,11 +20,10 @@ export default function Page() {
       //   mobileNumber: mno,
       //   amount: amount,
       // });      
-      window.open(
-        // response.data.data.instrumentResponse.redirectInfo.url,
-        linked,
-        "_parent"
-      );
+      // window.open(
+      //   response.data.data.instrumentResponse.redirectInfo.url,
+      //   "_parent"
+      // );
     } catch (error) {
       console.error("Error making API request:", error);
     }
