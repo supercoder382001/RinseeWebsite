@@ -43,7 +43,7 @@ export default function Page() {
 
   const handleClick = () => {
     if (linked) {
-      window.open(linked, "_parent");
+      window.open(linked, "_self");
     } else {
       console.error("No URL available to open.");
     }
