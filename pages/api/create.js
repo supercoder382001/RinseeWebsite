@@ -27,7 +27,7 @@ export default async function POST(req,res) {
     const verify = hash + "###" + "1";
 
     const response = await axios.post(
-      "https://api.phonepe.com/apis/hermes/pg/v1/pay",
+      "https://api-preprod.phonepe.com/apis/pg-sandbox/",
       { request: base64data },
       {
         headers: {
