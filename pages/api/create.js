@@ -2,7 +2,7 @@ import { NextResponse,NextRequest } from "next/server";
 import crypto from "crypto-js";
 import axios from "axios";
 
-export default async function POST(req,res ) {
+export default async function POST(req,res) {
   try {
     const data =  req.body;
     const apidata = {
@@ -37,15 +37,13 @@ export default async function POST(req,res ) {
         },
       }
     );
-    res.status(200).json({ message: 'Data received successfully', data: response.data.data });
+    res.status(200).json({ message: 'Success', status:true , data: response.data.data })
     // return NextResponse.json({ message: "Success", data: response.data });
     // return new NextResponse(
     //   JSON.stringify({ success: true, data: response.data.data }),
     //   { status: 200, headers: { 'Content-Type': 'application/json' } }
     // );
   } catch (error) {
-    console.error("Error in POST handler:", error);
-    // res.status(200).json({ message: 'Hello, Next.js API!' });
-    res.status(401).json({ message: error });
+    res.status(400).json({message:"Failed", status:false});
   }
 }
