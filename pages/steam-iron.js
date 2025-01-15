@@ -177,7 +177,7 @@ const SteamIron = (props) => {
       
       height: calc(100% - 56px); /* Adjust height considering the tab buttons height */
       box-sizing: border-box; /* Include padding in height calculation */
-      background-color: inherit;
+      background-color:rgb(255, 255, 255);
     }
 
     /* Specific styles for tab content backgrounds */
@@ -208,6 +208,9 @@ const SteamIron = (props) => {
       padding: 10px;
       border: 1px solid #ccc;
       background: #fff; /* Optional: Adds a white background for a cleaner look */
+    }
+    th{
+      color:white;
     }
 
     /* Container for item with image, name, and price */
@@ -260,10 +263,10 @@ const SteamIron = (props) => {
 <body>
 
 <!-- Tab buttons -->
-<button class="tablink" onclick="openPage('Home', this, '#C6FF4B')" id="defaultOpen">Men</button>
-<button class="tablink" onclick="openPage('News', this, '#C6FF4B')">Women</button>
-<button class="tablink" onclick="openPage('Contact', this, '#C6FF4B')">Kids</button>
-<button class="tablink" onclick="openPage('About', this, '#C6FF4B')">Household</button>
+<button class="tablink" onclick="openPage('Home', this, '#301cc0')" id="defaultOpen">Men</button>
+<button class="tablink" onclick="openPage('News', this, '#301cc0')">Women</button>
+<button class="tablink" onclick="openPage('Contact', this, '#301cc0')">Kids</button>
+<button class="tablink" onclick="openPage('About', this, '#301cc0')">Household</button>
 
 <!-- Tab content for Home -->
 <div id="Home" class="tabcontent">
@@ -383,7 +386,7 @@ const SteamIron = (props) => {
               <main className="steam-iron-main3">
                 <header className="steam-iron-caption2">
                   <span className="steam-iron-section15 section-head">
-                    Wash and IRON prices
+                    Steam Iron Prices
                   </span>
                 </header>
               </main>
@@ -662,10 +665,10 @@ const SteamIron = (props) => {
           .steam-iron-get-started1 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .steam-iron-text10 {
-            color: rgb(12, 16, 12);
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: 'Poppins';
@@ -792,7 +795,7 @@ const SteamIron = (props) => {
             justify-content: center;
           }
           .steam-iron-section13 {
-            color: rgb(198, 255, 75);
+            color: #301cc0;
             font-size: 35px;
           }
           .steam-iron-heading3 {
@@ -827,10 +830,10 @@ const SteamIron = (props) => {
           .steam-iron-get-started2 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .steam-iron-text11 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -901,10 +904,10 @@ const SteamIron = (props) => {
           .steam-iron-get-started3 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .steam-iron-text12 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -996,7 +999,7 @@ const SteamIron = (props) => {
             justify-content: center;
           }
           .steam-iron-section19 {
-            color: rgb(198, 255, 75);
+            color: #ffffff;
             font-size: 35px;
           }
           .steam-iron-heading6 {
@@ -1460,7 +1463,7 @@ const SteamIron = (props) => {
               padding-right: var(--dl-space-space-halfunit);
             }
             .steam-iron-section15 {
-              color: rgb(198, 255, 75);
+              color: #ffffff;
               font-size: 35px;
               text-align: center;
               line-height: 49px;

@@ -1048,14 +1048,14 @@ Here's what the above is doing:
             flex-direction: column;
           }
           .home-heading10 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 65px;
             font-style: normal;
             font-family: 'Poppins';
             font-weight: 600;
           }
           .home-caption1 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 20px;
             text-align: justify;
             font-family: Poppins;
@@ -1073,10 +1073,10 @@ Here's what the above is doing:
           .home-get-started1 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .home-text10 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -1123,7 +1123,7 @@ Here's what the above is doing:
             object-fit: cover;
           }
           .home-caption2 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-family: Poppins;
             line-height: 24px;
           }
@@ -1160,7 +1160,7 @@ Here's what the above is doing:
             justify-content: center;
           }
           .home-text12 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-family: 'Poppins';
@@ -1213,14 +1213,17 @@ Here's what the above is doing:
           .home-text14 {
             display: inline-block;
             font-size: 24px;
+            color: #ffffff
           }
           .home-text15 {
             display: inline-block;
             font-size: 24px;
+            color: #ffffff
           }
           .home-text18 {
             display: inline-block;
             font-size: 24px;
+            color: #ffffff
           }
           .home-link11 {
             display: contents;
@@ -1228,10 +1231,10 @@ Here's what the above is doing:
           .home-get-started3 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .home-text21 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -1282,7 +1285,7 @@ Here's what the above is doing:
             justify-content: center;
           }
           .home-section12 {
-            color: rgb(198, 255, 75);
+            color: #ffffff;
           }
           .home-heading11 {
             gap: var(--dl-space-space-twounits);
@@ -1313,10 +1316,10 @@ Here's what the above is doing:
           .home-get-started4 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .home-text22 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -1346,14 +1349,14 @@ Here's what the above is doing:
             justify-content: center;
           }
           .home-text23 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-family: 'Poppins';
             font-weight: 600;
           }
           .home-text24 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 35px;
             font-family: 'Poppins';
           }
@@ -1400,14 +1403,17 @@ Here's what the above is doing:
           .home-text25 {
             display: inline-block;
             font-size: 24px;
+            color: #ffffff
           }
           .home-text28 {
             display: inline-block;
             font-size: 24px;
+            color: #ffffff
           }
           .home-text31 {
             display: inline-block;
             font-size: 24px;
+            color: #ffffff
           }
           .home-link13 {
             display: contents;
@@ -1415,10 +1421,10 @@ Here's what the above is doing:
           .home-get-started5 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .home-text34 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -1641,7 +1647,7 @@ Here's what the above is doing:
           }
           .home-button {
             fill: var(--dl-color-gray-black);
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             width: var(--dl-size-size-large);
             height: var(--dl-size-size-small);
             align-items: center;
@@ -1811,10 +1817,10 @@ Here's what the above is doing:
           .home-get-started6 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .home-text44 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -1969,7 +1975,7 @@ Here's what the above is doing:
             justify-content: flex-start;
           }
           .home-name1 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 24px;
             font-family: Poppins;
             line-height: 36px;
@@ -2017,10 +2023,10 @@ Here's what the above is doing:
             width: 100%;
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .home-text49 {
-            color: rgb(12, 16, 12);
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -2035,7 +2041,7 @@ Here's what the above is doing:
             justify-content: flex-start;
           }
           .home-heading22 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-style: normal;
             font-family: Poppins;
             font-weight: 500;
@@ -2077,7 +2083,7 @@ Here's what the above is doing:
             justify-content: flex-start;
           }
           .home-name2 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 24px;
             font-family: Poppins;
             line-height: 36px;
@@ -2090,7 +2096,7 @@ Here's what the above is doing:
             justify-content: center;
           }
           .home-price2 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 40px;
             font-style: normal;
             font-family: Poppins;
@@ -2128,10 +2134,10 @@ Here's what the above is doing:
             width: 100%;
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .home-text56 {
-            color: rgb(12, 16, 12);
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -2146,7 +2152,7 @@ Here's what the above is doing:
             justify-content: flex-start;
           }
           .home-heading23 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-style: normal;
             font-family: Poppins;
             font-weight: 500;
@@ -2188,7 +2194,7 @@ Here's what the above is doing:
             justify-content: flex-start;
           }
           .home-name3 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 24px;
             font-family: Poppins;
             line-height: 36px;
@@ -2201,7 +2207,7 @@ Here's what the above is doing:
             justify-content: center;
           }
           .home-price3 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 40px;
             font-style: normal;
             font-family: 'Poppins';
@@ -2239,10 +2245,10 @@ Here's what the above is doing:
             width: 100%;
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .home-text63 {
-            color: rgb(12, 16, 12);
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -2257,7 +2263,7 @@ Here's what the above is doing:
             justify-content: flex-start;
           }
           .home-heading24 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-style: normal;
             font-family: Poppins;
             font-weight: 500;
@@ -2288,7 +2294,7 @@ Here's what the above is doing:
             display: flex;
             transition: 0.3s;
             align-items: center;
-            border-color: #80ff44;
+            border-color: #301cc0;
             flex-direction: column;
             padding-bottom: var(--dl-space-space-halfunit);
             justify-content: center;
@@ -2298,7 +2304,7 @@ Here's what the above is doing:
             opacity: 0.5;
           }
           .home-text69 {
-            color: rgb(128, 255, 68);
+            color: #ffffff;
             font-style: normal;
             font-weight: 500;
             line-height: 24px;
@@ -2411,7 +2417,7 @@ Here's what the above is doing:
             object-fit: cover;
           }
           .home-text71 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -2484,7 +2490,7 @@ Here's what the above is doing:
             object-fit: cover;
           }
           .home-text72 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             width: 100%;
             font-size: 14px;
             max-width: 260px;
@@ -2851,7 +2857,7 @@ Here's what the above is doing:
               font-size: 55px;
             }
             .home-caption1 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 16px;
               font-family: Poppins;
               line-height: 24px;
@@ -3043,7 +3049,7 @@ Here's what the above is doing:
               align-items: center;
             }
             .home-heading10 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               width: auto;
               font-size: 42px;
               max-width: 100%;
@@ -3053,7 +3059,7 @@ Here's what the above is doing:
               font-weight: 600;
             }
             .home-caption1 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 16px;
               text-align: justify;
               font-family: Poppins;
@@ -3078,7 +3084,7 @@ Here's what the above is doing:
               align-items: flex-start;
             }
             .home-text12 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 32px;
               font-style: normal;
               text-align: center;
@@ -3205,13 +3211,13 @@ Here's what the above is doing:
               line-height: 32px;
             }
             .home-name1 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 24px;
               font-family: Poppins;
               line-height: 36px;
             }
             .home-price1 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 40px;
               font-style: normal;
               font-family: Poppins;
@@ -3234,13 +3240,13 @@ Here's what the above is doing:
               text-transform: capitalize;
             }
             .home-name2 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 24px;
               font-family: Poppins;
               line-height: 36px;
             }
             .home-price2 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 40px;
               font-style: normal;
               font-family: Poppins;
@@ -3274,7 +3280,7 @@ Here's what the above is doing:
               padding-bottom:48px;
             }
             .home-text72 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;

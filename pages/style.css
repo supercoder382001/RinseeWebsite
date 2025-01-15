@@ -17,9 +17,9 @@
   --dl-color-primary-300: #0074F0;
   --dl-color-primary-500: #14A9FF;
   --dl-color-primary-700: #85DCFF;
-  --dl-color-success-300: #199033;
-  --dl-color-success-500: #32A94C;
-  --dl-color-success-700: #4CC366;
+  --dl-color-success-300: #301cc0;
+  --dl-color-success-500: #301cc0;
+  --dl-color-success-700: #301cc0;
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
   --dl-color-theme-accent1: #FFFFFF;
@@ -135,11 +135,11 @@
   justify-content: center;
 }
 .feature-active {
-  border-color: #80FF44;
+  border-color: #301cc0;
   border-bottom-width: 4px;
 }
 .section-head {
-  color: rgb(128, 255, 68);
+  color: #ffffff;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500;

@@ -36,7 +36,7 @@ const Card5 = (props) => {
             border-radius: 50%;
             flex-direction: column;
             justify-content: center;
-            background-color: #80ff44;
+            background-color: #ffffff;
           }
           .card5-icon2 {
             height: 30px;

@@ -68,7 +68,7 @@ const Card7 = (props) => {
             border-radius: 50%;
             flex-direction: column;
             justify-content: center;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .card7-header {
             color: rgb(255, 255, 255);

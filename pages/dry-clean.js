@@ -170,7 +170,7 @@ const DryClean = (props) => {
                         }
                     
                         .tablink:hover {
-                          background-color: #C6FF4B;
+                          background-color: #301cc0;
                         }
                     
                         /* Tab content styles */
@@ -211,7 +211,9 @@ const DryClean = (props) => {
                           border: 1px solid #ccc;
                           background: #fff; /* Optional: Adds a white background for a cleaner look */
                         }
-                    
+                        th{
+                          color:white;
+                        }                    
                         /* Container for item with image, name, and price */
                         .item-container {
                           display: flex;
@@ -262,10 +264,10 @@ const DryClean = (props) => {
                     <body>
                     
                     <!-- Tab buttons -->
-                    <button class="tablink" onclick="openPage('Home', this, '#C6FF4B')" id="defaultOpen">Men</button>
-                    <button class="tablink" onclick="openPage('News', this, '#C6FF4B')">Women</button>
-                    <button class="tablink" onclick="openPage('Contact', this, '#C6FF4B')">Kids</button>
-                    <button class="tablink" onclick="openPage('About', this, '#C6FF4B')">Household</button>
+                    <button class="tablink" onclick="openPage('Home', this, '#301cc0')" id="defaultOpen">Men</button>
+                    <button class="tablink" onclick="openPage('News', this, '#301cc0')">Women</button>
+                    <button class="tablink" onclick="openPage('Contact', this, '#301cc0')">Kids</button>
+                    <button class="tablink" onclick="openPage('About', this, '#301cc0')">Household</button>
                     
                     <!-- Tab content for Home -->
                     <div id="Home" class="tabcontent">
@@ -664,10 +666,10 @@ const DryClean = (props) => {
           .dry-clean-get-started1 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .dry-clean-text10 {
-            color: rgb(12, 16, 12);
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: 'Poppins';
@@ -795,7 +797,7 @@ const DryClean = (props) => {
             justify-content: center;
           }
           .dry-clean-section13 {
-            color: rgb(198, 255, 75);
+            color: #ffffff;
             font-size: 35px;
           }
           .dry-clean-heading3 {
@@ -830,10 +832,10 @@ const DryClean = (props) => {
           .dry-clean-get-started2 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .dry-clean-text14 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -895,7 +897,7 @@ const DryClean = (props) => {
             justify-content: center;
           }
           .dry-clean-section15 {
-            color: rgb(198, 255, 75);
+            color: #ffffff;
             font-size: 35px;
           }
           .dry-clean-link12 {
@@ -904,10 +906,10 @@ const DryClean = (props) => {
           .dry-clean-get-started3 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .dry-clean-text15 {
-            color: rgb(12, 16, 12);
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: 'Poppins';
@@ -999,7 +1001,7 @@ const DryClean = (props) => {
             justify-content: center;
           }
           .dry-clean-section19 {
-            color: rgb(198, 255, 75);
+            color: #ffffff;
             font-size: 35px;
           }
           .dry-clean-heading6 {
@@ -1080,7 +1082,7 @@ const DryClean = (props) => {
             object-fit: cover;
           }
           .dry-clean-text16 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             width: 100%;
             font-size: 14px;
             max-width: 260px;
@@ -1465,7 +1467,7 @@ const DryClean = (props) => {
               padding-right: var(--dl-space-space-halfunit);
             }
             .dry-clean-section15 {
-              color: rgb(198, 255, 75);
+              color: #ffffff;
               font-size: 35px;
               text-align: center;
               line-height: 49px;
@@ -1475,7 +1477,7 @@ const DryClean = (props) => {
               line-height: 37px;
             }
             .dry-clean-text16 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;

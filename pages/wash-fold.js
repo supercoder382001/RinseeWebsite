@@ -206,7 +206,9 @@ const WashFold = (props) => {
                           border-spacing: 0 10px; /* Space between rows */
                           height:100%;
                         }
-                    
+                        th{
+                          color:white;
+                        }
                         td {
                           padding: 10px;
                           border: 1px solid #ccc;
@@ -263,10 +265,10 @@ const WashFold = (props) => {
                     <body>
                     
                     <!-- Tab buttons -->
-                    <button class="tablink" onclick="openPage('Home', this, '#C6FF4B')" id="defaultOpen">Men</button>
-                    <button class="tablink" onclick="openPage('News', this, '#C6FF4B')">Women</button>
-                    <button class="tablink" onclick="openPage('Contact', this, '#C6FF4B')">Kids</button>
-                    <button class="tablink" onclick="openPage('About', this, '#C6FF4B')">Household</button>
+                    <button class="tablink" onclick="openPage('Home', this, '#301cc0')" id="defaultOpen">Men</button>
+                    <button class="tablink" onclick="openPage('News', this, '#301cc0')">Women</button>
+                    <button class="tablink" onclick="openPage('Contact', this, '#301cc0')">Kids</button>
+                    <button class="tablink" onclick="openPage('About', this, '#301cc0')">Household</button>
                     
                     <!-- Tab content for Home -->
                     <div id="Home" class="tabcontent">
@@ -665,10 +667,10 @@ const WashFold = (props) => {
           .wash-fold-get-started1 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .wash-fold-text10 {
-            color: rgb(12, 16, 12);
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: 'Poppins';
@@ -795,7 +797,7 @@ const WashFold = (props) => {
             justify-content: center;
           }
           .wash-fold-section13 {
-            color: rgb(198, 255, 75);
+            color: #ffffff;
             font-size: 35px;
           }
           .wash-fold-heading3 {
@@ -830,10 +832,10 @@ const WashFold = (props) => {
           .wash-fold-get-started2 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .wash-fold-text11 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -893,7 +895,7 @@ const WashFold = (props) => {
             justify-content: center;
           }
           .wash-fold-section15 {
-            color: rgb(198, 255, 75);
+            color: #ffffff;
             font-size: 35px;
           }
           .wash-fold-link12 {
@@ -902,10 +904,10 @@ const WashFold = (props) => {
           .wash-fold-get-started3 {
             display: flex;
             text-decoration: none;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .wash-fold-text12 {
-            color: #0c100c;
+            color: #ffffff;
             font-size: 16px;
             font-style: normal;
             font-family: Poppins;
@@ -997,7 +999,7 @@ const WashFold = (props) => {
             justify-content: center;
           }
           .wash-fold-section19 {
-            color: rgb(198, 255, 75);
+            color: #ffffff;
             font-size: 35px;
           }
           .wash-fold-heading6 {
@@ -1078,7 +1080,7 @@ const WashFold = (props) => {
             object-fit: cover;
           }
           .wash-fold-text13 {
-            color: rgb(255, 255, 255);
+            color: #ffffff;
             width: 100%;
             font-size: 14px;
             max-width: 260px;
@@ -1463,7 +1465,7 @@ const WashFold = (props) => {
               line-height: 49px;
             }
             .wash-fold-text13 {
-              color: rgb(255, 255, 255);
+              color: #ffffff;
               font-size: 14px;
               font-family: Poppins;
               line-height: 21px;

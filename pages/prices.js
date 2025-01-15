@@ -163,7 +163,7 @@ const Prices = (props) => {
       }
 
       .main-tab.active {
-          background-color: green; /* Active tab color */
+          background-color: #301cc0; /* Active tab color */
           color: white; /* Active text color */
       }
 
@@ -191,7 +191,7 @@ const Prices = (props) => {
       }
 
       .sub-tab.active {
-          background-color: green; /* Sub tab active color */
+          background-color: #301cc0; /* Sub tab active color */
           color: white; /* Active text color */
       }
 

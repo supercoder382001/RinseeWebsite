@@ -71,7 +71,7 @@ const Card2 = (props) => {
             border-radius: 50%;
             flex-direction: column;
             justify-content: center;
-            background-color: #80ff44;
+            background-color: #301cc0;
           }
           .card2-header {
             color: rgb(255, 255, 255);
