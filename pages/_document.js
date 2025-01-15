@@ -30,7 +30,7 @@ class CustomDocument extends Document {
           ></link>
           <link
             rel="shortcut icon"
-            href="/screenshot_2024-08-23_233935-removebg-preview (2).png"
+            href="/logo.png"
             type="icon/png"
             sizes="32x32"
           ></link>

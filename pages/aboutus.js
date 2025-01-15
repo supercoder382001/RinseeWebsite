@@ -16,7 +16,7 @@ const Aboutus = (props) => {
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
-          brandingLogo="/external/logo-1200w.png"
+          brandingLogo="/external/logonn.png"
           rootClassName="navbar-proot-class-name6"
         ></NavbarP>
         <section id="Terms" className="aboutus-section1">
@@ -162,7 +162,7 @@ const Aboutus = (props) => {
             </header>
             <img
               alt="image"
-              src="/external/logo-1200w.png"
+              src="/external/logo.png"
               className="aboutus-image"
             />
           </main>
@@ -175,7 +175,7 @@ const Aboutus = (props) => {
                   <div className="aboutus-header3">
                     <img
                       alt="Dry Clean"
-                      src="/external/logo-1200w.png"
+                      src="/external/logo.png"
                       className="aboutus-branding"
                     />
                     <span className="aboutus-text54">
@@ -555,10 +555,10 @@ Here's what the above is doing:
           .aboutus-image {
             right: 0px;
             width: 406px;
-            bottom: 0px;
-            height: 450px;
+            bottom: 35px;
+            height: 405px;
             position: absolute;
-            object-fit: cover;
+            object-fit: contain;
           }
           .aboutus-footer {
             gap: var(--dl-space-space-fiveunits);
@@ -566,7 +566,7 @@ Here's what the above is doing:
             width: 100%;
             display: flex;
             align-items: center;
-            padding-top: 120px;
+            padding-top: 53px;
             padding-left: var(--dl-space-space-oneandhalfunits);
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;

@@ -17,7 +17,7 @@ const Prices = (props) => {
           <meta property="og:title" content="Prices - Rinsee" />
         </Head>
         <NavbarP
-          brandingLogo="/external/logo-200w.png"
+          brandingLogo="/external/logonn.png"
           rootClassName="navbar-proot-class-name"
         ></NavbarP>
         <section className="prices-section1">
@@ -475,7 +475,7 @@ const Prices = (props) => {
                   <div className="prices-header4">
                     <img
                       alt="Dry Clean"
-                      src="/external/logo-200w.png"
+                      src="/external/logo.png"
                       className="prices-branding"
                     />
                     <span className="prices-text13">
@@ -1024,7 +1024,7 @@ const Prices = (props) => {
             justify-content: center;
           }
           .prices-branding {
-            width: 120px;
+            width: 146px;
             object-fit: cover;
           }
           .prices-text13 {

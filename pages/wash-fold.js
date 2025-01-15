@@ -23,7 +23,7 @@ const WashFold = (props) => {
         <NavbarP
           imageAlt="/Icons/hamburger-200h.png"
           imageSrc="/Icons/hamburger-200h.png"
-          brandingLogo="../external/logo-200w.png"
+          brandingLogo="../external/logonn.png"
           rootClassName="navbarroot-class-name2"
         ></NavbarP>
         <section className="wash-fold-section10">
@@ -442,7 +442,7 @@ const WashFold = (props) => {
                   <div className="wash-fold-header15">
                     <img
                       alt="Dry Clean"
-                      src="/external/logo-200w.png"
+                      src="/external/logo.png"
                       className="wash-fold-branding"
                     />
                     <span className="wash-fold-text13">
@@ -1074,7 +1074,7 @@ const WashFold = (props) => {
             justify-content: center;
           }
           .wash-fold-branding {
-            width: 120px;
+            width: 145px;
             object-fit: cover;
           }
           .wash-fold-text13 {

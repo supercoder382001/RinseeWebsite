@@ -21,7 +21,7 @@ const DryClean = (props) => {
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
-          brandingLogo="/external/logo-200w.png"
+          brandingLogo="/external/logonn.png"
           rootClassName="navbar-proot-class-name5"
         ></NavbarP>
         <section className="dry-clean-section10">
@@ -441,7 +441,7 @@ const DryClean = (props) => {
                   <div className="dry-clean-header15">
                     <img
                       alt="Dry Clean"
-                      src="/external/logo-200w.png"
+                      src="/external/logo.png"
                       className="dry-clean-branding"
                     />
                     <span className="dry-clean-text16">
@@ -1076,7 +1076,7 @@ const DryClean = (props) => {
             justify-content: center;
           }
           .dry-clean-branding {
-            width: 120px;
+            width: 146px;
             object-fit: cover;
           }
           .dry-clean-text16 {

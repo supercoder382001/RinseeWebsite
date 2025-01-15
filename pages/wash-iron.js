@@ -20,7 +20,7 @@ const WashIron = (props) => {
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
-          brandingLogo="/external/logo-200w.png"
+          brandingLogo="/external/logonn.png"
           rootClassName="navbar-proot-class-name4"
         ></NavbarP>
         <section className="wash-iron-section10">
@@ -444,7 +444,7 @@ const WashIron = (props) => {
                   <div className="wash-iron-header15">
                     <img
                       alt="Dry Clean"
-                      src="/external/logo-200w.png"
+                      src="/external/logo.png"
                       className="wash-iron-branding"
                     />
                     <span className="wash-iron-text13">
@@ -1078,7 +1078,7 @@ const WashIron = (props) => {
             justify-content: center;
           }
           .wash-iron-branding {
-            width: 120px;
+            width: 145px;
             object-fit: cover;
           }
           .wash-iron-text13 {

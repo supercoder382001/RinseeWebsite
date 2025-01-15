@@ -16,7 +16,7 @@ const TermsandConditions = (props) => {
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
-          brandingLogo="/external/logo-1200w.png"
+          brandingLogo="/external/logonn.png"
           rootClassName="navbar-proot-class-name2"
         ></NavbarP>
         <section id="Terms" className="termsand-conditions-section1">
@@ -606,7 +606,7 @@ const TermsandConditions = (props) => {
             </header>
             <img
               alt="image"
-              src="/external/logo-1200w.png"
+              src="/external/logo.png"
               className="termsand-conditions-image"
             />
           </main>
@@ -619,7 +619,7 @@ const TermsandConditions = (props) => {
                   <div className="termsand-conditions-header3">
                     <img
                       alt="Dry Clean"
-                      src="/external/logo-1200w.png"
+                      src="/external/logo.png"
                       className="termsand-conditions-branding"
                     />
                     <span className="termsand-conditions-text293">
@@ -1176,8 +1176,8 @@ Here's what the above is doing:
           .termsand-conditions-image {
             right: 0px;
             width: 406px;
-            bottom: 0px;
-            height: 450px;
+            bottom: 35px;
+            height: 406px;
             position: absolute;
             object-fit: cover;
           }
@@ -1235,7 +1235,7 @@ Here's what the above is doing:
             justify-content: center;
           }
           .termsand-conditions-branding {
-            width: 120px;
+            width: 145px;
             object-fit: cover;
           }
           .termsand-conditions-text293 {

@@ -11,6 +11,7 @@ const Navbar = (props) => {
         <img
           alt="Rinsee"
           src={props.brandingLogo}
+          srcmobile={props.brandlogo}
           className="navbar-branding-logo"
         />
         <div className="navbar-nav-content">
@@ -130,7 +131,7 @@ const Navbar = (props) => {
           <div className="navbar-branding">
             <img
               alt="Rinsee"
-              src={props.brandingLogo}
+              src={props.brandlogo}
               className="navbar-image2"
             />
             <div id="close-mobile-menu" className="navbar-container2">
@@ -316,9 +317,10 @@ listenForUrlChangesMobileMenu()
             background-color: #6d6767;
           }
           .navbar-branding-logo {
-            width: var(--dl-size-size-medium);
+            width: var(--dl-size-size-xlarge);
             height: var(--dl-size-size-medium);
             box-sizing: inherit;
+            object-fit: contain;
           }
           .navbar-nav-content {
             gap: var(--dl-space-space-threeunits);
@@ -563,7 +565,7 @@ listenForUrlChangesMobileMenu()
             justify-content: space-between;
           }
           .navbar-image2 {
-            width: 100px;
+            width: 172px;
             // filter: brightness(0) saturate(100%);
             object-fit: cover;
           }
@@ -788,7 +790,7 @@ listenForUrlChangesMobileMenu()
           }
           @media (max-width: 991px) {
             .navbar-branding-logo {
-              width: var(--dl-size-size-medium);
+              width: var(--dl-size-size-xlarge);
               height: var(--dl-size-size-medium);
             }
           }
@@ -797,7 +799,7 @@ listenForUrlChangesMobileMenu()
               padding-bottom: var(--dl-space-space-halfunit);
             }
             .navbar-branding-logo {
-              width: 80px;
+              width: var(--dl-size-size-xlarge);
             }
             .navbar-nav-links1 {
               display: none;
@@ -835,7 +837,7 @@ listenForUrlChangesMobileMenu()
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .navbar-image2 {
-              width: 80px;
+              width: 172px;
               height: var(--dl-size-size-medium);
             }
             .navbar-text18 {

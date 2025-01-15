@@ -30,7 +30,8 @@ const Home = (props) => {
         </Head>
         <Navbar
           imageAlt="../Icons/hamburger-200h.png"
-          brandingLogo="../external/logo-1200w.png"
+          brandingLogo="../external/logonn.png"
+          brandlogo="../external/logop.png"
           rootClassName="navbarroot-class-name"
         ></Navbar>
         <section id="home" className="home-section10">
@@ -759,7 +760,7 @@ const Home = (props) => {
             </header>
             <img
               alt="Dry Clean"
-              src="/external/logo-1200w.png"
+              src="/external/logo.png"
               className="home-image23"
             />
           </main>
@@ -772,7 +773,7 @@ const Home = (props) => {
                   <div className="home-header25">
                     <img
                       alt="Dry Clean"
-                      src="/external/logo-1200w.png"
+                      src="/external/logo.png"
                       className="home-branding"
                     />
                     <span className="home-text72">
@@ -2420,10 +2421,10 @@ Here's what the above is doing:
           .home-image23 {
             right: 0px;
             width: 406px;
-            bottom: 0px;
-            height: 450px;
+            bottom: 35px;
+            height: 406px;
             position: absolute;
-            object-fit: cover;
+            object-fit: contain;
           }
           .home-footer {
             gap: var(--dl-space-space-fiveunits);
@@ -2431,7 +2432,7 @@ Here's what the above is doing:
             width: 100%;
             display: flex;
             align-items: center;
-            padding-top: 120px;
+            padding-top: 53px;
             padding-left: var(--dl-space-space-oneandhalfunits);
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
@@ -3270,6 +3271,7 @@ Here's what the above is doing:
             .home-image23 {
               width: 100%;
               height: auto;
+              padding-bottom:48px;
             }
             .home-text72 {
               color: rgb(255, 255, 255);

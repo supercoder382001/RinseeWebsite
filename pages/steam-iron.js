@@ -21,7 +21,7 @@ const SteamIron = (props) => {
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <NavbarP
-          brandingLogo="/external/logo-200w.png"
+          brandingLogo="/external/logonn.png"
           rootClassName="navbar-proot-class-name1"
         ></NavbarP>
         <section className="steam-iron-section10">
@@ -439,7 +439,7 @@ const SteamIron = (props) => {
                   <div className="steam-iron-header15">
                     <img
                       alt="Dry Clean"
-                      src="/external/logo-200w.png"
+                      src="/external/logo.png"
                       className="steam-iron-branding"
                     />
                     <span className="steam-iron-text13">
@@ -1073,7 +1073,7 @@ const SteamIron = (props) => {
             justify-content: center;
           }
           .steam-iron-branding {
-            width: 120px;
+            width: 145px;
             object-fit: cover;
           }
           .steam-iron-text13 {
