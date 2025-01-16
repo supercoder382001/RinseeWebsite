@@ -172,7 +172,7 @@ const WashIron = (props) => {
                         }
                     
                         .tablink:hover {
-                          background-color: #C6FF4B;
+                          background-color: #301cc0;
                         }
                     
                         /* Tab content styles */
