@@ -12,7 +12,7 @@ export default async function POST(req,res) {
       amount: data.amount,
       redirectUrl: `https://rinsee.in`,
       redirectMode: "POST",
-      callbackUrl: "https://rinsee.in/api/hello",
+      callbackUrl: "https://rinsee.in/api/result",
       mobileNumber: data.mobileNumber,
       paymentInstrument: {
         type: "PAY_PAGE",
