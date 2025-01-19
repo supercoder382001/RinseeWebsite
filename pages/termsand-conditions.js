@@ -1179,7 +1179,7 @@ Here's what the above is doing:
             bottom: 35px;
             height: 406px;
             position: absolute;
-            object-fit: cover;
+            object-fit: contain;
           }
           .termsand-conditions-footer {
             gap: var(--dl-space-space-fiveunits);
