@@ -9,7 +9,7 @@ const handler = async (req, res) => {
   // Check for POST method
   if (req.method === 'POST') {
     try {
-      const { response } = req.body;
+      const body = req.body;
 
       // Prepare headers for the request
       const headers = {
@@ -21,7 +21,7 @@ const handler = async (req, res) => {
 
       // Data to be sent to Supabase
       const data = {
-        response: response,
+        response: body,
       };
 
       // Send the POST request to Supabase
