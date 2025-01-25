@@ -44,6 +44,6 @@ export default async function POST(req,res) {
     //   { status: 200, headers: { 'Content-Type': 'application/json' } }
     // );
   } catch (error) {
-    res.status(400).json({message:"Failed", status:false});
+    res.status(400).json({message:"Failed", status:false, e:error});
   }
 }
