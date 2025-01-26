@@ -37,7 +37,7 @@ export default function Page() {
     if (linked) {
       // Automatically redirect after 1 second
       const timer = setTimeout(() => {
-        window.open(linked, "_self");
+        window.open(linked, "_parent");
       }, 1000);
 
       return () => clearTimeout(timer); // Cleanup the timer
